@@ -1,0 +1,318 @@
+[
+   {
+      "domain":"metruyenchu.com",
+      "key":"metruyenchu",
+      "title": null,
+      "chapter":{
+         "start":"nh-read__title\">",
+         "middle":"",
+         "end":"</div>"
+      },
+      "content":{
+         "start":"class=\"nh-read__content post-body\"",
+         "middle":"\">",
+         "end":"<a href="
+      },
+      "content_removes":[
+         {
+            "start":"<div class=",
+            "middle":"",
+            "end":"</div><br>"
+         },
+         {
+            "start":"<div id=",
+            "middle":"",
+            "end":"</div><br>"
+         }
+      ],
+      "content_replaces":[
+         "<br>"
+      ],
+      "next_button": null,
+      "pre_button": null
+   },
+   {
+      "domain":"truyen.tangthuvien.vn",
+      "key":"tangthuvien",
+      "title":{
+         "start":"<h1 class=\"truyen-title\">",
+         "middle":"title=\"",
+         "end":"\">"
+      },
+      "chapter":{
+         "start":"<h1 class=\"truyen-title\">",
+         "middle": "<h2>",
+         "end":"</h2>"
+      },
+      "content":{
+         "start":"<div class=\"box-chap ",
+         "middle":">",
+         "end":"</div>"
+      },
+      "content_removes":[],
+      "content_replaces":[],
+      "next_button":null,
+      "pre_button":null
+   },
+   {
+      "domain":"truyentr.org",
+      "key":"truyentr",
+      "title": {
+         "start":"<h1 class=rv-full-story-title>",
+         "middle":"",
+         "end":"</h1>"
+      },
+      "chapter":{
+         "start":"<div class=rv-chapt-title>",
+         "middle": "/\">",
+         "end": "</a>"
+      },
+      "content":{
+         "start":"<div class=\"content container1 chapter-c\">",
+         "middle":"",
+         "end":"</div>\n</div>"
+      },
+      "content_removes":[
+         {
+            "start":"<div class=",
+            "middle":"",
+            "end":"</div>"
+         },
+         {
+            "start":"<div id=",
+            "middle":"",
+            "end":"</div>"
+         }
+      ],
+      "content_replaces":[
+         "<br>"
+      ],
+      "next_button": null,
+      "pre_button": null
+   }, {
+      "domain":"wikinu.net",
+      "key":"wikinu",
+      "title": {
+         "start":"<p class=\"book-title\" style=\"font-size: 1.4",
+         "middle":"\">",
+         "end":"</p>"
+      },
+      "chapter":{
+         "start":"<p class=\"book-title\" style=\"font-size: 1.2",
+         "middle":"\">",
+         "end":"</p>"
+      },
+      "content":{
+         "start":"<div id=\"bookContentBody\"", 
+         "middle":"\">",
+         "end":"</div>"
+      },
+      "content_removes":[],
+      "content_replaces":[],
+      "next_button": {
+      	"start": "<a class=\"btn-bot\" href=\"",
+      	"middle":"",
+      	"end":"\" style="
+      },
+      "pre_button": {
+      	"start": "<a class=\"btn-bot\" href=\"",
+      	"middle":"",
+      	"end":"\" style="
+      }
+   }, {
+      "domain":"wikinam.net",
+      "key":"wikinam",
+      "title": {
+         "start":"<p class=\"book-title\" style=\"font-size: 1.4",
+         "middle":"\">",
+         "end":"</p>"
+      },
+      "chapter":{
+         "start":"<p class=\"book-title\" style=\"font-size: 1.2",
+         "middle":"\">",
+         "end":"</p>"
+      },
+      "content":{
+         "start":"<div id=\"bookContentBody\"", 
+         "middle":"\">",
+         "end":"</div>"
+      },
+      "content_removes":[],
+      "content_replaces":[],
+      "next_button": {
+      	"start": "<a class=\"btn-bot\" href=\"",
+      	"middle":"",
+      	"end":"\" style="
+      },
+      "pre_button": {
+      	"start": "<a class=\"btn-bot\" href=\"",
+      	"middle":"",
+      	"end":"\" style="
+      }
+   }, {
+      "domain":"wikidth.org",
+      "key":"wikidth",
+      "title": {
+         "start":"<p class=\"book-title\" style=\"font-size: 1.4",
+         "middle":"\">",
+         "end":"</p>"
+      },
+      "chapter":{
+         "start":"<p class=\"book-title\" style=\"font-size: 1.2",
+         "middle":"\">",
+         "end":"</p>"
+      },
+      "content":{
+         "start":"<div id=\"bookContentBody\"", 
+         "middle":"\">",
+         "end":"</div>"
+      },
+      "content_removes":[],
+      "content_replaces":[],
+      "next_button": {
+      	"start": "<a class=\"btn-bot\" href=\"",
+      	"middle":"",
+      	"end":"\" style="
+      },
+      "pre_button": {
+      	"start": "<a class=\"btn-bot\" href=\"",
+      	"middle":"",
+      	"end":"\" style="
+      }
+   }, {
+      "domain":"sangtacviet.net",
+      "key":"sangtacviet",
+      "title": {
+         "start":"<a class=\"truyen-title\"",
+         "middle": "title=\"",
+         "end": "\">"
+      },
+      "chapter":{
+         "start":"<a class=\"chapter-title\"",
+         "middle":"title=\"",
+         "end":"\">"
+      },
+      "content":{
+         "start":"<div id=\"chapter-c", 
+         "middle":">",
+         "end": "<p></p><p></p>"
+      },
+      "content_removes":[ {
+            "start":"<div id=",
+            "middle":"",
+            "end":"</div><p>"
+         }
+      ],
+      "content_replaces":["<p>", "</p>"],
+      "next_button": {
+      	"start": "<a class=\"btn btn-success btn-chapter-nav \" href=\"",
+      	"middle":"",
+      	"end":"\" title="
+      },
+      "pre_button": {
+      	"start": "<a class=\"btn btn-success btn-chapter-nav \" href=\"",
+      	"middle":"",
+      	"end":"\" title="
+      }
+   }, {
+      "domain":"truyenchu.vn",
+      "key":"truyenchu.vn",
+      "title": {
+         "start":"<a class=\"truyen-title\"",
+         "middle": "title=\"",
+         "end":"\">"
+      },
+      "chapter":{
+         "start":"<a class=\"chapter-title\"",
+         "middle":"title=\"",
+         "end":"\">"
+      },
+      "content":{
+         "start":"<div id=\"chapter-c",
+         "middle":"\">",
+         "end":"</p> </div>"
+      },
+      "content_removes":[{
+            "start":"<p style",
+            "middle":"",
+            "end":"</p>"
+         },{
+            "start":"<div style",
+            "middle":"",
+            "end":"</div>"
+         },{
+            "start":"<div id",
+            "middle":"",
+            "end":"</div>"
+         },{
+            "start":"<div class",
+            "middle":"",
+            "end":"</div>"
+         }
+      ],
+      "content_replaces":["<p>", "</p>", "</br>"],
+      "next_button": {
+      	"start": "<a class=\"btn btn-success btn-chapter-nav \" href=\"",
+      	"middle":"",
+      	"end":"\" title="
+      },
+      "pre_button": {
+      	"start": "<a class=\"btn btn-success btn-chapter-nav \" href=\"",
+      	"middle":"",
+      	"end":"\" title="
+      }
+   }, {
+      "domain":"truyenfull.vn",
+      "key":"truyenfull",
+      "title": null,
+      "chapter":{
+         "start":"<a class=\"chapter-title\"",
+         "middle":"title=\"",
+         "end":"\">"
+      },
+      "content":{
+         "start":"<div id=\"chapter-c\"",
+         "middle":"</div>",
+         "end":"</div><hr class=\"chapter-end\""
+      },
+      "content_removes":[{
+            "start":"<div style",
+            "middle":"",
+            "end":"</div>"
+         },{
+            "start":"<div id",
+            "middle":"",
+            "end":"</div>"
+         },{
+            "start":"<div class",
+            "middle":"",
+            "end":"</div>"
+         }
+      ],
+      "content_replaces":["</br>"],
+      "next_button": null,
+      "pre_button": null
+   }, {
+      "domain":"m.truyencv.vn",
+      "key":"truyencv",
+      "title": {
+         "start":"class=\"css-126y4ab\">",
+         "middle":"",
+         "end":"</a>"
+      },      
+      "chapter":{
+         "start":"<h2 class=\"css-400zec\">",
+         "middle":"",
+         "end":"</h2>"
+      },
+      "content":{
+         "start":"<div class=\"fontSize-2 fontFamily-1 css-bsdujl e1vvrs4i1\">",
+         "middle":"",
+         "end":"</div>"
+      },
+      "content_removes":[],
+      "content_replaces":[],
+      "next_button": null,
+      "pre_button": null
+   }
+]
