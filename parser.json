@@ -20,12 +20,18 @@
             "end":"</div><br>"
          },
          {
+            "start":"var bsWrapAds",
+            "middle":"",
+            "end":",\"[yo_page_url]\",\"[width]\",\"[height]\"]);"
+         },
+         {
             "start":"<div id=",
             "middle":"",
             "end":"</div><br>"
          }
       ],
       "content_replaces":[
+      	 "— QUẢNG CÁO —",
          "<br>"
       ],
       "next_button": null,
@@ -109,6 +115,7 @@
       },
       "content_removes":[],
       "content_replaces":[],
+      "split":"\n\n",
       "next_button": {
       	"start": "<a class=\"btn-bot\" href=\"",
       	"middle":"",
@@ -137,6 +144,7 @@
          "middle":"\">",
          "end":"</div>"
       },
+      "split":"\n\n",
       "content_removes":[],
       "content_replaces":[],
       "next_button": {
@@ -169,6 +177,7 @@
       },
       "content_removes":[],
       "content_replaces":[],
+      "split":"\n\n",
       "next_button": {
       	"start": "<a class=\"btn-bot\" href=\"",
       	"middle":"",
@@ -310,9 +319,46 @@
          "middle":"",
          "end":"</div>"
       },
+      "split":"\n\n",
       "content_removes":[],
       "content_replaces":[],
       "next_button": null,
       "pre_button": null
+   }, {
+      "domain":"truyenhdz.com",
+      "key":"truyenhdz",
+      "title": null,
+      "chapter":null,
+      "content":{
+         "start":"<div class=\"reading\"",
+         "middle":"",
+         "end":"<br> </div>"
+      },
+      "content_removes":[{
+            "start":"<div style",
+            "middle":"",
+            "end":"</div>"
+         },{
+            "start":"<div id",
+            "middle":"",
+            "end":"</div>"
+         },{
+            "start":"<div class",
+            "middle":"",
+            "end":"</div>"
+         }
+      ],
+      "content_replaces":["<br>"],
+      "next_button": {
+         "start": "<div class=\"next-chap\"><a href=\"",
+         "middle":"",
+         "end":"\" class="
+      },
+      "pre_button": {
+         "start": "<div class=\"next-chap\"><a href=\"",
+         "middle":"",
+         "end":"\" class="
+      },
+      "chapter_ignore_domain": true
    }
 ]
