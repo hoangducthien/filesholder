@@ -127,7 +127,8 @@
          "start":"<a class=\"btn-bot\" href=\"",
          "middle":"",
          "end":"\" style="
-      }
+      },
+      "skip_menu": true
    },
    {
       "domain":"wikinam.net",
@@ -163,7 +164,8 @@
          "start":"<a class=\"btn-bot\" href=\"",
          "middle":"",
          "end":"\" style="
-      }
+      },
+      "skip_menu": true
    },
    {
       "domain":"wikidth.org",
@@ -199,7 +201,8 @@
          "start":"<a class=\"btn-bot\" href=\"",
          "middle":"",
          "end":"\" style="
-      }
+      },
+      "skip_menu": true
    },
    {
       "domain":"sangtacviet.net",
