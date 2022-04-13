@@ -439,5 +439,39 @@
          "end":"\" class="
       },
       "chapter_ignore_domain":true
+   },
+   {
+      "domain":"sstruyen.com",
+      "key":"sstruyen",
+      "title":{
+         "start":"<h1 class=rv-full-story-title>",
+         "middle":"",
+         "end":"</h1>"
+      },
+      "chapter":{
+         "start":"<div class=rv-chapt-title><h2><a href=\"\" title=\"\">",
+         "middle":"",
+         "end":"</a></h2></div>"
+      },
+      "content":{
+         "start":"<div class=\"content container1\">",
+         "middle":">",
+         "end":"</br></div>"
+      },
+      "content_removes":[
+         {
+            "start":"<p style",
+            "middle":"",
+            "end":";\">"
+         },
+         {
+            "start":"<iframe",
+            "middle":"",
+            "end":"</iframe"
+         }
+      ],
+      "content_replaces":[
+         "<br>"
+      ]
    }
 ]
