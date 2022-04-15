@@ -406,7 +406,7 @@
       "content":{
          "start":"<div class=\"reading",
          "middle":">",
-         "end":"<br><br>\t\t\t</div>"
+         "end":"\t</div>"
       },
       "content_removes":[
          {
