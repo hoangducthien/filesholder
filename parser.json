@@ -2,6 +2,11 @@
    {
       "domain":"metruyenchu.com",
       "key":"metruyenchu",
+      "title": {
+         "start": "<i class=\"nh-icon icon-book mr-2\">",
+         "middle": "</i>",
+         "end": "</a>"
+      },
       "chapter":{
          "start":"nh-read__title\">",
          "middle":"",
@@ -303,6 +308,11 @@
    {
       "domain":"truyenfull.vn",
       "key":"truyenfull",
+      "title":{
+         "start":"<a class=\"truyen-title\"",
+         "middle":"title=\"",
+         "end":"\">"
+      },
       "chapter":{
          "start":"<a class=\"chapter-title\"",
          "middle":"title=\"",
@@ -363,6 +373,16 @@
    {
       "domain":"truyenhdz.com",
       "key":"truyenhdz",
+      "title":{
+         "start":"<h1 class=\"text-center\">",
+         "middle":"",
+         "end":"</h1>"
+      },
+      "chapter":{
+         "start":"<h2 class=\"text-center\">",
+         "middle":"",
+         "end":"</h2>"
+      },
       "content":{
          "start":"<div class=\"reading\"",
          "middle":"",
