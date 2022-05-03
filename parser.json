@@ -15,7 +15,7 @@
     "content": {
       "start": "class=\"nh-read__content post-body\"",
       "middle": "\">",
-      "end": "<a href="
+      "end": "<div class=\"d-flex justify-content-center mt-5\">"
     },
     "content_removes": [
       {
@@ -32,6 +32,11 @@
         "start": "<div id=",
         "middle": "",
         "end": "</div><br>"
+      },
+      {
+        "start": "<a href=",
+        "middle": "",
+        "end": "</a>"
       }
     ],
     "content_replaces": [
