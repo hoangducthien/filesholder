@@ -1,5 +1,109 @@
 [
   {
+    "domain": "sangtacviet.info",
+    "key": "sangtacviet.info",
+    "title": {
+      "start": "id=\"booknameholder\" style=\"font-size",
+      "middle": "\">",
+      "end": "</a>"
+    },
+    "chapter": {
+      "start": "<center id=\"bookchapnameholder\"",
+      "middle": "\">",
+      "end": "</center>"
+    },
+    "content": {
+      "start": "Chương sau",
+      "middle": "",
+      "end": "Chương trước"
+    },
+    "use_webview": true,
+    "use_text": true,
+    "next_button": {
+      "start": "<a onclick=\"blinkloadnextchap()\" id=\"navnexttop\" href=\"",
+      "middle": "",
+      "end": "\" style="
+    },
+    "pre_button": {
+      "start": "<a onclick=\"blinkloadnextchap(true)\" id=\"navprevtop\" href=\"",
+      "middle": "",
+      "end": "\" style="
+    }
+  },
+  {
+    "domain": "dtruyen.com",
+    "key": "dtruyen.com",
+    "title": {
+      "start": "<p class=\"story-title\">",
+      "middle": "title=\"",
+      "end": "\">"
+    },
+    "chapter": {
+      "start": "<h2 class=\"chapter-title\">",
+      "middle": "",
+      "end": "</h2>"
+    },
+    "content": {
+      "start": "<div id=\"chapter-content\"",
+      "middle": "\">",
+      "end": "<p class=\"text-webtruyen\">"
+    },
+    "next_button": {
+      "start": "<i class=\"fa-cog\"></i></a> <a href=\"",
+      "middle": "",
+      "end": "\" title=\""
+    },
+    "pre_button": {
+      "start": "<div class=\"chapter-button clearfix\"> <a href=\"",
+      "middle": "<a href=\"",
+      "end": "\" title="
+    },
+    "chapter_ignore_domain": true,
+    "content_removes": [
+      {
+        "start": "<div style=",
+        "middle": "",
+        "end": "</iframe> </div>"
+      }
+    ]
+  },
+  {
+    "domain": "truyenyy.vip",
+    "key": "truyenyy.vip",
+    "title": {
+      "start": "<h1 class=\"chap-title\">",
+      "middle": "</span>",
+      "end": "</h1>"
+    },
+    "chapter": {
+      "start": "<h1 class=\"chap-title\">\n<span>",
+      "middle": "",
+      "end": "</span>"
+    },
+    "content": {
+      "start": "<div id=\"inner_chap_content_1\"><div>",
+      "middle": "",
+      "end": "</p>\n</div></div>"
+    },
+    "content_removes": [
+      {
+        "start": "<div class=",
+        "middle": "",
+        "end": "</ins></div>"
+      }
+    ],
+    "next_button": {
+      "start": "<a class=\"weui-btn weui-btn_primary\" href=\"/",
+      "middle": "",
+      "end": "\">"
+    },
+    "pre_button": {
+      "start": "<a class=\"weui-btn weui-btn_default\" href=\"/",
+      "middle": "",
+      "end": "\">"
+    }
+  },
+  {
     "domain": "metruyenchu.com",
     "key": "metruyenchu",
     "title": {
