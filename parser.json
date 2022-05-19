@@ -481,8 +481,8 @@
     ]
   },
   {
-    "domain": "truyenhdz.com",
-    "key": "truyenhdz",
+    "domain": "truyenhdd.com",
+    "key": "truyenhdd",
     "title": {
       "start": "<h1 class=\"text-center\">",
       "middle": "",
@@ -531,8 +531,8 @@
     "chapter_ignore_domain": true
   },
   {
-    "domain": "truyenlol.com",
-    "key": "truyenlol",
+    "domain": "truyenwikiz.com",
+    "key": "truyenwikiz",
     "content": {
       "start": "<div class=\"reading",
       "middle": ">",
