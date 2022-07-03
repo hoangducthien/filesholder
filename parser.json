@@ -1,7 +1,38 @@
 [
   {
-    "domain": "sangtacviet.info",
-    "key": "sangtacviet.info",
+    "domain": "sangtacviet.com",
+    "key": "sangtacviet.com",
+    "title": {
+      "start": "id=\"booknameholder\" style=\"font-size",
+      "middle": "\">",
+      "end": "</a>"
+    },
+    "chapter": {
+      "start": "<center id=\"bookchapnameholder\"",
+      "middle": "\">",
+      "end": "</center>"
+    },
+    "content": {
+      "start": "Chương sau",
+      "middle": "",
+      "end": "Chương trước"
+    },
+    "use_webview": true,
+    "use_text": true,
+    "next_button": {
+      "start": "<a onclick=\"blinkloadnextchap()\" id=\"navnexttop\" href=\"",
+      "middle": "",
+      "end": "\" style="
+    },
+    "pre_button": {
+      "start": "<a onclick=\"blinkloadnextchap(true)\" id=\"navprevtop\" href=\"",
+      "middle": "",
+      "end": "\" style="
+    }
+  },
+  {
+    "domain": "sangtacviet.me",
+    "key": "sangtacviet.me",
     "title": {
       "start": "id=\"booknameholder\" style=\"font-size",
       "middle": "\">",
