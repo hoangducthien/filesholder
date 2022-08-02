@@ -562,8 +562,8 @@
     "chapter_ignore_domain": true
   },
   {
-    "domain": "truyenwikiz.com",
-    "key": "truyenwikiz",
+    "domain": "truyenwk.com",
+    "key": "truyenwk",
     "content": {
       "start": "<div class=\"reading",
       "middle": ">",
