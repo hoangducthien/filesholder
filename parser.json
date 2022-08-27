@@ -667,5 +667,27 @@
     },
     "skip_menu": true,
     "chapter_ignore_domain": true
+  },
+  {
+    "domain": "bachngocsach.com",
+    "key": "bachngocsach",
+    "chapter": {
+      "start": "<h1 id=\"chuong-title\" class=\"page__title\">",
+      "end": "</h1>"
+    },
+    "content": {
+      "start": "<div id=\"noi-dung\">",
+      "end": "</div>"
+    },
+    "content_removes": [],
+    "content_replaces": [],
+    "next_button": {
+      "start": "/span><a href=\"",
+      "end": "\" class="
+    },
+    "pre_button": {
+      "start": "<nav class=\"chuong-nav\" role=\"navigation\"><a href=\"",
+      "end": "\" class="
+    }
   }
 ]
