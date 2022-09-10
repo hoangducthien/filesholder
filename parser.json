@@ -690,4 +690,32 @@
       "end": "\" class="
     }
   }
+,
+  {
+    "domain": "truyentiki.com",
+    "key": "truyentiki",
+    "title": {
+      "start": "GO\nSau ",
+      "end": "."
+    },
+    "chapter": {
+      "start": ".",
+      "end": "Click"
+    },
+    "content": {
+      "start": "(Giảm Lag)",
+      "end": "Truyện Dịch"
+    },
+    "next_button": {
+      "start": "<a class=\"btn btn-success\" href=\"",
+      "end": "\" title"
+    },
+    "pre_button": {
+      "start": "<a class=\"btn btn-success\" href=\"",
+      "end": "\" title"
+    },
+    "use_webview": true,
+    "use_text": true,
+    "use_text_for_title": true
+  }
 ]
