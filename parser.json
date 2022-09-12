@@ -688,7 +688,8 @@
     "pre_button": {
       "start": "<nav class=\"chuong-nav\" role=\"navigation\"><a href=\"",
       "end": "\" class="
-    }
+    },
+    "split": "\n"
   }
 ,
   {
