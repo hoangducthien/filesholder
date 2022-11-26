@@ -112,9 +112,9 @@
       "end": "</span>"
     },
     "content": {
-      "start": "<div id=\"inner_chap_content_1\"><div>",
+      "start": "<div id=\"inner_chap_content_1\"><p>",
       "middle": "",
-      "end": "</p>\n</div></div>"
+      "end": "</div>\n</div>"
     },
     "content_removes": [
       {
@@ -178,52 +178,51 @@
       "— QUẢNG CÁO —",
       "<br>"
     ]
+  },{
+  "domain": "metruyencv.com",
+  "key": "metruyen",
+  "title": {
+    "start": "<i class=\"nh-icon icon-book mr-2\">",
+    "middle": "</i>",
+    "end": "</a>"
   },
-  {
-    "domain": "metruyenchu.com",
-    "key": "metruyenchu",
-    "title": {
-      "start": "<i class=\"nh-icon icon-book mr-2\">",
-      "middle": "</i>",
-      "end": "</a>"
-    },
-    "chapter": {
-      "start": "nh-read__title\">",
+  "chapter": {
+    "start": "nh-read__title\">",
+    "middle": "",
+    "end": "</div>"
+  },
+  "content": {
+    "start": "class=\"nh-read__content post-body\"",
+    "middle": "\">",
+    "end": "<div class=\"d-flex justify-content-center mt-5\">"
+  },
+  "content_removes": [
+    {
+      "start": "<div class=",
       "middle": "",
-      "end": "</div>"
+      "end": "</div><br>"
     },
-    "content": {
-      "start": "class=\"nh-read__content post-body\"",
-      "middle": "\">",
-      "end": "<div class=\"d-flex justify-content-center mt-5\">"
+    {
+      "start": "var bsWrapAds",
+      "middle": "",
+      "end": ",\"[yo_page_url]\",\"[width]\",\"[height]\"]);"
     },
-    "content_removes": [
-      {
-        "start": "<div class=",
-        "middle": "",
-        "end": "</div><br>"
-      },
-      {
-        "start": "var bsWrapAds",
-        "middle": "",
-        "end": ",\"[yo_page_url]\",\"[width]\",\"[height]\"]);"
-      },
-      {
-        "start": "<div id=",
-        "middle": "",
-        "end": "</div><br>"
-      },
-      {
-        "start": "<a href=",
-        "middle": "",
-        "end": "</a>"
-      }
-    ],
-    "content_replaces": [
-      "— QUẢNG CÁO —",
-      "<br>"
-    ]
-  },
+    {
+      "start": "<div id=",
+      "middle": "",
+      "end": "</div><br>"
+    },
+    {
+      "start": "<a href=",
+      "middle": "",
+      "end": "</a>"
+    }
+  ],
+  "content_replaces": [
+    "— QUẢNG CÁO —",
+    "<br>"
+  ]
+},
   {
     "domain": "truyen.tangthuvien.vn",
     "key": "tangthuvien",
@@ -284,78 +283,8 @@
     ]
   },
   {
-    "domain": "wikinu.net",
-    "key": "wikinu",
-    "title": {
-      "start": "<p class=\"book-title\" style=\"font-size: 1.4",
-      "middle": "\">",
-      "end": "</p>"
-    },
-    "chapter": {
-      "start": "<p class=\"book-title\" style=\"font-size: 1.2",
-      "middle": "\">",
-      "end": "</p>"
-    },
-    "content": {
-      "start": "<div id=\"bookContentBody\"",
-      "middle": "\">",
-      "end": "</div>"
-    },
-    "content_removes": [
-    ],
-    "content_replaces": [
-    ],
-    "split": "\n\n",
-    "next_button": {
-      "start": "<a class=\"btn-bot\" href=\"",
-      "middle": "",
-      "end": "\" style="
-    },
-    "pre_button": {
-      "start": "<a class=\"btn-bot\" href=\"",
-      "middle": "",
-      "end": "\" style="
-    },
-    "skip_menu": true
-  },
-  {
-    "domain": "wikidth.net",
-    "key": "wikidth",
-    "title": {
-      "start": "<p class=\"book-title\" style=\"font-size: 1.4",
-      "middle": "\">",
-      "end": "</p>"
-    },
-    "chapter": {
-      "start": "<p class=\"book-title\" style=\"font-size: 1.2",
-      "middle": "\">",
-      "end": "</p>"
-    },
-    "content": {
-      "start": "<div id=\"bookContentBody\"",
-      "middle": "\">",
-      "end": "</div>"
-    },
-    "split": "\n\n",
-    "content_removes": [
-    ],
-    "content_replaces": [
-    ],
-    "next_button": {
-      "start": "<a class=\"btn-bot\" href=\"",
-      "middle": "",
-      "end": "\" style="
-    },
-    "pre_button": {
-      "start": "<a class=\"btn-bot\" href=\"",
-      "middle": "",
-      "end": "\" style="
-    },
-    "skip_menu": true
-  },
-  {
-    "domain": "wikisach.com",
-    "key": "wikisach",
+    "domain": "wikisach.org",
+    "key": "wiki",
     "title": {
       "start": "<p class=\"book-title\" style=\"font-size: 1.4",
       "middle": "\">",
