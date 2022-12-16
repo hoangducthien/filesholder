@@ -112,7 +112,7 @@
       "end": "</span>"
     },
     "content": {
-      "start": "<div id=\"inner_chap_content_1\"><p>",
+      "start": "<div id=\"inner_chap_content_1\"><div>",
       "middle": "",
       "end": "</div>\n</div>"
     },
@@ -372,8 +372,8 @@
     },
     "content": {
       "start": "<div id=\"chapter-c",
-      "middle": "\">",
-      "end": "</p> </div>"
+      "middle": "<p>",
+      "end": "<br><br>"
     },
     "content_removes": [
       {
@@ -536,8 +536,8 @@
     "chapter_ignore_domain": true
   },
   {
-    "domain": "truyenwk.com",
-    "key": "truyenwk",
+    "domain": "truyenwki.com",
+    "key": "truyenwki",
     "content": {
       "start": "<div class=\"reading",
       "middle": ">",
@@ -610,8 +610,8 @@
     ]
   },
   {
-    "domain": "lovetruyen.com",
-    "key": "lovetruyen",
+    "domain": "luvtruyen.com",
+    "key": "luvtruyen",
     "title": {
       "start": "<p class=\"story-title\">",
       "middle": "title=\"",
