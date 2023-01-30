@@ -1,7 +1,7 @@
 [
   {
-    "domain": "sangtacvietfpt.com",
-    "key": "sangtacvietfpt.com",
+    "domain": "sangtacviet.com",
+    "key": "sangtacviet.com",
     "title": {
       "start": "id=\"booknameholder\" style=\"font-size",
       "middle": "\">",
@@ -112,9 +112,9 @@
       "end": "</span>"
     },
     "content": {
-      "start": "<div id=\"inner_chap_content_1\"><div>",
+      "start": "<div style=\"height: auto !important;\">",
       "middle": "",
-      "end": "</div>\n</div>"
+      "end": "</p>\n</div>"
     },
     "content_removes": [
       {
@@ -373,7 +373,7 @@
     "content": {
       "start": "<div id=\"chapter-c",
       "middle": "<p>",
-      "end": "<br><br>"
+      "end": "</p>"
     },
     "content_removes": [
       {
