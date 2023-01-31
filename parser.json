@@ -112,9 +112,9 @@
       "end": "</span>"
     },
     "content": {
-      "start": "<div style=\"height: auto !important;\">",
+      "start": "<div id=\"inner_chap_content_1\">",
       "middle": "",
-      "end": "</p>\n</div>"
+      "end": "</div>"
     },
     "content_removes": [
       {
