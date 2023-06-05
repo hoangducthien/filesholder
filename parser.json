@@ -417,6 +417,7 @@
   {
     "domain": "truyenhdx.com",
     "key": "truyenhdx",
+    "keys": ["truyenhdt"],
     "title": {
       "start": "<h1 class=\"text-center\">",
       "middle": "",
