@@ -149,7 +149,7 @@
     ]
   },{
   "domain": "metruyencv.com",
-  "key": "metruyen",
+  "key": "metruyencv",
   "title": {
     "start": "<i class=\"nh-icon icon-book mr-2\">",
     "middle": "</i>",
@@ -341,6 +341,53 @@
       "middle": "",
       "end": "\" title="
     }
+  },
+  {
+    "domain": "metruyenfull.com",
+    "key": "metruyenfull",
+    "title": {
+      "start": "<a class=\"truyen-title\"",
+      "middle": "title=\"",
+      "end": "\">"
+    },
+    "chapter": {
+      "start": "<a class=\"chapter-title\"",
+      "middle": "title=\"",
+      "end": "\">"
+    },
+    "content": {
+      "start": "<div id=\"chapter-c\" class=\"chapter-c\">",
+      "end": "<p style="
+    },
+    "content_removes": [
+      {
+        "start": "<div style",
+        "middle": "",
+        "end": "</div>"
+      },
+      {
+        "start": "<div id",
+        "middle": "",
+        "end": "</div>"
+      },
+      {
+        "start": "<div class",
+        "middle": "",
+        "end": "</div>"
+      }
+    ],
+    "content_replaces": [
+      "</br>"
+    ],
+    "next_button": {
+      "start": "class=\"btn btn-success btn-chapter-nav\"  href=\"",
+      "end": "\">Next"
+    },
+    "pre_button": {
+      "start": "class=\"btn btn-success btn-chapter-nav\" href=\"",
+      "end": "\"><span class="
+    },
+    "chapter_ignore_domain": true
   },
   {
     "domain": "truyenfull.vn",
