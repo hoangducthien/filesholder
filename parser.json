@@ -298,12 +298,12 @@
     "next_button": {
       "start": "<a class=\"btn btn-success btn-chapter-nav \" href=\"",
       "middle": "",
-      "end": "\" title="
+      "end": "\" title id="
     },
     "pre_button": {
       "start": "<a class=\"btn btn-success btn-chapter-nav \" href=\"",
       "middle": "",
-      "end": "\" title="
+      "end": "\" title id="
     }
   },
   {
