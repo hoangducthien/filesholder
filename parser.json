@@ -489,13 +489,13 @@
       "end": "</div>\n<div class=\"chapter-direction bot\">"
     },
     "next_button": {
-      "start": "<i class=\"far fa-list-alt\"></i> DS. Chương</a>\n<a href=\"",
-      "middle": "",
+      "start": "<i class=\"far fa-list-alt",
+      "middle": "<a href=\"",
       "end": "\" class=\"next\">"
     },
     "pre_button": {
-      "start": "<div class=\"chapter-direction\">\n<a href=\"",
-      "middle": "",
+      "start": "<div class=\"chapter-direction",
+      "middle": "<a href=\"",
       "end": "\" class=\"prev\">"
     },
     "use_webview": true,
@@ -516,9 +516,9 @@
       "end": "</h2>"
     },
     "content": {
-      "start": "<div class=\"reading\"",
+      "start": "<div class=\"reading\">",
       "middle": "",
-      "end": "\t</div>"
+      "end": "</div>"
     },
     "content_removes": [
       {
@@ -541,13 +541,13 @@
       "<br>"
     ],
     "next_button": {
-      "start": "<div class=\"next-chap\"><a href=\"",
-      "middle": "",
+      "start": "<div class=\"next-chap",
+      "middle": "<a href=\"",
       "end": "\" class="
     },
     "pre_button": {
-      "start": "<div class=\"next-chap\"><a href=\"",
-      "middle": "",
+      "start": "<div class=\"next-chap",
+      "middle": "<a href=\"",
       "end": "\" class="
     },
     "chapter_ignore_domain": true
