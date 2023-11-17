@@ -488,6 +488,28 @@
       "middle": "<p>",
       "end": "</div>\n<div class=\"chapter-direction bot\">"
     },
+    "content_removes": [
+      {
+        "start": "<div style",
+        "middle": "",
+        "end": "</div>"
+      },
+      {
+        "start": "<div id",
+        "middle": "",
+        "end": "</div>"
+      },
+      {
+        "start": "<div class",
+        "middle": "",
+        "end": "</div>"
+      },
+      {
+        "start": "googletag",
+        "middle": "",
+        "end": "});"
+      }
+    ],
     "next_button": {
       "start": "<i class=\"far fa-list-alt",
       "middle": "<a href=\"",
@@ -498,7 +520,7 @@
       "middle": "<a href=\"",
       "end": "\" class=\""
     },
-    "use_webview": true,
+    "use_webview": false,
     "chapter_ignore_domain": true
   },
   {
