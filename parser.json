@@ -491,12 +491,12 @@
     "next_button": {
       "start": "<i class=\"far fa-list-alt",
       "middle": "<a href=\"",
-      "end": "\" class=\"next\">"
+      "end": "\" class=\""
     },
     "pre_button": {
       "start": "<div class=\"chapter-direction",
       "middle": "<a href=\"",
-      "end": "\" class=\"prev\">"
+      "end": "\" class=\""
     },
     "use_webview": true,
     "chapter_ignore_domain": true
@@ -518,7 +518,7 @@
     "content": {
       "start": "<div class=\"reading\">",
       "middle": "",
-      "end": "</div>"
+      "end": "<div class=\"mt-3 mb-5"
     },
     "content_removes": [
       {
