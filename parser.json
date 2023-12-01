@@ -486,7 +486,7 @@
     "content": {
       "start": "<div id=\"chapter-content\">",
       "middle": "<p>",
-      "end": "</div>\n<div class=\"chapter-direction bot\">"
+      "end": "<div class=\"chapter-direction bot\">"
     },
     "content_removes": [
       {
