@@ -508,6 +508,11 @@
         "start": "googletag",
         "middle": "",
         "end": "});"
+      },
+      {
+        "start": "<script>",
+        "middle": "",
+        "end": "</script>"
       }
     ],
     "next_button": {
