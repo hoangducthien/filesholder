@@ -1,36 +1,5 @@
 [
   {
-    "domain": "sangtacviet.com",
-    "key": "sangtacviet",
-    "title": {
-      "start": "id=\"booknameholder\" style=\"font-size",
-      "middle": "\">",
-      "end": "</a>"
-    },
-    "chapter": {
-      "start": "<center id=\"bookchapnameholder\"",
-      "middle": "\">",
-      "end": "</center>"
-    },
-    "content": {
-      "start": "Chương sau",
-      "middle": "",
-      "end": "Chương trước"
-    },
-    "use_webview": true,
-    "use_text": true,
-    "next_button": {
-      "start": "<a onclick=\"blinkloadnextchap()\" id=\"navnexttop\" href=\"",
-      "middle": "",
-      "end": "\" style="
-    },
-    "pre_button": {
-      "start": "<a onclick=\"blinkloadnextchap(true)\" id=\"navprevtop\" href=\"",
-      "middle": "",
-      "end": "\" style="
-    }
-  },
-  {
     "domain": "dtruyen.com",
     "key": "dtruyen.com",
     "title": {
@@ -298,12 +267,12 @@
     "next_button": {
       "start": "<a class=\"btn btn-success btn-chapter-nav \" href=\"",
       "middle": "",
-      "end": "\" title id="
+      "end": "\" title"
     },
     "pre_button": {
       "start": "<a class=\"btn btn-success btn-chapter-nav \" href=\"",
       "middle": "",
-      "end": "\" title id="
+      "end": "\" title"
     }
   },
   {
@@ -479,9 +448,8 @@
     "domain": "ntruyen.vn",
     "key": "ntruyen.vn",
     "title": {
-      "start": "<div class=\"chapter-infos\">",
-      "middle": "<center><h1>",
-      "end": "</h1></center>"
+      "start": "id=\"story_name\" value=\"",
+      "end": "\" style="
     },
     "content": {
       "start": "<div id=\"chapter-content\">",
@@ -532,6 +500,7 @@
     "domain": "truyenhdx.com",
     "key": "truyenhdx",
     "keys": ["truyenhdt"],
+    "use_webview": true,
     "title": {
       "start": "<h1 class=\"text-center\">",
       "middle": "",
@@ -687,7 +656,7 @@
     "chapter_ignore_domain": true
   },
   {
-    "domain": "bachngocsach.com",
+    "domain": "bachngocsach.com.vn",
     "key": "bachngocsach",
     "chapter": {
       "start": "<h1 id=\"chuong-title\" class=\"page__title\">",
