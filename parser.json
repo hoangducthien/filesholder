@@ -50,8 +50,8 @@
       "end": "</span>"
     },
     "content": {
-      "start": "<div id=\"inner_chap_content_1\">",
-      "middle": "",
+      "start": "<div id=\"inner_chap_content_1",
+      "middle": "\">",
       "end": "</div>"
     },
     "content_removes": [
@@ -59,6 +59,11 @@
         "start": "<div class=",
         "middle": "",
         "end": "</ins></div>"
+      },
+      {
+        "start": "<style",
+        "middle": "",
+        "end": "</style>"
       }
     ],
     "next_button": {
@@ -421,30 +426,6 @@
     "chapter_ignore_domain": true
   },
   {
-    "domain": "m.truyencv.vn",
-    "key": "truyencv",
-    "title": {
-      "start": "class=\"css-126y4ab\">",
-      "middle": "",
-      "end": "</a>"
-    },
-    "chapter": {
-      "start": "<h2 class=\"css-400zec\">",
-      "middle": "",
-      "end": "</h2>"
-    },
-    "content": {
-      "start": "<div class=\"fontSize-2 fontFamily-1 css-bsdujl e1vvrs4i1\">",
-      "middle": "",
-      "end": "</div>"
-    },
-    "split": "\n\n",
-    "content_removes": [
-    ],
-    "content_replaces": [
-    ]
-  },
-  {
     "domain": "ntruyen.vn",
     "key": "ntruyen.vn",
     "title": {
@@ -589,7 +570,7 @@
     "chapter_ignore_domain": true
   },
   {
-    "domain": "sstruyen.com",
+    "domain": "sstruyen.vn",
     "key": "sstruyen",
     "title": {
       "start": "<h1 class=rv-full-story-title>",
