@@ -283,7 +283,7 @@
   {
     "domain": "metruyenfull.com",
     "key": "metruyenfull",
-    "chapter": {
+    "title": {
       "start": "<title>",
       "middle": "",
       "end": "</title>"
