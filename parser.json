@@ -295,7 +295,7 @@
     },
     "content": {
       "start": "<div id=\"chapter-c\" class=\"chapter-c\">",
-      "end": "<p style="
+      "end": "</p><img"
     },
     "content_removes": [
       {
@@ -312,6 +312,16 @@
         "start": "<div class",
         "middle": "",
         "end": "</div>"
+      },
+      {
+        "start": "<p class=",
+        "middle": "",
+        "end": "mb-8\">"
+      },
+      {
+        "start": "</",
+        "middle": "",
+        "end": "p>"
       }
     ],
     "content_replaces": [
@@ -379,7 +389,7 @@
   {
     "domain": "truyenfull.com",
     "key": "truyenfull.com",
-    "keys": ["truyenfull.com", "truyenfull1.com"],
+    "keys": ["truyenfull.com", "truyenfull1.com", "truyenfull3.com"],
     "title": {
       "start": "<a class=\"truyen-title\"",
       "middle": "title=\"",
