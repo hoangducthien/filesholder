@@ -283,15 +283,10 @@
   {
     "domain": "metruyenfull.com",
     "key": "metruyenfull",
-    "title": {
-      "start": "<a class=\"truyen-title\"",
-      "middle": "title=\"",
-      "end": "\">"
-    },
     "chapter": {
-      "start": "<a class=\"chapter-title\"",
-      "middle": "title=\"",
-      "end": "\">"
+      "start": "<title>",
+      "middle": "",
+      "end": "</title>"
     },
     "content": {
       "start": "<div id=\"chapter-c\" class=\"chapter-c\">",
@@ -332,7 +327,7 @@
       "end": "\">Next"
     },
     "pre_button": {
-      "start": "class=\"btn btn-success btn-chapter-nav\" href=\"",
+      "start": "<a class=\"btn btn-success btn-chapter-nav\" id=\"prev_chap\" href=\"",
       "end": "\"><span class="
     },
     "chapter_ignore_domain": true
