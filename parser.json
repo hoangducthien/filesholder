@@ -533,47 +533,7 @@
       "end": "\" class="
     },
     "chapter_ignore_domain": true
-  },
-  {
-    "domain": "truyenwki.com",
-    "key": "truyenwki",
-    "content": {
-      "start": "<div class=\"reading",
-      "middle": ">",
-      "end": "\t</div>"
-    },
-    "content_removes": [
-      {
-        "start": "<div style",
-        "middle": "",
-        "end": "</div>"
-      },
-      {
-        "start": "<div id",
-        "middle": "",
-        "end": "</div>"
-      },
-      {
-        "start": "<div class",
-        "middle": "",
-        "end": "</div>"
-      }
-    ],
-    "content_replaces": [
-      "<br>"
-    ],
-    "next_button": {
-      "start": "<div class=\"next-chap\"><a href=\"",
-      "middle": "",
-      "end": "\" class="
-    },
-    "pre_button": {
-      "start": "<div class=\"next-chap\"><a href=\"",
-      "middle": "",
-      "end": "\" class="
-    },
-    "chapter_ignore_domain": true
-  },
+  },  
   {
     "domain": "sstruyen.vn",
     "key": "sstruyen",
@@ -609,39 +569,6 @@
     ]
   },
   {
-    "domain": "lovetruyen.com",
-    "key": "lovetruyen",
-    "title": {
-      "start": "<p class=\"story-title\">",
-      "middle": "title=\"",
-      "end": "\">"
-    },
-    "chapter": {
-      "start": "<div id=\"chapter-content\">",
-      "middle": "<b>",
-      "end": "</b>"
-    },
-    "content": {
-      "start": "<div id=\"chapter-content\">",
-      "middle": ">",
-      "end": "</div>"
-    },
-    "content_removes": [],
-    "content_replaces": [],
-    "next_button": {
-      "start": "</i></a><a href=\"",
-      "middle": "",
-      "end": "\">"
-    },
-    "pre_button": {
-      "start": "<div class=\"chapter-button clearfix\"> <a href=\"",
-      "middle": "",
-      "end": "\"><i class="
-    },
-    "skip_menu": true,
-    "chapter_ignore_domain": true
-  },
-  {
     "domain": "bachngocsach.com.vn",
     "key": "bachngocsach",
     "chapter": {
@@ -663,33 +590,5 @@
       "end": "\" class="
     },
     "split": "\n"
-  }
-,
-  {
-    "domain": "truyentiki.net",
-    "key": "truyentiki",
-    "title": {
-      "start": "GO\nSau ",
-      "end": "."
-    },
-    "chapter": {
-      "start": ".",
-      "end": "Click"
-    },
-    "content": {
-      "start": "(Giảm Lag)",
-      "end": "Truyện Dịch"
-    },
-    "next_button": {
-      "start": "<a class=\"btn btn-success\" href=\"",
-      "end": "\" title"
-    },
-    "pre_button": {
-      "start": "<a class=\"btn btn-success\" href=\"",
-      "end": "\" title"
-    },
-    "use_webview": true,
-    "use_text": true,
-    "use_text_for_title": true
   }
 ]
