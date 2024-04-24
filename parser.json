@@ -270,7 +270,7 @@
       "</br>"
     ],
     "next_button": {
-      "start": "<a class=\"btn btn-success btn-chapter-nav \" href=\"",
+      "start": "<a data-action=\"redirect-chapter\" class=\"btn btn-success btn-chapter-nav \" href=\"",
       "middle": "",
       "end": "\" title"
     },
