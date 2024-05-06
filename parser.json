@@ -661,5 +661,67 @@
       "end": "\"><span class="
     },
     "chapter_ignore_domain": true
+  },
+  {
+    "domain": "tytnovel.xyz",
+    "key": "tytnovel",
+    "title": {
+      "start": "<a class=\"truyen-title\"",
+      "middle": "title=\"",
+      "end": "\">"
+    },
+    "chapter": {
+      "start": "<a class=\"chapter-title\"",
+      "middle": "title=\"",
+      "end": "\">"
+    },
+    "content": {
+      "start": "<div id=\"chapter-c\" class=\"chapter-c",
+      "middle": "\">",
+      "end": "</div>"
+    },
+    "content_removes": [
+      {
+        "start": "<div style",
+        "middle": "",
+        "end": "</div>"
+      },
+      {
+        "start": "<div id",
+        "middle": "",
+        "end": "</div>"
+      },
+      {
+        "start": "<div class",
+        "middle": "",
+        "end": "</div>"
+      },
+      {
+        "start": "<p class=",
+        "middle": "",
+        "end": "mb-8\">"
+      },
+      {
+        "start": "<span",
+        "end": "</span>"
+      },
+      {
+        "start": "</",
+        "middle": "",
+        "end": "p>"
+      }
+    ],
+    "content_replaces": [
+      "</br>"
+    ],
+    "next_button": {
+      "start": "</select><a class=\"btn btn-link\" href=\"",
+      "end": "\" title=\""
+    },
+    "pre_button": {
+      "start": "<div class=\"btn-group\"><a class=\"btn btn-link\" href=\"",
+      "end": "\" title="
+    },
+    "chapter_ignore_domain": true
   }
 ]
