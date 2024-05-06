@@ -121,51 +121,50 @@
       "— QUẢNG CÁO —",
       "<br>"
     ]
-  },{
-  "domain": "metruyencv.com",
-  "key": "metruyencv",
-  "title": {
-    "start": "<i class=\"nh-icon icon-book mr-2\">",
-    "middle": "</i>",
-    "end": "</a>"
   },
-  "chapter": {
-    "start": "nh-read__title\">",
-    "middle": "",
-    "end": "</div>"
+  {
+    "domain": "metruyencv.com",
+    "key": "metruyencv",
+    "title": {
+      "start": "<h1 class=\"text-lg text-center text-balance\"><a class=\"text-title font-semibold\"",
+      "middle": "\">",
+      "end": "</a></h1>"
+    },
+    "chapter": {
+      "start": "<h2 class=\"text-center text-gray-600 dark:text-gray-400 text-balance\">",
+      "end": "</h2>"
+    },
+    "content": {
+      "start": "<div oncopy=\"return false\" oncut=\"return false\" data-x-bind=\"ChapterContent\" class=\"break-words\">",
+      "end": "</div>"
+    },
+    "content_removes": [
+      {
+        "start": "<div class=",
+        "middle": "",
+        "end": "</div><br>"
+      },
+      {
+        "start": "var bsWrapAds",
+        "middle": "",
+        "end": ",\"[yo_page_url]\",\"[width]\",\"[height]\"]);"
+      },
+      {
+        "start": "<div id=",
+        "middle": "",
+        "end": "</div><br>"
+      },
+      {
+        "start": "<a href=",
+        "middle": "",
+        "end": "</a>"
+      }
+    ],
+    "content_replaces": [
+      "— QUẢNG CÁO —",
+      "<br>"
+    ]
   },
-  "content": {
-    "start": "class=\"nh-read__content post-body\"",
-    "middle": "\">",
-    "end": "<div class=\"d-flex justify-content-center mt-5\">"
-  },
-  "content_removes": [
-    {
-      "start": "<div class=",
-      "middle": "",
-      "end": "</div><br>"
-    },
-    {
-      "start": "var bsWrapAds",
-      "middle": "",
-      "end": ",\"[yo_page_url]\",\"[width]\",\"[height]\"]);"
-    },
-    {
-      "start": "<div id=",
-      "middle": "",
-      "end": "</div><br>"
-    },
-    {
-      "start": "<a href=",
-      "middle": "",
-      "end": "</a>"
-    }
-  ],
-  "content_replaces": [
-    "— QUẢNG CÁO —",
-    "<br>"
-  ]
-},
   {
     "domain": "truyen.tangthuvien.vn",
     "key": "tangthuvien",
@@ -283,7 +282,9 @@
   {
     "domain": "truyenfull.vn",
     "key": "truyenfull.vn",
-    "keys": ["truyenfull.vn"],
+    "keys": [
+      "truyenfull.vn"
+    ],
     "title": {
       "start": "<a class=\"truyen-title\"",
       "middle": "title=\"",
@@ -332,7 +333,11 @@
   {
     "domain": "truyenfull.com",
     "key": "truyenfull.com",
-    "keys": ["truyenfull.com", "truyenfull1.com", "truyenfull3.com"],
+    "keys": [
+      "truyenfull.com",
+      "truyenfull1.com",
+      "truyenfull3.com"
+    ],
     "title": {
       "start": "<a class=\"truyen-title\"",
       "middle": "title=\"",
@@ -433,7 +438,9 @@
   {
     "domain": "truyenhdx.com",
     "key": "truyenhdx",
-    "keys": ["truyenhdt"],
+    "keys": [
+      "truyenhdt"
+    ],
     "use_webview": true,
     "title": {
       "start": "<h1 class=\"text-center\">",
@@ -481,7 +488,7 @@
       "end": "\" class="
     },
     "chapter_ignore_domain": true
-  },  
+  },
   {
     "domain": "sstruyen.vn",
     "key": "sstruyen",
@@ -538,35 +545,121 @@
       "end": "\" class="
     },
     "split": "\n"
-  },  {
-    "domain": "sangtacviet.vip",
-    "key": "sangtacviet",
+  },
+  {
+    "domain": "truyentiki.top",
+    "key": "truyentiki",
     "title": {
-      "start": "id=\"booknameholder\" style=\"font-size",
-      "middle": "\">",
-      "end": "</a>"
+      "start": "GO\nSau ",
+      "end": "."
     },
     "chapter": {
-      "start": "<center id=\"bookchapnameholder\"",
-      "middle": "\">",
-      "end": "</center>"
+      "start": "TrướcDS ChươngSau",
+      "end": "Tắt Edit (Giảm Lag)"
     },
     "content": {
-      "start": "Chương sau",
-      "middle": "",
-      "end": "Chương trước"
+      "start": "(Giảm Lag)",
+      "end": "TrướcDS"
+    },
+    "next_button": {
+      "start": "DS Chương</a><a class=\"btn btn-success\" href=\"/",
+      "end": "\">Sau <span"
+    },
+    "pre_button": {
+      "start": "<div class=\"btn-group\"><a class=\"btn btn-success\" href=\"/",
+      "end": "\"><span"
     },
     "use_webview": true,
     "use_text": true,
+    "use_text_for_title": true,
+    "skip_menu": true,
+    "data_ready_checker": [
+      "Đang Tải Nội Dung Chương"
+    ]
+  },
+  {
+    "domain": "lovetruyen.me",
+    "key": "lovetruyen",
+    "title": {
+      "start": "<p class=\"story-title\">",
+      "middle": "title=\"",
+      "end": "\">"
+    },
+    "chapter": {
+      "start": "<h2 class=\"chapter-title\">",
+      "end": "</h2>"
+    },
+    "content": {
+      "start": "<div id=\"chapter-content\"",
+      "middle": ">",
+      "end": "</div>"
+    },
+    "content_removes": [],
+    "content_replaces": [],
     "next_button": {
-      "start": "<a onclick=\"blinkloadnextchap()\" id=\"navnexttop\" href=\"",
+      "start": "</i></a><a href=\"",
       "middle": "",
-      "end": "\" style="
+      "end": "\">"
     },
     "pre_button": {
-      "start": "<a onclick=\"blinkloadnextchap(true)\" id=\"navprevtop\" href=\"",
+      "start": "<div class=\"chapter-button clearfix\"> <a href=\"",
       "middle": "",
-      "end": "\" style="
-    }
+      "end": "\"><i class="
+    },
+    "skip_menu": true,
+    "chapter_ignore_domain": true
+  },
+  {
+    "domain": "metruyenfull.com",
+    "key": "metruyenfull",
+    "title": {
+      "start": "<title>",
+      "middle": "",
+      "end": "</title>"
+    },
+    "content": {
+      "start": "<div id=\"chapter-c\" class=\"chapter-c\"",
+      "middle": "Để phòng website đổi tên miền khác",
+      "end": "</p><img"
+    },
+    "content_removes": [
+      {
+        "start": "<div style",
+        "middle": "",
+        "end": "</div>"
+      },
+      {
+        "start": "<div id",
+        "middle": "",
+        "end": "</div>"
+      },
+      {
+        "start": "<div class",
+        "middle": "",
+        "end": "</div>"
+      },
+      {
+        "start": "<p class=",
+        "middle": "",
+        "end": "mb-8\">"
+      },
+      {
+        "start": "</",
+        "middle": "",
+        "end": "p>"
+      }
+    ],
+    "content_replaces": [
+      "</br>"
+    ],
+    "next_button": {
+      "start": "class=\"btn btn-success btn-chapter-nav\" href=\"",
+      "end": "\">Next"
+    },
+    "pre_button": {
+      "start": "<a class=\"btn btn-success btn-chapter-nav\" id=\"prev_chap\" href=\"",
+      "end": "\"><span class="
+    },
+    "chapter_ignore_domain": true
   }
 ]
