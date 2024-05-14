@@ -580,6 +580,7 @@
   {
     "domain": "lovetruyen.me",
     "key": "lovetruyen",
+    "hideOniOS":true,
     "title": {
       "start": "<p class=\"story-title\">",
       "middle": "title=\"",
