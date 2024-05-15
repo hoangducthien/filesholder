@@ -492,6 +492,8 @@
   {
     "domain": "sstruyen.vn",
     "key": "sstruyen",
+    "hideOnListingiOS":true,
+    "hideOniOS": true,
     "title": {
       "start": "<h1 class=rv-full-story-title>",
       "middle": "",
@@ -580,7 +582,8 @@
   {
     "domain": "lovetruyen.me",
     "key": "lovetruyen",
-    "hideOniOS":true,
+    "hideOnListingiOS": true,
+    "hideOniOS": true,
     "title": {
       "start": "<p class=\"story-title\">",
       "middle": "title=\"",
