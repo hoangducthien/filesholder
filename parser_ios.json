@@ -1,0 +1,185 @@
+[
+  {
+    "domain": "dtruyen.com",
+    "key": "dtruyen.com",
+    "title": {
+      "start": "<p class=\"story-title\">",
+      "middle": "title=\"",
+      "end": "\">"
+    },
+    "chapter": {
+      "start": "<h2 class=\"chapter-title\">",
+      "middle": "",
+      "end": "</h2>"
+    },
+    "content": {
+      "start": "<div id=\"chapter-content\"",
+      "middle": "\">",
+      "end": "<p class=\"text-webtruyen\">"
+    },
+    "next_button": {
+      "start": "<i class=\"fa-cog\"></i></a> <a href=\"",
+      "middle": "",
+      "end": "\" title=\""
+    },
+    "pre_button": {
+      "start": "<div class=\"chapter-button clearfix\"> <a href=\"",
+      "middle": "<a href=\"",
+      "end": "\" title="
+    },
+    "chapter_ignore_domain": true,
+    "content_removes": [
+      {
+        "start": "<div style=",
+        "middle": "",
+        "end": "</iframe> </div>"
+      }
+    ]
+  },
+  {
+    "domain": "mtccv.com",
+    "key": "mtccv",
+    "title": {
+      "start": "<i class=\"nh-icon icon-book mr-2\">",
+      "middle": "</i>",
+      "end": "</a>"
+    },
+    "chapter": {
+      "start": "nh-read__title\">",
+      "middle": "",
+      "end": "</div>"
+    },
+    "content": {
+      "start": "class=\"nh-read__content post-body\"",
+      "middle": "\">",
+      "end": "<div class=\"d-flex justify-content-center mt-5\">"
+    },
+    "content_removes": [
+      {
+        "start": "<div class=",
+        "middle": "",
+        "end": "</div><br>"
+      },
+      {
+        "start": "var bsWrapAds",
+        "middle": "",
+        "end": ",\"[yo_page_url]\",\"[width]\",\"[height]\"]);"
+      },
+      {
+        "start": "<div id=",
+        "middle": "",
+        "end": "</div><br>"
+      },
+      {
+        "start": "<a href=",
+        "middle": "",
+        "end": "</a>"
+      }
+    ],
+    "content_replaces": [
+      "— QUẢNG CÁO —",
+      "<br>"
+    ]
+  },
+  {
+    "domain": "metruyencv.com",
+    "key": "metruyencv",
+    "title": {
+      "start": "<h1 class=\"text-lg text-center text-balance\"><a class=\"text-title font-semibold\"",
+      "middle": "\">",
+      "end": "</a></h1>"
+    },
+    "chapter": {
+      "start": "<h2 class=\"text-center text-gray-600 dark:text-gray-400 text-balance\">",
+      "end": "</h2>"
+    },
+    "content": {
+      "start": "<div oncopy=\"return false\" oncut=\"return false\" data-x-bind=\"ChapterContent\" class=\"break-words\">",
+      "end": "</div>"
+    },
+    "content_removes": [
+      {
+        "start": "<div class=",
+        "middle": "",
+        "end": "</div><br>"
+      },
+      {
+        "start": "var bsWrapAds",
+        "middle": "",
+        "end": ",\"[yo_page_url]\",\"[width]\",\"[height]\"]);"
+      },
+      {
+        "start": "<div id=",
+        "middle": "",
+        "end": "</div><br>"
+      },
+      {
+        "start": "<a href=",
+        "middle": "",
+        "end": "</a>"
+      }
+    ],
+    "content_replaces": [
+      "— QUẢNG CÁO —",
+      "<br>"
+    ]
+  },
+  {
+    "domain": "truyen.tangthuvien.vn",
+    "key": "tangthuvien",
+    "title": {
+      "start": "<h1 class=\"truyen-title\">",
+      "middle": "title=\"",
+      "end": "\">"
+    },
+    "chapter": {
+      "start": "<h1 class=\"truyen-title\">",
+      "middle": "<h2>",
+      "end": "</h2>"
+    },
+    "content": {
+      "start": "<div class=\"box-chap ",
+      "middle": ">",
+      "end": "</div>"
+    },
+    "content_removes": [
+    ],
+    "content_replaces": [
+    ]
+  },
+  {
+    "domain": "wikisach.net",
+    "key": "wiki",
+    "title": {
+      "start": "<p class=\"book-title\" style=\"font-size: 1.4",
+      "middle": "\">",
+      "end": "</p>"
+    },
+    "chapter": {
+      "start": "<p class=\"book-title\" style=\"font-size: 1.2",
+      "middle": "\">",
+      "end": "</p>"
+    },
+    "content": {
+      "start": "<div id=\"bookContentBody\"",
+      "middle": "\">",
+      "end": "</div>"
+    },
+    "content_removes": [
+    ],
+    "content_replaces": [
+    ],
+    "split": "\n\n",
+    "next_button": {
+      "start": "<a class=\"btn-bot\" href=\"",
+      "middle": "",
+      "end": "\" style="
+    },
+    "pre_button": {
+      "start": "<a class=\"btn-bot\" href=\"",
+      "middle": "",
+      "end": "\" style="
+    },
+    "skip_menu": true
+  }
+]
