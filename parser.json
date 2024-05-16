@@ -39,7 +39,6 @@
   {
     "domain": "truyenyy.pro",
     "key": "truyenyy",
-    "hideOnListingiOS":true,
     "title": {
       "start": "<h1 class=\"chap-title\">",
       "middle": "</span>",
@@ -387,7 +386,6 @@
   {
     "domain": "ntruyen.vn",
     "key": "ntruyen.vn",
-    "hideOnListingiOS":true,
     "title": {
       "start": "id=\"story_name\" value=\"",
       "end": "\" style="
@@ -439,7 +437,6 @@
   },
   {
     "domain": "truyenhdx.com",
-    "hideOnListingiOS":true,
     "key": "truyenhdx",
     "keys": [
       "truyenhdt"
@@ -495,7 +492,6 @@
   {
     "domain": "sstruyen.vn",
     "key": "sstruyen",
-    "hideOnListingiOS":true,
     "hideOniOS": true,
     "title": {
       "start": "<h1 class=rv-full-story-title>",
@@ -671,7 +667,6 @@
   },
   {
     "domain": "tytnovel.xyz",
-    "hideOnListingiOS":true,
     "key": "tytnovel",
     "title": {
       "start": "<a class=\"truyen-title\"",
