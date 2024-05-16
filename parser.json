@@ -387,6 +387,7 @@
   {
     "domain": "ntruyen.vn",
     "key": "ntruyen.vn",
+    "hideOnListingiOS":true,
     "title": {
       "start": "id=\"story_name\" value=\"",
       "end": "\" style="
@@ -670,6 +671,7 @@
   },
   {
     "domain": "tytnovel.xyz",
+    "hideOnListingiOS":true,
     "key": "tytnovel",
     "title": {
       "start": "<a class=\"truyen-title\"",
