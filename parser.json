@@ -123,7 +123,7 @@
     ]
   },
   {
-    "domain": "metruyencv.com",
+    "domain": "metruyencv.info",
     "key": "metruyencv",
     "title": {
       "start": "<h1 class=\"text-lg text-center text-balance\"><a class=\"text-title font-semibold\"",
@@ -384,8 +384,8 @@
     "chapter_ignore_domain": true
   },
   {
-    "domain": "ntruyen.vn",
-    "key": "ntruyen.vn",
+    "domain": "gicungco.org",
+    "keys": ["gicungco", "ntruyen"],
     "title": {
       "start": "id=\"story_name\" value=\"",
       "end": "\" style="
@@ -492,7 +492,6 @@
   {
     "domain": "sstruyen.vn",
     "key": "sstruyen",
-    "hideOniOS": true,
     "title": {
       "start": "<h1 class=rv-full-story-title>",
       "middle": "",
