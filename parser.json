@@ -168,25 +168,31 @@
   {
     "domain": "truyen.tangthuvien.vn",
     "key": "tangthuvien",
-    "title": {
-      "start": "<h1 class=\"truyen-title\">",
-      "middle": "title=\"",
-      "end": "\">"
-    },
     "chapter": {
-      "start": "<h1 class=\"truyen-title\">",
-      "middle": "<h2>",
-      "end": "</h2>"
+      "start": "<h4 class=\"page-title text-center\">",
+      "end": "</h4>"
     },
     "content": {
-      "start": "<div class=\"box-chap ",
-      "middle": ">",
-      "end": "</div>"
+      "start": "<div style=\"width: 100%; text-align: center; margin-bottom: 25px\">",
+      "middle": "</div>",
+      "end": "<div "
     },
     "content_removes": [
     ],
     "content_replaces": [
-    ]
+    ],
+    "next_button": {
+      "start": "<a class=\"pull-right\" href=\"",
+      "middle": "",
+      "end": "\">"
+    },
+    "pre_button": {
+      "start": "class=\"control-chap wd-f100 pdd-6\" id=\"control-chap\"><a href=\"",
+      "middle": "",
+      "end": "\">"
+    },
+    "chapter_ignore_domain": true,
+    "use_webview": true
   },
   {
     "domain": "wikisach.net",
@@ -385,8 +391,10 @@
   },
   {
     "domain": "gicungco.org",
-    "key": "",
-    "keys": ["gicungco", "ntruyen"],
+    "keys": [
+      "gicungco",
+      "ntruyen"
+    ],
     "title": {
       "start": "id=\"story_name\" value=\"",
       "end": "\" style="
