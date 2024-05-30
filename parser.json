@@ -172,6 +172,11 @@
       "start": "<h4 class=\"page-title text-center\">",
       "end": "</h4>"
     },
+    "title": {
+      "start": "",
+      "middle": "",
+      "end": ""
+    },
     "content": {
       "start": "<div style=\"width: 100%; text-align: center; margin-bottom: 25px\">",
       "middle": "</div>",
