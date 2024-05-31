@@ -180,9 +180,14 @@
     "content": {
       "start": "<div style=\"width: 100%; text-align: center; margin-bottom: 25px\">",
       "middle": "</div>",
-      "end": "<div "
+      "end": "<div class=\"box-subcriber"
     },
     "content_removes": [
+      {
+        "start": "<div",
+        "middle": "",
+        "end": "</div>"
+      }
     ],
     "content_replaces": [
     ],
