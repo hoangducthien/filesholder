@@ -135,29 +135,14 @@
       "end": "</h2>"
     },
     "content": {
-      "start": "<div oncopy=\"return false\" oncut=\"return false\" data-x-bind=\"ChapterContent\" class=\"break-words\">",
-      "end": "</div>"
+      "start": "<div data-x-bind=\"ChapterContent\" class=\"break-words\">",
+      "end": "</div><div id=\"load-more\""
     },
     "content_removes": [
       {
-        "start": "<div class=",
+        "start": "<div",
         "middle": "",
-        "end": "</div><br>"
-      },
-      {
-        "start": "var bsWrapAds",
-        "middle": "",
-        "end": ",\"[yo_page_url]\",\"[width]\",\"[height]\"]);"
-      },
-      {
-        "start": "<div id=",
-        "middle": "",
-        "end": "</div><br>"
-      },
-      {
-        "start": "<a href=",
-        "middle": "",
-        "end": "</a>"
+        "end": "</div>"
       }
     ],
     "content_replaces": [
@@ -352,7 +337,8 @@
     "keys": [
       "truyenfull.com",
       "truyenfull1.com",
-      "truyenfull3.com"
+      "truyenfull3.com",
+      "truyenfull4.com"
     ],
     "title": {
       "start": "<a class=\"truyen-title\"",
@@ -743,5 +729,40 @@
       "end": "\" title="
     },
     "chapter_ignore_domain": true
+  },
+  {
+    "domain": "metruyenchu.com.vn",
+    "key": "metruyenchu.com.vn",
+    "title": {
+      "start": "<h1 class=\"current-book\"><a href=\"",
+      "middle": "\">",
+      "end": "</a></h1>"
+    },
+    "chapter": {
+      "start": "<h2 class=\"current-chapter\"> <a href=\"",
+      "middle": "\">",
+      "end": "</a></h2>"
+    },
+    "content": {
+      "start": "<div class=\"truyen\">",
+      "end": "</div>"
+    },
+    "content_removes": [
+      {
+        "start": "<div",
+        "middle": "",
+        "end": "</div>"
+      }
+    ],
+    "next_button": {
+      "start": "btn-dschuong\"></a>",
+      "middle": "<a href='",
+      "end": "' class="
+    },
+    "pre_button": {
+      "start": "<div class=\"chapter_control\" id=\"gotochap\">",
+      "middle": "<a href='",
+      "end": "' class="
+    }
   }
 ]
