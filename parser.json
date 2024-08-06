@@ -284,7 +284,8 @@
     "domain": "truyenfull.vn",
     "key": "truyenfull.vn",
     "keys": [
-      "truyenfull.vn"
+      "truyenfull.vn",
+      "truyenfull.io",
     ],
     "title": {
       "start": "<a class=\"truyen-title\"",
@@ -333,9 +334,8 @@
   },
   {
     "domain": "truyenfull.com",
-    "key": "truyenfull.com",
     "keys": [
-      "truyenfull.io",
+      "truyenf.com",
       "truyenfull.com",
       "truyenfull1.com",
       "truyenfull3.com",
