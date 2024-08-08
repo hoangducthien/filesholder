@@ -281,7 +281,7 @@
     }
   },
   {
-    "domain": "truyenfull.vn",
+    "domain": "truyenfull.io",
     "key": "truyenfull.vn",
     "keys": [
       "truyenfull.vn",
@@ -333,7 +333,7 @@
     "chapter_ignore_domain": true
   },
   {
-    "domain": "truyenfull.com",
+    "domain": "truyenf.com",
     "keys": [
       "truyenf.com",
       "truyenfull.com",
@@ -669,7 +669,7 @@
     "chapter_ignore_domain": true
   },
   {
-    "domain": "metruyenfull.com",
+    "domain": "metruyenfull.org",
     "key": "metruyenfull",
     "title": {
       "start": "<title>",
