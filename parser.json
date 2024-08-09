@@ -281,7 +281,7 @@
     }
   },
   {
-    "domain": "truyenfull.io",
+    "domain": "truyenfull.vn",
     "key": "truyenfull.vn",
     "keys": [
       "truyenfull.vn",
@@ -333,7 +333,7 @@
     "chapter_ignore_domain": true
   },
   {
-    "domain": "truyenf.com",
+    "domain": "truyenfull.com",
     "keys": [
       "truyenf.com",
       "truyenfull.com",
@@ -459,6 +459,10 @@
         "start": "<div style",
         "middle": "",
         "end": "</div>"
+      },
+      {
+        "start": "!function",
+        "end": "document);"
       },
       {
         "start": "<div id",
@@ -669,7 +673,7 @@
     "chapter_ignore_domain": true
   },
   {
-    "domain": "metruyenfull.org",
+    "domain": "metruyenfull.com",
     "key": "metruyenfull",
     "title": {
       "start": "<title>",
