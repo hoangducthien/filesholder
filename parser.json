@@ -802,7 +802,6 @@
     },
     "content": {
       "start": "<div class=\"truyen\">",
-      "middle": "</script>",
       "end": "</div>"
     },
     "content_removes": [
