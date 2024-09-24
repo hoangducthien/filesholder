@@ -2,6 +2,7 @@
   {
     "domain": "dtruyen.com",
     "key": "dtruyen.com",
+    "keys": ["dtruyen.net"],
     "title": {
       "start": "<p class=\"story-title\">",
       "middle": "title=\"",
