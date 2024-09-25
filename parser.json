@@ -79,52 +79,7 @@
     }
   },
   {
-    "domain": "mtccv.com",
-    "key": "mtccv",
-    "title": {
-      "start": "<i class=\"nh-icon icon-book mr-2\">",
-      "middle": "</i>",
-      "end": "</a>"
-    },
-    "chapter": {
-      "start": "nh-read__title\">",
-      "middle": "",
-      "end": "</div>"
-    },
-    "content": {
-      "start": "class=\"nh-read__content post-body\"",
-      "middle": "\">",
-      "end": "<div class=\"d-flex justify-content-center mt-5\">"
-    },
-    "content_removes": [
-      {
-        "start": "<div class=",
-        "middle": "",
-        "end": "</div><br>"
-      },
-      {
-        "start": "var bsWrapAds",
-        "middle": "",
-        "end": ",\"[yo_page_url]\",\"[width]\",\"[height]\"]);"
-      },
-      {
-        "start": "<div id=",
-        "middle": "",
-        "end": "</div><br>"
-      },
-      {
-        "start": "<a href=",
-        "middle": "",
-        "end": "</a>"
-      }
-    ],
-    "content_replaces": [
-      "— QUẢNG CÁO —",
-      "<br>"
-    ]
-  },
-  {
-    "domain": "metruyencv.info",
+    "domain": "metruyencv.com",
     "key": "metruyencv",
     "title": {
       "start": "<h1 class=\"text-lg text-center text-balance\"><a class=\"text-title font-semibold\"",
@@ -137,7 +92,7 @@
     },
     "content": {
       "start": "<div data-x-bind=\"ChapterContent\" class=\"break-words\">",
-      "end": "</div><div id=\"load-more\""
+      "end": "</div><div"
     },
     "content_removes": [
       {
@@ -282,8 +237,7 @@
     }
   },
   {
-    "domain": "truyenfull.vn",
-    "key": "truyenfull.vn",
+    "domain": "truyenfull.io",
     "keys": [
       "truyenfull.vn",
       "truyenfull.io"
@@ -334,14 +288,9 @@
     "chapter_ignore_domain": true
   },
   {
-    "domain": "truyenfull.com",
+    "domain": "truyenfull.tv",
     "keys": [
-      "truyenf.com",
-      "truyenfull.com",
-      "truyenfull.io",
-      "truyenfull1.com",
-      "truyenfull3.com",
-      "truyenfull4.com"
+      "truyenfull.tv"
     ],
     "title": {
       "start": "<a class=\"truyen-title\"",
@@ -640,6 +589,12 @@
     "skip_menu": true,
     "data_ready_checker": [
       "Đang Tải Nội Dung Chương"
+    ],
+    "content_removes": [
+      {
+        "start": "https",
+        "end": "com"
+      }
     ]
   },
   {
@@ -675,7 +630,7 @@
     "chapter_ignore_domain": true
   },
   {
-    "domain": "metruyenfull.com",
+    "domain": "metruyenfull.org",
     "key": "metruyenfull",
     "title": {
       "start": "<title>",
@@ -683,9 +638,9 @@
       "end": "</title>"
     },
     "content": {
-      "start": "<div id=\"chapter-c\" class=\"chapter-c\"",
-      "middle": "Để phòng website đổi tên miền khác",
-      "end": "</p><img"
+      "start": "<div class=\"ccc chaptercontent ccc\"",
+      "middle": "",
+      "end": "( Tấu chương xong )"
     },
     "content_removes": [
       {
@@ -694,7 +649,7 @@
         "end": "</div>"
       },
       {
-        "start": "<div id",
+        "start": "<div>",
         "middle": "",
         "end": "</div>"
       },
