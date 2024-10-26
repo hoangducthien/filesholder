@@ -1,42 +1,5 @@
 [
   {
-    "domain": "dtruyen.com",
-    "key": "dtruyen.com",
-    "title": {
-      "start": "<p class=\"story-title\">",
-      "middle": "title=\"",
-      "end": "\">"
-    },
-    "chapter": {
-      "start": "<h2 class=\"chapter-title\">",
-      "middle": "",
-      "end": "</h2>"
-    },
-    "content": {
-      "start": "<div id=\"chapter-content\"",
-      "middle": "\">",
-      "end": "<p class=\"text-webtruyen\">"
-    },
-    "next_button": {
-      "start": "<i class=\"fa-cog\"></i></a> <a href=\"",
-      "middle": "",
-      "end": "\" title=\""
-    },
-    "pre_button": {
-      "start": "<div class=\"chapter-button clearfix\"> <a href=\"",
-      "middle": "<a href=\"",
-      "end": "\" title="
-    },
-    "chapter_ignore_domain": true,
-    "content_removes": [
-      {
-        "start": "<div style=",
-        "middle": "",
-        "end": "</iframe> </div>"
-      }
-    ]
-  },
-  {
     "domain": "truyen.tangthuvien.vn",
     "key": "tangthuvien",
     "title": {
