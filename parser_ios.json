@@ -23,6 +23,29 @@
     ]
   },
   {
+    "domain": "truyen.tangthuvien.vn",
+    "key": "tangthuvien",
+    "title": {
+      "start": "<h1 class=\"truyen-title\">",
+      "middle": "title=\"",
+      "end": "\">"
+    },
+    "chapter": {
+      "start": "<h1 class=\"truyen-title\">",
+      "middle": "<h2>",
+      "end": "</h2>"
+    },
+    "content": {
+      "start": "<div class=\"box-chap ",
+      "middle": ">",
+      "end": "</div>"
+    },
+    "content_removes": [
+    ],
+    "content_replaces": [
+    ]
+  },
+  {
     "domain": "wikisach.net",
     "key": "wiki",
     "title": {
