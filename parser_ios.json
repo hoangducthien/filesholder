@@ -1,25 +1,40 @@
 [
   {
-    "domain": "truyen.tangthuvien.vn",
-    "key": "tangthuvien",
+    "domain": "dtruyen.net",
+    "key": "dtruyen.net",
+    "keys": ["dtruyen.net"],
     "title": {
-      "start": "<h1 class=\"truyen-title\">",
+      "start": "<p class=\"story-title\">",
       "middle": "title=\"",
       "end": "\">"
     },
     "chapter": {
-      "start": "<h1 class=\"truyen-title\">",
-      "middle": "<h2>",
+      "start": "<h2 class=\"chapter-title\">",
+      "middle": "",
       "end": "</h2>"
     },
     "content": {
-      "start": "<div class=\"box-chap ",
-      "middle": ">",
-      "end": "</div>"
+      "start": "<div id=\"chapter-content\"",
+      "middle": "\">",
+      "end": "<p class=\"text-webtruyen\">"
     },
+    "next_button": {
+      "start": "<i class=\"fa-cog\"></i></a> <a href=\"",
+      "middle": "",
+      "end": "\" title=\""
+    },
+    "pre_button": {
+      "start": "<div class=\"chapter-button clearfix\"> <a href=\"",
+      "middle": "<a href=\"",
+      "end": "\" title="
+    },
+    "chapter_ignore_domain": true,
     "content_removes": [
-    ],
-    "content_replaces": [
+      {
+        "start": "<div style=",
+        "middle": "",
+        "end": "</iframe> </div>"
+      }
     ]
   },
   {
