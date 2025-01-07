@@ -128,7 +128,10 @@
       "action": "1"
     },
     "use_webview": true,
-    "use_html_parser": true
+    "use_html_parser": true,
+    "data_loading_checker": [
+      "id=\"control-chap\""
+    ]
   },
   {
     "domain": "truyenwikidich.net",
@@ -187,7 +190,36 @@
       "selector": "a.bg-hg_color_2.text-white.flex.items-center",
       "action": 1
     },
-    "content_replaces": ["trước sau"]
+    "content_replaces": [
+      "trước sau"
+    ]
+  },
+  {
+    "domain": "lightnovel.com.vn",
+    "key": "lightnovel.com.vn",
+    "use_webview": true,
+    "use_html_parser": true,
+    "title": {
+      "selector": "h1"
+    },
+    "chapter": {
+      "selector": "h2"
+    },
+    "content": {
+      "selector": "#chapterContent"
+    },
+    "next_button": {
+      "selector": ".pager-chapter_button_link__z3uGB",
+      "action": 1,
+      "element_indexed": 2
+    },
+    "pre_button": {
+      "selector": ".pager-chapter_button_link__z3uGB",
+      "action": 1
+    },
+    "content_replaces": [
+      "trước sau"
+    ]
   },
   {
     "domain": "truyenfull.io",
@@ -469,7 +501,9 @@
       "action": 0
     },
     "split": ",",
-    "data_ready_checker": ["div id=\"encrypted-content\" style=\"display: none;\""]
+    "data_ready_checker": [
+      "div id=\"encrypted-content\" style=\"display: none;\""
+    ]
   },
   {
     "domain": "atruyen.net",
@@ -504,7 +538,9 @@
       "Đang Tải Nội Dung Chương"
     ],
     "content_replaces": [
-      "Tắt Edit (Giảm Lag)"
+      "Tắt Edit (Giảm Lag)",
+      "https://www.mfbqg.com.",
+      "https://m.mfbqg.com"
     ]
   },
   {
@@ -622,36 +658,39 @@
   {
     "domain": "metruyenchu.com.vn",
     "key": "metruyenchu.com.vn",
+    "use_html_parser": true,
     "title": {
-      "start": "<h1 class=\"current-book\"><a href=\"",
-      "middle": "\">",
-      "end": "</a></h1>"
+      "selector": "h1"
     },
     "chapter": {
-      "start": "<h2 class=\"current-chapter\"> <a href=\"",
-      "middle": "\">",
-      "end": "</a></h2>"
+      "selector": "h2"
     },
     "content": {
-      "start": "<div class=\"truyen\">",
-      "end": "</div>"
+      "selector": "main"
     },
+    "content_replaces": [
+      "<< Chương trước",
+      "Chương tiếp >>",
+      "A A A"
+    ],
     "content_removes": [
       {
-        "start": "<div",
-        "middle": "",
-        "end": "</div>"
+        "start": "Bạn có thể dùng phím mũi tên",
+        "end": "Tăng font"
+      },
+      {
+        "start": "Mê Truyện Chữ",
+        "end": "Chương tiếp >>"
       }
     ],
     "next_button": {
-      "start": "btn-dschuong\"></a>",
-      "middle": "<a href='",
-      "end": "' class="
+      "selector": "#gotochap a",
+      "value": "href",
+      "element_indexed": 2
     },
     "pre_button": {
-      "start": "<div class=\"chapter_control\" id=\"gotochap\">",
-      "middle": "<a href='",
-      "end": "' class="
+      "selector": "#gotochap a",
+      "value": "href"
     }
   }
 ]
