@@ -225,7 +225,8 @@
     "domain": "truyenfull.io",
     "keys": [
       "truyenfull.vn",
-      "truyenfull.io"
+      "truyenfull.io",
+      "truyenfull.bio"
     ],
     "title": {
       "start": "<a class=\"truyen-title\"",
