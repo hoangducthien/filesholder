@@ -492,12 +492,12 @@
       "selector": "#noi-dung"
     },
     "next_button": {
-      "selector": ".page-prev",
+      "selector": ".page-next",
       "value": "href",
       "action": 0
     },
     "pre_button": {
-      "selector": ".page-next",
+      "selector": ".page-prev",
       "value": "href",
       "action": 0
     },
