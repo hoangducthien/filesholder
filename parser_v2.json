@@ -155,7 +155,6 @@
     ],
     "content_replaces": [
     ],
-    "split": "\n\n",
     "next_button": {
       "start": "<a class=\"btn-bot\" href=\"",
       "middle": "",
@@ -501,7 +500,6 @@
       "value": "href",
       "action": 0
     },
-    "split": ",",
     "data_ready_checker": [
       "div id=\"encrypted-content\" style=\"display: none;\""
     ]
