@@ -1,46 +1,6 @@
 [
   {
-    "domain": "dtruyen.com",
-    "key": "dtruyen.com",
-    "keys": [
-      "dtruyen.net"
-    ],
-    "title": {
-      "start": "<p class=\"story-title\">",
-      "middle": "title=\"",
-      "end": "\">"
-    },
-    "chapter": {
-      "start": "<h2 class=\"chapter-title\">",
-      "middle": "",
-      "end": "</h2>"
-    },
-    "content": {
-      "start": "<div id=\"chapter-content\"",
-      "middle": "\">",
-      "end": "<p class=\"text-webtruyen\">"
-    },
-    "next_button": {
-      "start": "<i class=\"fa-cog\"></i></a> <a href=\"",
-      "middle": "",
-      "end": "\" title=\""
-    },
-    "pre_button": {
-      "start": "<div class=\"chapter-button clearfix\"> <a href=\"",
-      "middle": "<a href=\"",
-      "end": "\" title="
-    },
-    "chapter_ignore_domain": true,
-    "content_removes": [
-      {
-        "start": "<div style=",
-        "middle": "",
-        "end": "</iframe> </div>"
-      }
-    ]
-  },
-  {
-    "domain": "truyenyy.pro",
+    "domain": "truyenyy.xyz",
     "key": "truyenyy",
     "title": {
       "start": "<h1 class=\"chap-title\">",
@@ -168,32 +128,6 @@
     "skip_menu": true
   },
   {
-    "domain": "metruyenchu.vn",
-    "key": "metruyenchu.vn",
-    "use_webview": true,
-    "use_html_parser": true,
-    "title": {
-      "selector": "h1"
-    },
-    "chapter": {
-      "selector": "h2"
-    },
-    "content": {
-      "selector": "article"
-    },
-    "next_button": {
-      "selector": "span.bg-hg_color_2.text-white.flex.items-center",
-      "action": 1
-    },
-    "pre_button": {
-      "selector": "a.bg-hg_color_2.text-white.flex.items-center",
-      "action": 1
-    },
-    "content_replaces": [
-      "trước sau"
-    ]
-  },
-  {
     "domain": "lightnovel.com.vn",
     "key": "lightnovel.com.vn",
     "use_webview": true,
@@ -224,9 +158,8 @@
     "domain": "truyenfull.io",
     "keys": [
       "truyenfull.vn",
-      "truyenfull.io",
-      "truyenfull.bio",
-      "truyenfull.vision"
+      "truyenfull.vision",
+      "truyenfull.bio"
     ],
     "title": {
       "start": "<a class=\"truyen-title\"",
@@ -274,85 +207,7 @@
     "chapter_ignore_domain": true
   },
   {
-    "domain": "truyenfull.tv",
-    "keys": [
-      "truyenfull.tv"
-    ],
-    "title": {
-      "start": "<a class=\"truyen-title\"",
-      "middle": "title=\"",
-      "end": "\">"
-    },
-    "chapter": {
-      "start": "<a class=\"chapter-title\"",
-      "middle": "title=\"",
-      "end": "\">"
-    },
-    "content": {
-      "start": "<div id=\"chapter-c\"",
-      "middle": "\">",
-      "end": "Chúc cả nhà "
-    },
-    "content_removes": [
-      {
-        "start": "<div style",
-        "middle": "",
-        "end": "</div>"
-      },
-      {
-        "start": "<div id",
-        "middle": "",
-        "end": "</div>"
-      },
-      {
-        "start": "<div class",
-        "middle": "",
-        "end": "</div>"
-      }
-    ],
-    "content_replaces": [
-      "</br>"
-    ],
-    "next_button": {
-      "start": "<a class=\"btn btn-success btn-chapter-nav\" href=\"",
-      "end": "\" title="
-    },
-    "pre_button": {
-      "start": "<a class=\"btn btn-success btn-chapter-nav\" href=\"",
-      "end": "\" title="
-    },
-    "chapter_ignore_domain": true
-  },
-  {
-    "domain": "trumtruyen.app",
-    "use_webview": true,
-    "use_html_parser": true,
-    "keys": [
-      "trumtruyen"
-    ],
-    "title": {
-      "selector": "a.truyen-title"
-    },
-    "chapter": {
-      "selector": "a.chapter-title"
-    },
-    "content": {
-      "selector": "#chapter-c"
-    },
-    "next_button": {
-      "selector": "#next_chap",
-      "value": "href",
-      "action": 0
-    },
-    "pre_button": {
-      "selector": "#prev_chap",
-      "value": "href",
-      "action": 0
-    },
-    "chapter_ignore_domain": true
-  },
-  {
-    "domain": "gicungco.org",
+    "domain": "ntruyen.top",
     "key": "",
     "keys": [
       "gicungco",
@@ -412,8 +267,7 @@
     "chapter_ignore_domain": true
   },
   {
-    "domain": "truyenhdx.com",
-    "key": "truyenhdx",
+    "domain": "truyenhdt.com",
     "keys": [
       "truyenhdt"
     ],
