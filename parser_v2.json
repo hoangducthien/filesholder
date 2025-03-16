@@ -81,11 +81,11 @@
     },
     "next_button": {
       "selector": ".pull-right",
-      "action": 1
+      "action": "1"
     },
     "pre_button": {
       "selector": ".control-chap a",
-      "action": 1
+      "action": "1"
     },
     "use_webview": true,
     "use_html_parser": true,
@@ -544,6 +544,31 @@
     },
     "pre_button": {
       "selector": "#gotochap a",
+      "value": "href"
+    }
+  },
+  {
+    "domain": "doctruyenchufull.club",
+    "keys": ["doctruyenchufull"],
+    "use_html_parser": true,
+    "title": {
+      "selector": ".blog-post-header strong",
+      "element_indexed": 0
+    },
+    "chapter": {
+      "selector": ".blog-post-header strong",
+      "element_indexed": 1
+    },
+    "content": {
+      "selector": ".blog-post-body"
+    },
+    "next_button": {
+      "selector": ".nav-link-next",
+      "value": "href"
+    },
+    "chapter_ignore_domain": true,
+    "pre_button": {
+      "selector": ".nav-link-prev",
       "value": "href"
     }
   }
