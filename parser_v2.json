@@ -155,11 +155,10 @@
     ]
   },
   {
-    "domain": "truyenfull.io",
+    "domain": "truyenfull.vision",
     "keys": [
       "truyenfull.vn",
-      "truyenfull.vision",
-      "truyenfull.bio"
+      "truyenfull.vision"
     ],
     "title": {
       "start": "<a class=\"truyen-title\"",
