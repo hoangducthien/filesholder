@@ -1,67 +1,47 @@
 [
   {
-    "domain": "dtruyen.net",
-    "key": "dtruyen.net",
-    "keys": ["dtruyen.net"],
+    "domain": "truyenyy.xyz",
+    "key": "truyenyy",
     "title": {
-      "start": "<p class=\"story-title\">",
-      "middle": "title=\"",
-      "end": "\">"
+      "start": "<h1 class=\"chap-title\">",
+      "middle": "</span>",
+      "end": "</h1>"
     },
     "chapter": {
-      "start": "<h2 class=\"chapter-title\">",
+      "start": "<h1 class=\"chap-title\">\n<span>",
       "middle": "",
-      "end": "</h2>"
+      "end": "</span>"
     },
     "content": {
-      "start": "<div id=\"chapter-content\"",
+      "start": "<div id=\"inner_chap_content_1",
       "middle": "\">",
-      "end": "<p class=\"text-webtruyen\">"
-    },
-    "next_button": {
-      "start": "<i class=\"fa-cog\"></i></a> <a href=\"",
-      "middle": "",
-      "end": "\" title=\""
-    },
-    "pre_button": {
-      "start": "<div class=\"chapter-button clearfix\"> <a href=\"",
-      "middle": "<a href=\"",
-      "end": "\" title="
-    },
-    "chapter_ignore_domain": true,
-    "content_removes": [
-      {
-        "start": "<div style=",
-        "middle": "",
-        "end": "</iframe> </div>"
-      }
-    ]
-  },
-  {
-    "domain": "truyen.tangthuvien.vn",
-    "key": "tangthuvien",
-    "title": {
-      "start": "<h1 class=\"truyen-title\">",
-      "middle": "title=\"",
-      "end": "\">"
-    },
-    "chapter": {
-      "start": "<h1 class=\"truyen-title\">",
-      "middle": "<h2>",
-      "end": "</h2>"
-    },
-    "content": {
-      "start": "<div class=\"box-chap ",
-      "middle": ">",
       "end": "</div>"
     },
     "content_removes": [
+      {
+        "start": "<div class=",
+        "middle": "",
+        "end": "</ins></div>"
+      },
+      {
+        "start": "<style",
+        "middle": "",
+        "end": "</style>"
+      }
     ],
-    "content_replaces": [
-    ]
+    "next_button": {
+      "start": "<a class=\"weui-btn weui-btn_primary\" href=\"/",
+      "middle": "",
+      "end": "\">"
+    },
+    "pre_button": {
+      "start": "<a class=\"weui-btn weui-btn_default\" href=\"/",
+      "middle": "",
+      "end": "\">"
+    }
   },
   {
-    "domain": "wikisach.net",
+    "domain": "truyenwikidich.net",
     "key": "wiki",
     "title": {
       "start": "<p class=\"book-title\" style=\"font-size: 1.4",
@@ -78,11 +58,8 @@
       "middle": "\">",
       "end": "</div>"
     },
-    "content_removes": [
-    ],
-    "content_replaces": [
-    ],
-    "split": "\n\n",
+    "content_removes": [],
+    "content_replaces": [],
     "next_button": {
       "start": "<a class=\"btn-bot\" href=\"",
       "middle": "",
