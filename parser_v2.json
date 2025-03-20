@@ -367,7 +367,7 @@
       "atruyen"
     ],
     "title": {
-      "selector": "h1.m-5"
+      "selector": "h1.m-5 a"
     },
     "chapter": {
       "selector": "#chapter_title"
