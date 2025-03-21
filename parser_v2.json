@@ -41,34 +41,6 @@
     }
   },
   {
-    "domain": "metruyencv.com",
-    "key": "metruyencv",
-    "title": {
-      "start": "<h1 class=\"text-lg text-center text-balance\"><a class=\"text-title font-semibold\"",
-      "middle": "\">",
-      "end": "</a></h1>"
-    },
-    "chapter": {
-      "start": "<h2 class=\"text-center text-gray-600 dark:text-gray-400 text-balance\">",
-      "end": "</h2>"
-    },
-    "content": {
-      "start": "<div data-x-bind=\"ChapterContent\" class=\"break-words\">",
-      "end": "</div><div"
-    },
-    "content_removes": [
-      {
-        "start": "<div",
-        "middle": "",
-        "end": "</div>"
-      }
-    ],
-    "content_replaces": [
-      "— QUẢNG CÁO —",
-      "<br>"
-    ]
-  },
-  {
     "domain": "tangthuvien.net",
     "key": "tangthuvien",
     "chapter": {
@@ -111,10 +83,8 @@
       "middle": "\">",
       "end": "</div>"
     },
-    "content_removes": [
-    ],
-    "content_replaces": [
-    ],
+    "content_removes": [],
+    "content_replaces": [],
     "next_button": {
       "start": "<a class=\"btn-bot\" href=\"",
       "middle": "",
@@ -207,62 +177,31 @@
   },
   {
     "domain": "ntruyen.top",
-    "key": "",
     "keys": [
       "gicungco",
       "ntruyen"
     ],
     "title": {
-      "start": "id=\"story_name\" value=\"",
-      "end": "\" style="
+      "selector": "#story_name",
+      "value": "value"
+    },
+    "chapter": {
+      "selector": ".chapter-infos h1"
     },
     "content": {
-      "start": "<div id=\"chapter-content\">",
-      "middle": "<p>",
-      "end": "<div class=\"chapter-direction bot\">"
+      "selector": "#chapter-content"
     },
-    "content_removes": [
-      {
-        "start": "<div style",
-        "middle": "",
-        "end": "</div>"
-      },
-      {
-        "start": "!function",
-        "end": "document);"
-      },
-      {
-        "start": "<div id",
-        "middle": "",
-        "end": "</div>"
-      },
-      {
-        "start": "<div class",
-        "middle": "",
-        "end": "</div>"
-      },
-      {
-        "start": "googletag",
-        "middle": "",
-        "end": "});"
-      },
-      {
-        "start": "<script>",
-        "middle": "",
-        "end": "</script>"
-      }
-    ],
     "next_button": {
-      "start": "<i class=\"far fa-list-alt",
-      "middle": "<a href=\"",
-      "end": "\" class=\""
+      "selector": ".chapter-direction a",
+      "element_indexed": 2,
+      "value": "href"
     },
     "pre_button": {
-      "start": "<div class=\"chapter-direction",
-      "middle": "<a href=\"",
-      "end": "\" class=\""
+      "selector": ".chapter-direction a",
+      "value": "href"
     },
     "use_webview": false,
+    "use_html_parser": true,
     "chapter_ignore_domain": true
   },
   {
@@ -299,36 +238,24 @@
   {
     "domain": "sstruyen.vn",
     "key": "sstruyen",
+    "use_html_parser": true,
     "title": {
-      "start": "<h1 class=rv-full-story-title>",
-      "middle": "",
-      "end": "</h1>"
+      "selector": "h1.rv-full-story-title"
     },
     "chapter": {
-      "start": "<div class=rv-chapt-title><h2><a href=\"\" title=\"\">",
-      "middle": "",
-      "end": "</a></h2></div>"
+      "selector": ".rv-chapt-title h2"
     },
     "content": {
-      "start": "<div class=\"content container1\">",
-      "middle": ">",
-      "end": "</br></div>"
+      "selector": ".content"
     },
-    "content_removes": [
-      {
-        "start": "<p style",
-        "middle": "",
-        "end": ";\">"
-      },
-      {
-        "start": "<iframe",
-        "middle": "",
-        "end": "</iframe"
-      }
-    ],
-    "content_replaces": [
-      "<br>"
-    ]
+    "next_button": {
+      "selector": ".next a",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": ".prev a",
+      "value": "href"
+    }
   },
   {
     "domain": "bnsach.com",
@@ -422,7 +349,7 @@
     "chapter_ignore_domain": true
   },
   {
-    "domain": "metruyenfull.org",
+    "domain": "metruyenfull.net",
     "key": "metruyenfull",
     "use_html_parser": true,
     "use_webview": true,
@@ -449,62 +376,26 @@
   {
     "domain": "tytnovel.xyz",
     "key": "tytnovel",
+    "use_html_parser": true,
     "title": {
-      "start": "<a class=\"truyen-title\"",
-      "middle": "title=\"",
-      "end": "\">"
+      "selector": ".vstack a"
     },
     "chapter": {
-      "start": "<a class=\"chapter-title\"",
-      "middle": "title=\"",
-      "end": "\">"
+      "selector": ".vstack a",
+      "element_indexed": 1
     },
     "content": {
-      "start": "<div id=\"chapter-c\" class=\"chapter-c",
-      "middle": "\">",
-      "end": "</div>"
+      "selector": "#chapterContent"
     },
-    "content_removes": [
-      {
-        "start": "<div style",
-        "middle": "",
-        "end": "</div>"
-      },
-      {
-        "start": "<div id",
-        "middle": "",
-        "end": "</div>"
-      },
-      {
-        "start": "<div class",
-        "middle": "",
-        "end": "</div>"
-      },
-      {
-        "start": "<p class=",
-        "middle": "",
-        "end": "mb-8\">"
-      },
-      {
-        "start": "<span",
-        "end": "</span>"
-      },
-      {
-        "start": "</",
-        "middle": "",
-        "end": "p>"
-      }
-    ],
-    "content_replaces": [
-      "</br>"
-    ],
     "next_button": {
-      "start": "</select><a class=\"btn btn-link\" href=\"",
-      "end": "\" title=\""
+      "selector": ".btn-outline-primary",
+      "value": "href",
+      "element_indexed": 2
     },
     "pre_button": {
-      "start": "<div class=\"btn-group\"><a class=\"btn btn-link\" href=\"",
-      "end": "\" title="
+      "selector": ".btn-outline-primary",
+      "value": "href",
+      "element_indexed": 1
     },
     "chapter_ignore_domain": true
   },
@@ -548,7 +439,9 @@
   },
   {
     "domain": "doctruyenchufull.club",
-    "keys": ["doctruyenchufull"],
+    "keys": [
+      "doctruyenchufull"
+    ],
     "use_html_parser": true,
     "title": {
       "selector": ".blog-post-header strong",
