@@ -2,42 +2,24 @@
   {
     "domain": "truyenyy.xyz",
     "key": "truyenyy",
+    "use_html_parser": true,
     "title": {
-      "start": "<h1 class=\"chap-title\">",
-      "middle": "</span>",
-      "end": "</h1>"
+      "selector": "h1"
     },
     "chapter": {
-      "start": "<h1 class=\"chap-title\">\n<span>",
-      "middle": "",
-      "end": "</span>"
+      "selector": "h2"
     },
     "content": {
-      "start": "<div id=\"inner_chap_content_1",
-      "middle": "\">",
-      "end": "</div>"
+      "selector": "#inner_chap_content_1"
     },
-    "content_removes": [
-      {
-        "start": "<div class=",
-        "middle": "",
-        "end": "</ins></div>"
-      },
-      {
-        "start": "<style",
-        "middle": "",
-        "end": "</style>"
-      }
-    ],
     "next_button": {
-      "start": "<a class=\"weui-btn weui-btn_primary\" href=\"/",
-      "middle": "",
-      "end": "\">"
+      "selector": ".weui-btn",
+      "element_indexed": 1,
+      "value": "href"
     },
     "pre_button": {
-      "start": "<a class=\"weui-btn weui-btn_default\" href=\"/",
-      "middle": "",
-      "end": "\">"
+      "selector": ".weui-btn",
+      "value": "href"
     }
   },
   {
