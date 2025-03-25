@@ -1,5 +1,37 @@
 [
   {
+    "domain": "truyenwikidich.net",
+    "key": "wiki",
+    "title": {
+      "start": "<p class=\"book-title\" style=\"font-size: 1.4",
+      "middle": "\">",
+      "end": "</p>"
+    },
+    "chapter": {
+      "start": "<p class=\"book-title\" style=\"font-size: 1.2",
+      "middle": "\">",
+      "end": "</p>"
+    },
+    "content": {
+      "start": "<div id=\"bookContentBody\"",
+      "middle": "\">",
+      "end": "</div>"
+    },
+    "content_removes": [],
+    "content_replaces": [],
+    "next_button": {
+      "start": "<a class=\"btn-bot\" href=\"",
+      "middle": "",
+      "end": "\" style="
+    },
+    "pre_button": {
+      "start": "<a class=\"btn-bot\" href=\"",
+      "middle": "",
+      "end": "\" style="
+    },
+    "skip_menu": true
+  },
+  {
     "domain": "truyenyy.xyz",
     "key": "truyenyy",
     "use_html_parser": true,
@@ -46,38 +78,6 @@
     "data_loading_checker": [
       "id=\"control-chap\""
     ]
-  },
-  {
-    "domain": "truyenwikidich.net",
-    "key": "wiki",
-    "title": {
-      "start": "<p class=\"book-title\" style=\"font-size: 1.4",
-      "middle": "\">",
-      "end": "</p>"
-    },
-    "chapter": {
-      "start": "<p class=\"book-title\" style=\"font-size: 1.2",
-      "middle": "\">",
-      "end": "</p>"
-    },
-    "content": {
-      "start": "<div id=\"bookContentBody\"",
-      "middle": "\">",
-      "end": "</div>"
-    },
-    "content_removes": [],
-    "content_replaces": [],
-    "next_button": {
-      "start": "<a class=\"btn-bot\" href=\"",
-      "middle": "",
-      "end": "\" style="
-    },
-    "pre_button": {
-      "start": "<a class=\"btn-bot\" href=\"",
-      "middle": "",
-      "end": "\" style="
-    },
-    "skip_menu": true
   },
   {
     "domain": "lightnovel.com.vn",
