@@ -85,30 +85,25 @@
   {
     "domain": "metruyencv.com",
     "key": "metruyencv",
+    "use_html_parser": true,
     "title": {
-      "start": "<h1 class=\"text-lg text-center text-balance\"><a class=\"text-title font-semibold\"",
-      "middle": "\">",
-      "end": "</a></h1>"
+      "selector": ".text-title"
     },
     "chapter": {
-      "start": "<h2 class=\"text-center text-gray-600 dark:text-gray-400 text-balance\">",
-      "end": "</h2>"
+      "selector": "h2"
     },
     "content": {
-      "start": "<div data-x-bind=\"ChapterContent\" class=\"break-words\">",
-      "end": "</div><div"
+      "selector": ".break-words"
     },
-    "content_removes": [
-      {
-        "start": "<div",
-        "middle": "",
-        "end": "</div>"
-      }
-    ],
-    "content_replaces": [
-      "— QUẢNG CÁO —",
-      "<br>"
-    ]
+    "next_button": {
+      "selector": "button.space-y-2",
+      "action": 1,
+      "element_indexed": 5
+    },
+    "pre_button": {
+      "selector": "button.space-y-2",
+      "action": 1
+    }
   },
   {
     "logo": "https://lightnovel.com.vn//images/lightnovel-logo_long.webp",
