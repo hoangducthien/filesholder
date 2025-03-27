@@ -147,10 +147,14 @@
         "start": "<div class",
         "middle": "",
         "end": "</div>"
+      },
+      {
+        "start": "com ",
+        "end": "html"
       }
     ],
     "content_replaces": [
-      "</br>"
+      "</br>", "Truyện được đăng tải duy nhất tại monkeydtruyen"
     ],
     "next_button": {
       "start": "<a class=\"btn btn-success btn-chapter-nav\" href=\"",
