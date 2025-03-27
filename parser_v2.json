@@ -83,6 +83,34 @@
     ]
   },
   {
+    "domain": "metruyencv.com",
+    "key": "metruyencv",
+    "title": {
+      "start": "<h1 class=\"text-lg text-center text-balance\"><a class=\"text-title font-semibold\"",
+      "middle": "\">",
+      "end": "</a></h1>"
+    },
+    "chapter": {
+      "start": "<h2 class=\"text-center text-gray-600 dark:text-gray-400 text-balance\">",
+      "end": "</h2>"
+    },
+    "content": {
+      "start": "<div data-x-bind=\"ChapterContent\" class=\"break-words\">",
+      "end": "</div><div"
+    },
+    "content_removes": [
+      {
+        "start": "<div",
+        "middle": "",
+        "end": "</div>"
+      }
+    ],
+    "content_replaces": [
+      "— QUẢNG CÁO —",
+      "<br>"
+    ]
+  },
+  {
     "logo": "https://lightnovel.com.vn//images/lightnovel-logo_long.webp",
     "domain": "lightnovel.com.vn",
     "key": "lightnovel.com.vn",
