@@ -86,6 +86,7 @@
     "domain": "metruyencv.com",
     "key": "metruyencv",
     "use_html_parser": true,
+    "use_webview": true,
     "title": {
       "selector": ".text-title"
     },
