@@ -33,6 +33,32 @@
     "skip_menu": true
   },
   {
+    "domain": "noveltoon.vn",
+    "keys": [
+      "noveltoon"
+    ],
+    "use_html_parser": true,
+    "title": {
+      "selector": ".watch-main-title"
+    },
+    "chapter": {
+      "selector": ".watch-chapter-title"
+    },
+    "content": {
+      "selector": ".watch-chapter-detail"
+    },
+    "next_button": {
+      "selector": ".bottom-bar a",
+      "value": "href",
+      "element_indexed": 1
+    },
+    "pre_button": {
+      "selector": ".bottom-bar a",
+      "value": "href"
+    },
+    "chapter_ignore_domain": true
+  },
+  {
     "logo": "https://cdnx.truyenyy.xyz/truyenyy/logos/TruyenYY-Icon-1024.png",
     "domain": "truyenyy.xyz",
     "key": "truyenyy",
@@ -178,7 +204,8 @@
       }
     ],
     "content_replaces": [
-      "</br>", "Truyện được đăng tải duy nhất tại monkeydtruyen"
+      "</br>",
+      "Truyện được đăng tải duy nhất tại monkeydtruyen"
     ],
     "next_button": {
       "start": "<a class=\"btn btn-success btn-chapter-nav\" href=\"",
