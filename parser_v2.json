@@ -196,53 +196,24 @@
       "truyenfull.vision"
     ],
     "title": {
-      "start": "<a class=\"truyen-title\"",
-      "middle": "title=\"",
-      "end": "\">"
+      "selector": ".truyen-title"
     },
     "chapter": {
-      "start": "<a class=\"chapter-title\"",
-      "middle": "title=\"",
-      "end": "\">"
+      "selector": ".chapter-title"
     },
     "content": {
-      "start": "<div id=\"chapter-c\"",
-      "middle": "</div>",
-      "end": "</div><hr class=\"chapter-end\""
+      "selector": "#chapter-c"
     },
-    "content_removes": [
-      {
-        "start": "<div style",
-        "middle": "",
-        "end": "</div>"
-      },
-      {
-        "start": "<div id",
-        "middle": "",
-        "end": "</div>"
-      },
-      {
-        "start": "<div class",
-        "middle": "",
-        "end": "</div>"
-      },
-      {
-        "start": "com ",
-        "end": "html"
-      }
-    ],
-    "content_replaces": [
-      "</br>",
-      "Truyện được đăng tải duy nhất tại monkeydtruyen"
-    ],
     "next_button": {
-      "start": "<a class=\"btn btn-success btn-chapter-nav\" href=\"",
-      "end": "\" title="
+      "selector": ".btn-chapter-nav",
+      "value": "href",
+      "element_index": 2
     },
     "pre_button": {
-      "start": "<a class=\"btn btn-success btn-chapter-nav\" href=\"",
-      "end": "\" title="
+      "selector": ".btn-chapter-nav",
+      "value": "href"
     },
+    "use_html_parser": true,
     "chapter_ignore_domain": true
   },
   {
