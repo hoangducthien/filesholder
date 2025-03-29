@@ -64,6 +64,7 @@
     "domain": "truyenyy.xyz",
     "key": "truyenyy",
     "use_html_parser": true,
+    "use_webview": true,
     "title": {
       "selector": "h1"
     },
@@ -76,11 +77,13 @@
     "next_button": {
       "selector": ".weui-btn",
       "element_indexed": 1,
-      "value": "href"
+      "value": "href",
+      "action": 1
     },
     "pre_button": {
       "selector": ".weui-btn",
-      "value": "href"
+      "value": "href",
+      "action": 1
     }
   },
   {
