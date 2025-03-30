@@ -205,12 +205,11 @@
       "selector": "#chapter-c"
     },
     "next_button": {
-      "selector": ".btn-chapter-nav",
-      "value": "href",
-      "element_index": 2
+      "selector": "#next_chap",
+      "value": "href"
     },
     "pre_button": {
-      "selector": ".btn-chapter-nav",
+      "selector": "#prev_chap",
       "value": "href"
     },
     "use_html_parser": true,
