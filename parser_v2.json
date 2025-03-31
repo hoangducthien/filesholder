@@ -348,14 +348,12 @@
       "selector": "#chapter_text"
     },
     "next_button": {
-      "selector": ".btn-success",
-      "element_indexed": 2,
+      "selector": "#nextchapt",
       "value": "href",
       "action": 1
     },
     "pre_button": {
-      "selector": ".btn-success",
-      "element_indexed": 0,
+      "selector": "#prevchapt",
       "value": "href",
       "action": 1
     },
