@@ -430,7 +430,8 @@
       "element_indexed": 1
     },
     "content": {
-      "selector": "#chapterContent"
+      "selector": "#chapterContent",
+      "interceptor": "tytnovel"
     },
     "next_button": {
       "selector": ".btn-outline-primary",
@@ -441,6 +442,33 @@
       "selector": ".btn-outline-primary",
       "value": "href",
       "element_indexed": 1
+    },
+    "chapter_ignore_domain": true
+  },
+  {
+    "logo": "https://static.wattpad.com/img/logos/wp-logo-orange.png",
+    "domain": "wattpad.com",
+    "keys": [
+      "wattpad"
+    ],
+    "use_html_parser": true,
+    "title": {
+      "selector": "h2"
+    },
+    "chapter": {
+      "selector": "h1"
+    },
+    "content": {
+      "use_proxy": "https://novel-reader-1063262486780.asia-southeast1.run.app/redirect?origin=",
+      "selector": "p"
+    },
+    "next_button": {
+      "selector": "#story-part-navigation a",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "#story-part-navigation a",
+      "value": "href"
     },
     "chapter_ignore_domain": true
   },
@@ -491,8 +519,7 @@
     ],
     "use_html_parser": true,
     "title": {
-      "selector": ".blog-post-header strong",
-      "element_indexed": 0
+      "selector": ".blog-post-header strong"
     },
     "chapter": {
       "selector": ".blog-post-header strong",
