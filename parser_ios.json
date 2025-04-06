@@ -41,35 +41,32 @@
     }
   },
   {
-    "domain": "truyenwikidich.net",
-    "key": "wiki",
+    "domain": "ntruyen.top",
+    "keys": [
+      "gicungco",
+      "ntruyen"
+    ],
     "title": {
-      "start": "<p class=\"book-title\" style=\"font-size: 1.4",
-      "middle": "\">",
-      "end": "</p>"
+      "selector": "#story_name",
+      "value": "value"
     },
     "chapter": {
-      "start": "<p class=\"book-title\" style=\"font-size: 1.2",
-      "middle": "\">",
-      "end": "</p>"
+      "selector": ".chapter-infos h1"
     },
     "content": {
-      "start": "<div id=\"bookContentBody\"",
-      "middle": "\">",
-      "end": "</div>"
+      "selector": "#chapter-content"
     },
-    "content_removes": [],
-    "content_replaces": [],
     "next_button": {
-      "start": "<a class=\"btn-bot\" href=\"",
-      "middle": "",
-      "end": "\" style="
+      "selector": ".chapter-direction a",
+      "element_indexed": 2,
+      "value": "href"
     },
     "pre_button": {
-      "start": "<a class=\"btn-bot\" href=\"",
-      "middle": "",
-      "end": "\" style="
+      "selector": ".chapter-direction a",
+      "value": "href"
     },
-    "skip_menu": true
+    "use_webview": false,
+    "use_html_parser": true,
+    "chapter_ignore_domain": true
   }
 ]
