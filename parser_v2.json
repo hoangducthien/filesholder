@@ -459,6 +459,7 @@
       "selector": "h1"
     },
     "content": {
+      "interceptor": "wattpad",
       "use_proxy": "https://novel-reader-1063262486780.asia-southeast1.run.app/redirect?origin=",
       "selector": "p"
     },
