@@ -110,6 +110,32 @@
     }
   },
   {
+    "logo": "https://www.tvtruyen.com/public/assets/images/logo-truyentv.webp",
+    "domain": "tvtruyen.com",
+    "use_html_parser": true,
+    "use_webview": true,
+    "chapter_ignore_domain": true,
+    "key": "tvtruyen",
+    "title": {
+      "selector": ".truyen-title"
+    },
+    "data_loading_checker": ["<div id=\"chapter-content\" style=\"font-size: 16px;\">"],
+    "chapter": {
+      "selector": ".chapter-text-info"
+    },
+    "content": {
+      "selector": "#chapter-content"
+    },
+    "next_button": {
+      "selector": "#next_chap",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "#prev_chap",
+      "value": "href"
+    }
+  },
+  {
     "logo": "https://play-lh.googleusercontent.com/ySl8uNRjXrdZoY4xJZWZ0A875z4lTVLvJckaE3ECsL8OitY0g5UES9QMpNhO7OO1hH4=w480-h960-rw",
     "domain": "mobile.tangthuvien.net",
     "key": "tangthuvien",
