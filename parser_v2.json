@@ -30,8 +30,7 @@
       "middle": "",
       "end": "\" style="
     },
-    "skip_menu": true,
-    "min_ios_version": "10.0.0"
+    "skip_menu": true
   },
   {
     "logo": "https://noveltoon.vn/official/noveltoon/icon-128.png",
@@ -134,7 +133,8 @@
     "pre_button": {
       "selector": "#prev_chap",
       "value": "href"
-    }
+    },
+    "min_ios_version": "10.0.0"
   },
   {
     "logo": "https://play-lh.googleusercontent.com/ySl8uNRjXrdZoY4xJZWZ0A875z4lTVLvJckaE3ECsL8OitY0g5UES9QMpNhO7OO1hH4=w480-h960-rw",
