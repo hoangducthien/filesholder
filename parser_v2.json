@@ -30,7 +30,8 @@
       "middle": "",
       "end": "\" style="
     },
-    "skip_menu": true
+    "skip_menu": true,
+    "min_ios_version": "10.0.0"
   },
   {
     "logo": "https://noveltoon.vn/official/noveltoon/icon-128.png",
