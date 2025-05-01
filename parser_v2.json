@@ -15,12 +15,11 @@
       "selector": "#bookContentBody"
     },
     "next_button": {
-      "selector": ".btn-bot",
-      "value": "href",
-      "element_indexed": 2
+      "selector": "#btnNextChapter",
+      "value": "href"
     },
     "pre_button": {
-      "selector": ".btn-bot",
+      "selector": ".#btnPreChapter",
       "value": "href"
     }
   },
