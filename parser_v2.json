@@ -165,7 +165,7 @@
       "selector": "h2"
     },
     "content": {
-      "selector": ".break-words"
+      "selector": "#chapter-content"
     },
     "next_button": {
       "selector": "button.space-y-2",
