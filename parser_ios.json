@@ -1,43 +1,28 @@
 [
   {
-    "domain": "truyenyy.xyz",
-    "key": "truyenyy",
+    "logo": "https://www.tvtruyen.com/public/assets/images/logo-truyentv.webp",
+    "domain": "tvtruyen.com",
+    "use_html_parser": true,
+    "use_webview": true,
+    "chapter_ignore_domain": true,
+    "key": "tvtruyen",
     "title": {
-      "start": "<h1 class=\"chap-title\">",
-      "middle": "</span>",
-      "end": "</h1>"
+      "selector": ".truyen-title"
     },
+    "data_loading_checker": ["<div id=\"chapter-content\" style=\"font-size: 16px;\">"],
     "chapter": {
-      "start": "<h1 class=\"chap-title\">\n<span>",
-      "middle": "",
-      "end": "</span>"
+      "selector": ".chapter-text-info"
     },
     "content": {
-      "start": "<div id=\"inner_chap_content_1",
-      "middle": "\">",
-      "end": "</div>"
+      "selector": "#chapter-content"
     },
-    "content_removes": [
-      {
-        "start": "<div class=",
-        "middle": "",
-        "end": "</ins></div>"
-      },
-      {
-        "start": "<style",
-        "middle": "",
-        "end": "</style>"
-      }
-    ],
     "next_button": {
-      "start": "<a class=\"weui-btn weui-btn_primary\" href=\"/",
-      "middle": "",
-      "end": "\">"
+      "selector": "#next_chap",
+      "value": "href"
     },
     "pre_button": {
-      "start": "<a class=\"weui-btn weui-btn_default\" href=\"/",
-      "middle": "",
-      "end": "\">"
+      "selector": "#prev_chap",
+      "value": "href"
     }
   },
   {
