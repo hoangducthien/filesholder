@@ -1,20 +1,19 @@
 [
   {
-    "logo": "https://www.tvtruyen.com/public/assets/images/logo-truyentv.webp",
-    "domain": "tvtruyen.com",
-    "use_html_parser": true,
-    "use_webview": true,
-    "chapter_ignore_domain": true,
-    "key": "tvtruyen",
+    "logo": "https://static.truyenfull.vision/favicons/favicon-192x192.png",
+    "domain": "truyenfull.vision",
+    "keys": [
+      "truyenfull.vn",
+      "truyenfull.vision"
+    ],
     "title": {
       "selector": ".truyen-title"
     },
-    "data_loading_checker": ["<div id=\"chapter-content\" style=\"font-size: 16px;\">"],
     "chapter": {
-      "selector": ".chapter-text-info"
+      "selector": ".chapter-title"
     },
     "content": {
-      "selector": "#chapter-content"
+      "selector": "#chapter-c"
     },
     "next_button": {
       "selector": "#next_chap",
@@ -23,7 +22,9 @@
     "pre_button": {
       "selector": "#prev_chap",
       "value": "href"
-    }
+    },
+    "use_html_parser": true,
+    "chapter_ignore_domain": true
   },
   {
     "domain": "ntruyen.top",
