@@ -1,32 +1,5 @@
 [
   {
-    "logo": "https://static.truyenfull.vision/favicons/favicon-192x192.png",
-    "domain": "truyenfull.vision",
-    "keys": [
-      "truyenfull.vn",
-      "truyenfull.vision"
-    ],
-    "title": {
-      "selector": ".truyen-title"
-    },
-    "chapter": {
-      "selector": ".chapter-title"
-    },
-    "content": {
-      "selector": "#chapter-c"
-    },
-    "next_button": {
-      "selector": "#next_chap",
-      "value": "href"
-    },
-    "pre_button": {
-      "selector": "#prev_chap",
-      "value": "href"
-    },
-    "use_html_parser": true,
-    "chapter_ignore_domain": true
-  },
-  {
     "domain": "ntruyen.top",
     "keys": [
       "gicungco",
