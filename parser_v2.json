@@ -25,6 +25,31 @@
   },
   {
     "logo": "https://static.wattpad.com/img/logos/wp-logo-orange.png",
+    "domain": "wattpad.com.vn",
+    "keys": [
+      "wattpad.com.vn"
+    ],
+    "use_html_parser": true,
+    "title": {
+      "selector": ".current-book"
+    },
+    "chapter": {
+      "selector": ".current-chapter"
+    },
+    "content": {
+      "selector": ".truyen"
+    },
+    "next_button": {
+      "selector": ".next",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": ".back",
+      "value": "href"
+    }
+  },
+  {
+    "logo": "https://static.wattpad.com/img/logos/wp-logo-orange.png",
     "domain": "wattpad.com",
     "keys": [
       "wattpad.com"
