@@ -25,6 +25,34 @@
   },
   {
     "logo": "https://static.wattpad.com/img/logos/wp-logo-orange.png",
+    "domain": "wattpad.com",
+    "keys": [
+      "wattpad.com"
+    ],
+    "use_html_parser": true,
+    "title": {
+      "selector": "h2"
+    },
+    "chapter": {
+      "selector": "h1"
+    },
+    "content": {
+      "use_proxy": "https://novel-reader-1063262486780.asia-southeast1.run.app/redirect?origin=",
+      "selector": "p",
+      "interceptor": "wattpad"
+    },
+    "next_button": {
+      "selector": "#story-part-navigation a",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "#story-part-navigation a",
+      "value": "href"
+    },
+    "chapter_ignore_domain": true
+  },
+  {
+    "logo": "https://static.wattpad.com/img/logos/wp-logo-orange.png",
     "domain": "wattpad.com.vn",
     "keys": [
       "wattpad.com.vn"
@@ -483,34 +511,6 @@
       "selector": ".btn-outline-primary",
       "value": "href",
       "element_indexed": 1
-    },
-    "chapter_ignore_domain": true
-  },
-  {
-    "logo": "https://static.wattpad.com/img/logos/wp-logo-orange.png",
-    "domain": "wattpad.com",
-    "keys": [
-      "wattpad"
-    ],
-    "use_html_parser": true,
-    "title": {
-      "selector": "h2"
-    },
-    "chapter": {
-      "selector": "h1"
-    },
-    "content": {
-      "use_proxy": "https://novel-reader-1063262486780.asia-southeast1.run.app/redirect?origin=",
-      "selector": "p",
-      "interceptor": "wattpad"
-    },
-    "next_button": {
-      "selector": "#story-part-navigation a",
-      "value": "href"
-    },
-    "pre_button": {
-      "selector": "#story-part-navigation a",
-      "value": "href"
     },
     "chapter_ignore_domain": true
   },
