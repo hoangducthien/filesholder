@@ -24,6 +24,31 @@
     }
   },
   {
+    "logo": "https://static.wattpad.com/img/logos/wp-logo-orange.png",
+    "domain": "wattpad.com.vn",
+    "keys": [
+      "wattpad.com.vn"
+    ],
+    "use_html_parser": true,
+    "title": {
+      "selector": ".current-book"
+    },
+    "chapter": {
+      "selector": ".current-chapter"
+    },
+    "content": {
+      "selector": ".truyen"
+    },
+    "next_button": {
+      "selector": ".next",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": ".back",
+      "value": "href"
+    }
+  },
+  {
     "logo": "https://noveltoon.vn/official/noveltoon/icon-128.png",
     "domain": "noveltoon.vn",
     "keys": [
@@ -281,13 +306,13 @@
       "selector": ".reading"
     },
     "next_button": {
-      "selector": ".next-chap a",
+      "selector": ".next-chap-2 a",
       "action": 0,
       "value": "href",
       "element_indexed": 1
     },
     "pre_button": {
-      "selector": ".next-chap a",
+      "selector": ".next-chap-1 a",
       "action": 0,
       "value": "href",
       "element_indexed": 0
