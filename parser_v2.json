@@ -579,29 +579,28 @@
     }
   },
   {
-    "logo": "https://doctruyenchufull.club/doctruyenchufull-logo.png",
-    "domain": "doctruyenchufull.club",
+    "logo": "https://truyenchufull.info/doctruyenchufull-logo.png",
+    "domain": "truyenchufull.info",
     "keys": [
-      "doctruyenchufull"
+      "truyenchufull"
     ],
     "use_html_parser": true,
     "title": {
-      "selector": ".blog-post-header strong"
+      "selector": ".comic-chapter-title"
     },
     "chapter": {
-      "selector": ".blog-post-header strong",
-      "element_indexed": 1
+      "selector": ".chapter-title"
     },
     "content": {
-      "selector": ".blog-post-body"
+      "selector": ".chapter-content"
     },
     "next_button": {
-      "selector": ".nav-link-next",
+      "selector": ".next",
       "value": "href"
     },
     "chapter_ignore_domain": true,
     "pre_button": {
-      "selector": ".nav-link-prev",
+      "selector": ".prev",
       "value": "href"
     }
   },
