@@ -129,33 +129,6 @@
     "chapter_ignore_domain": true
   },
   {
-    "logo": "https://cdnx.truyenyy.xyz/truyenyy/logos/TruyenYY-Icon-1024.png",
-    "domain": "truyenyy.xyz",
-    "key": "truyenyy",
-    "use_html_parser": true,
-    "use_webview": true,
-    "title": {
-      "selector": "h1"
-    },
-    "chapter": {
-      "selector": "h2"
-    },
-    "content": {
-      "selector": "#inner_chap_content_1"
-    },
-    "next_button": {
-      "selector": ".weui-btn",
-      "element_indexed": 1,
-      "value": "href",
-      "action": 1
-    },
-    "pre_button": {
-      "selector": ".weui-btn",
-      "value": "href",
-      "action": 1
-    }
-  },
-  {
     "logo": "https://www.wikidich.com.vn/images/logo.png",
     "domain": "wikidich.com.vn",
     "use_html_parser": true,
