@@ -206,7 +206,7 @@
   },
   {
     "logo": "https://play-lh.googleusercontent.com/ySl8uNRjXrdZoY4xJZWZ0A875z4lTVLvJckaE3ECsL8OitY0g5UES9QMpNhO7OO1hH4=w480-h960-rw",
-    "domain": "mobile.tangthuvien.net",
+    "domain": "m.tangthuvien.net",
     "key": "tangthuvien",
     "chapter": {
       "selector": ".page-title",
@@ -256,9 +256,9 @@
     }
   },
   {
-    "logo": "https://lightnovel.com.vn//images/lightnovel-logo_long.webp",
-    "domain": "lightnovel.com.vn",
-    "key": "lightnovel.com.vn",
+    "logo": "https://cvtruyenchu.com/images/lightnovel-logo_long.webp",
+    "domain": "cvtruyenchu.com",
+    "key": "cvtruyenchu",
     "use_webview": true,
     "use_html_parser": true,
     "title": {
@@ -373,8 +373,8 @@
     "chapter_ignore_domain": true
   },
   {
-    "logo": "https://sstruyen.vn/assets/img/sstruyen_logo.png",
-    "domain": "sstruyen.vn",
+    "logo": "https://sstruyen.com.vn/assets/img/sstruyen_logo.png",
+    "domain": "sstruyen.com.vn",
     "key": "sstruyen",
     "use_html_parser": true,
     "title": {
@@ -425,43 +425,6 @@
     ]
   },
   {
-    "logo": "https://cdn.atruyen.net/_asset/img/truyentiki.png",
-    "domain": "atruyen.net",
-    "use_html_parser": true,
-    "use_webview": true,
-    "keys": [
-      "truyentiki",
-      "atruyen"
-    ],
-    "title": {
-      "selector": "h1.m-5"
-    },
-    "chapter": {
-      "selector": "#chapter_title"
-    },
-    "content": {
-      "selector": "#chapter_text"
-    },
-    "next_button": {
-      "selector": "#nextchapt",
-      "value": "href",
-      "action": 1
-    },
-    "pre_button": {
-      "selector": "#prevchapt",
-      "value": "href",
-      "action": 1
-    },
-    "data_ready_checker": [
-      "Đang Tải Nội Dung Chương"
-    ],
-    "content_replaces": [
-      "Tắt Edit (Giảm Lag)",
-      "https://www.mfbqg.com.",
-      "https://m.mfbqg.com"
-    ]
-  },
-  {
     "domain": "lovetruyen.me",
     "use_html_parser": true,
     "key": "lovetruyen",
@@ -487,9 +450,8 @@
     "chapter_ignore_domain": true
   },
   {
-    "logo": "https://metruyenfull.net/wp-content/uploads/2024/05/logo-metruyenfull.png",
-    "domain": "metruyenfull.net",
-    "key": "metruyenfull",
+    "domain": "metruyenful.com",
+    "key": "metruyenful",
     "use_html_parser": true,
     "use_webview": true,
     "title": {
@@ -580,9 +542,10 @@
   },
   {
     "logo": "https://truyenchufull.info/doctruyenchufull-logo.png",
-    "domain": "truyenchufull.info",
+    "domain": "truyenso1.com",
     "keys": [
-      "truyenchufull"
+      "truyenchufull",
+      "truyenso1"
     ],
     "use_html_parser": true,
     "title": {
