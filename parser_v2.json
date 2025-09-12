@@ -346,7 +346,7 @@
     "chapter_ignore_domain": true
   },
   {
-    "logo": "https://sstruyen.com.vn/assets/img/sstruyen_logo.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv30x4ZZLE9K-JhHGkoYPBiyGtOMhz2aGJIw&s",
     "domain": "sstruyen.com.vn",
     "key": "sstruyen",
     "use_html_parser": true,
@@ -369,7 +369,7 @@
     }
   },
   {
-    "logo": "https://bnsach.com/forum/styles/default/xenforo/bns_name-new-s.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAyjuC45TvreKA10BJMxk6a_2Wuwd7eZiIEQ&s",
     "domain": "bnsach.com",
     "key": "bnsach.com",
     "use_webview": true,
