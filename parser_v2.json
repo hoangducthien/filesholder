@@ -19,7 +19,7 @@
       "value": "href"
     },
     "pre_button": {
-      "selector": ".#btnPreChapter",
+      "selector": "#btnPreChapter",
       "value": "href"
     }
   },
@@ -161,7 +161,7 @@
     "title": {
       "selector": ".truyen-title"
     },
-    "data_loading_checker": ["<div id=\"chapter-content\" style=\"font-size: 16px;\">"],
+    "data_loading_checker": ["<div id=\"chapter-content\" style=\"font-size:"],
     "chapter": {
       "selector": ".chapter-text-info"
     },
@@ -351,20 +351,20 @@
     "key": "sstruyen",
     "use_html_parser": true,
     "title": {
-      "selector": "h1.rv-full-story-title"
+      "selector": ".current-book"
     },
     "chapter": {
-      "selector": ".rv-chapt-title h2"
+      "selector": ".current-chapter"
     },
     "content": {
-      "selector": ".content"
+      "selector": ".truyen"
     },
     "next_button": {
-      "selector": ".next a",
+      "selector": ".next",
       "value": "href"
     },
     "pre_button": {
-      "selector": ".prev a",
+      "selector": ".back",
       "value": "href"
     }
   },
@@ -435,7 +435,7 @@
       "selector": ".chapter-text"
     },
     "content": {
-      "selector": "#jstruyenkkreadcontent"
+      "selector": "#chapter-c"
     },
     "next_button": {
       "selector": ".btn-chapter-nav",
