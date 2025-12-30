@@ -284,34 +284,35 @@
     "chapter_ignore_domain": true
   },
   {
-    "logo": "https://ntruyen.top//images/nTruyen.png",
-    "domain": "ntruyen.top",
+    "logo": "https://ntruyen.biz/imgs/logo.webp",
+    "domain": "ntruyen.biz",
     "keys": [
       "gicungco",
       "ntruyen"
     ],
     "title": {
-      "selector": "#story_name",
-      "value": "value"
+      "selector": "h1"
     },
     "chapter": {
-      "selector": ".chapter-infos h1"
+      "selector": "h1"
     },
     "content": {
-      "selector": "#chapter-content"
+      "selector": ".wrapper.prose"
     },
     "next_button": {
-      "selector": ".chapter-direction a",
-      "element_indexed": 2,
-      "value": "href"
+      "selector": ".flex.items-center.justify-center.gap-2.mt-4 a",
+      "element_indexed": 1,
+      "value": "href",
+      "action": 1
     },
     "pre_button": {
-      "selector": ".chapter-direction a",
-      "value": "href"
+      "selector": ".flex.items-center.justify-center.gap-2.mt-4 a",
+      "value": "href",
+      "action": 1
     },
     "use_webview": false,
     "use_html_parser": true,
-    "chapter_ignore_domain": true
+    "chapter_ignore_domain": false
   },
   {
     "logo": "https://truyenhdt.com/wp-content/themes/truyenfull/echo/img/logo/truyenhd.png",
