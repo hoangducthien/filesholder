@@ -1,31 +1,25 @@
 [
   {
-    "domain": "ntruyen.top",
-    "keys": [
-      "gicungco",
-      "ntruyen"
-    ],
+    "logo": "https://www.wikidich.com.vn/images/logo.png",
+    "domain": "wikidich.com.vn",
+    "use_html_parser": true,
+    "key": "wikidich.com.vn",
     "title": {
-      "selector": "#story_name",
-      "value": "value"
+      "selector": "h1"
     },
     "chapter": {
-      "selector": ".chapter-infos h1"
+      "selector": "h2"
     },
     "content": {
-      "selector": "#chapter-content"
+      "selector": ".truyen"
     },
     "next_button": {
-      "selector": ".chapter-direction a",
-      "element_indexed": 2,
+      "selector": ".next",
       "value": "href"
     },
     "pre_button": {
-      "selector": ".chapter-direction a",
+      "selector": ".back",
       "value": "href"
-    },
-    "use_webview": false,
-    "use_html_parser": true,
-    "chapter_ignore_domain": true
+    }
   }
 ]
