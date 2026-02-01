@@ -40,7 +40,7 @@
     {
       "id": "duyoryx3175",
       "languageCode": "vi",
-      "displayName": "Duy Oryx",
+      "displayName": "Duy",
       "fileName": "duyoryx3175.onnx",
       "onnxUrl": "https://firebasestorage.googleapis.com/v0/b/novelreader-8fdab.firebasestorage.app/o/tts_model%2Fduyoryx3175.onnx?alt=media&token=2f004910-d8bd-4bb9-a99c-54e231b16fce",
       "jsonUrl": "https://firebasestorage.googleapis.com/v0/b/novelreader-8fdab.firebasestorage.app/o/tts_model%2Fduyoryx3175.onnx.json?alt=media&token=2bb1a776-9080-48ef-97cd-3ac564d582cb",
@@ -112,7 +112,7 @@
     {
       "id": "ngocngan3701",
       "languageCode": "vi",
-      "displayName": "Ngọc Ngân",
+      "displayName": "Ngọc Ngan",
       "fileName": "ngocngan3701.onnx",
       "onnxUrl": "https://firebasestorage.googleapis.com/v0/b/novelreader-8fdab.firebasestorage.app/o/tts_model%2Fngocngan3701.onnx?alt=media&token=9cc3668c-cf16-4c71-b2bc-35627e41908c",
       "jsonUrl": "https://firebasestorage.googleapis.com/v0/b/novelreader-8fdab.firebasestorage.app/o/tts_model%2Fngocngan3701.onnx.json?alt=media&token=3239b704-9e74-4684-b32c-c810a046686f",
