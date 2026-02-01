@@ -229,8 +229,7 @@
     }
   },
   {
-    "logo": "https://cvtruyenchu.com/images/lightnovel-logo_long.webp",
-    "domain": "cvtruyenchu.com",
+    "domain": "cvtruyenchu.org",
     "key": "cvtruyenchu",
     "use_webview": true,
     "use_html_parser": true,
@@ -241,15 +240,15 @@
       "selector": "h2"
     },
     "content": {
-      "selector": "#chapterContent"
+      "selector": ".chapter-content"
     },
     "next_button": {
-      "selector": ".pager-chapter_button_link__z3uGB",
+      "selector": ".flex.items-center.gap-2.rounded-full",
       "action": 1,
-      "element_indexed": 2
+      "element_indexed": 1
     },
     "pre_button": {
-      "selector": ".pager-chapter_button_link__z3uGB",
+      "selector": ".flex.items-center.gap-2.rounded-full",
       "action": 1
     },
     "content_replaces": [
@@ -313,38 +312,6 @@
     "use_webview": false,
     "use_html_parser": true,
     "chapter_ignore_domain": false
-  },
-  {
-    "logo": "https://truyenhdt.com/wp-content/themes/truyenfull/echo/img/logo/truyenhd.png",
-    "domain": "truyenhdt.com",
-    "keys": [
-      "truyenhdt"
-    ],
-    "use_webview": true,
-    "use_html_parser": true,
-    "title": {
-      "selector": "#views",
-      "value": "data-title"
-    },
-    "chapter": {
-      "selector": "h1"
-    },
-    "content": {
-      "selector": ".reading"
-    },
-    "next_button": {
-      "selector": ".next-chap-2 a",
-      "action": 0,
-      "value": "href",
-      "element_indexed": 1
-    },
-    "pre_button": {
-      "selector": ".next-chap-1 a",
-      "action": 0,
-      "value": "href",
-      "element_indexed": 0
-    },
-    "chapter_ignore_domain": true
   },
   {
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv30x4ZZLE9K-JhHGkoYPBiyGtOMhz2aGJIw&s",
@@ -474,6 +441,32 @@
       "element_indexed": 1
     },
     "chapter_ignore_domain": true
+  },
+  {
+    "logo": "https://truyenyy.mobi/wp-content/uploads/2025/04/truyenyy.mobi-logo-1.png",
+    "domain": "truyenyy.mobie",
+    "key": "truyenyy",
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": ".truyen-title"
+    },
+    "chapter": {
+      "selector": ".chapter-text"
+    },
+    "content": {
+      "selector": "#chapter-c"
+    },
+    "next_button": {
+      "selector": "#next_chap",
+      "value": "href",
+      "action": 1
+    },
+    "pre_button": {
+      "selector": "#prev_chap",
+      "value": "href",
+      "action": 1
+    }
   },
   {
     "logo": "https://metruyenchu.com.vn/images/logo.png",
