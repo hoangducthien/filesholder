@@ -1,562 +1,684 @@
 [
-  {
-    "logo": "https://truyenwikidich.net/static/img/logo-wiki-b.gif",
-    "domain": "truyenwikidich.net",
-    "keys": ["truyenwikidich","wikidich.info"],
-    "use_html_parser": true,
-    "title": {
-      "selector": ".book-title"
-    },
-    "chapter": {
-      "selector": ".book-title",
-      "element_indexed": 1
-    },
-    "content": {
-      "selector": "#bookContentBody"
-    },
-    "next_button": {
-      "selector": "#btnNextChapter",
-      "value": "href"
-    },
-    "pre_button": {
-      "selector": "#btnPreChapter",
-      "value": "href"
-    }
-  },
-  {
-    "logo": "https://static.wattpad.com/img/logos/wp-logo-orange.png",
-    "domain": "wattpad.com.vn",
-    "keys": [
-      "wattpad.com.vn"
-    ],
-    "use_html_parser": true,
-    "title": {
-      "selector": ".current-book"
-    },
-    "chapter": {
-      "selector": ".current-chapter"
-    },
-    "content": {
-      "selector": ".truyen"
-    },
-    "next_button": {
-      "selector": ".next",
-      "value": "href"
-    },
-    "pre_button": {
-      "selector": ".back",
-      "value": "href"
-    }
-  },
-  {
-    "logo": "https://static.wattpad.com/img/logos/wp-logo-orange.png",
-    "domain": "wattpad.com",
-    "keys": [
-      "wattpad.com"
-    ],
-    "use_html_parser": true,
-    "title": {
-      "selector": "h2"
-    },
-    "chapter": {
-      "selector": "h1"
-    },
-    "content": {
-      "use_proxy": "https://novel-reader-1063262486780.asia-southeast1.run.app/redirect?origin=",
-      "selector": "p",
-      "interceptor": "wattpad"
-    },
-    "next_button": {
-      "selector": "#story-part-navigation a",
-      "value": "href"
-    },
-    "pre_button": {
-      "selector": "#story-part-navigation a",
-      "value": "href"
-    },
-    "chapter_ignore_domain": true
-  },
-  {
-    "logo": "https://static.wattpad.com/img/logos/wp-logo-orange.png",
-    "domain": "wattpad.com.vn",
-    "keys": [
-      "wattpad.com.vn"
-    ],
-    "use_html_parser": true,
-    "title": {
-      "selector": ".current-book"
-    },
-    "chapter": {
-      "selector": ".current-chapter"
-    },
-    "content": {
-      "selector": ".truyen"
-    },
-    "next_button": {
-      "selector": ".next",
-      "value": "href"
-    },
-    "pre_button": {
-      "selector": ".back",
-      "value": "href"
-    }
-  },
-  {
-    "logo": "https://noveltoon.vn/official/noveltoon/icon-128.png",
-    "domain": "noveltoon.vn",
-    "keys": [
-      "noveltoon"
-    ],
-    "use_html_parser": true,
-    "title": {
-      "selector": ".watch-main-title"
-    },
-    "chapter": {
-      "selector": ".watch-chapter-title"
-    },
-    "content": {
-      "selector": ".watch-chapter-detail"
-    },
-    "next_button": {
-      "selector": ".bottom-bar a",
-      "value": "href",
-      "element_indexed": 1
-    },
-    "pre_button": {
-      "selector": ".bottom-bar a",
-      "value": "href"
-    },
-    "chapter_ignore_domain": true
-  },
-  {
-    "logo": "https://www.wikidich.com.vn/images/logo.png",
-    "domain": "wikidich.com.vn",
-    "use_html_parser": true,
-    "key": "wikidich.com.vn",
-    "title": {
-      "selector": "h1"
-    },
-    "chapter": {
-      "selector": "h2"
-    },
-    "content": {
-      "selector": ".truyen"
-    },
-    "next_button": {
-      "selector": ".next",
-      "value": "href"
-    },
-    "pre_button": {
-      "selector": ".back",
-      "value": "href"
-    }
-  },
-  {
-    "logo": "https://www.tvtruyen.com/public/assets/images/logo-truyentv.webp",
-    "domain": "tvtruyen.com",
-    "use_html_parser": true,
-    "use_webview": true,
-    "chapter_ignore_domain": true,
-    "key": "tvtruyen",
-    "title": {
-      "selector": ".truyen-title"
-    },
-    "data_loading_checker": ["<div id=\"chapter-content\" style=\"font-size:"],
-    "chapter": {
-      "selector": ".chapter-text-info"
-    },
-    "content": {
-      "selector": "#chapter-content"
-    },
-    "next_button": {
-      "selector": "#next_chap",
-      "value": "href"
-    },
-    "pre_button": {
-      "selector": "#prev_chap",
-      "value": "href"
-    }
-  },
-  {
-    "logo": "https://play-lh.googleusercontent.com/ySl8uNRjXrdZoY4xJZWZ0A875z4lTVLvJckaE3ECsL8OitY0g5UES9QMpNhO7OO1hH4=w480-h960-rw",
-    "domain": "m.tangthuvien.net",
-    "key": "tangthuvien",
-    "chapter": {
-      "selector": ".page-title",
-      "value": "text"
-    },
-    "content": {
-      "selector": ".chap-c",
-      "value": "text"
-    },
-    "next_button": {
-      "selector": ".pull-right",
-      "action": 1
-    },
-    "pre_button": {
-      "selector": ".control-chap a",
-      "action": 1
-    },
-    "use_webview": true,
-    "use_html_parser": true,
-    "data_loading_checker": [
-      "id=\"control-chap\""
-    ]
-  },
-  {
-    "logo": "https://assets.metruyencv.com/build/assets/logo-776b73c9.png",
-    "domain": "metruyencv.com",
-    "key": "metruyencv",
-    "use_html_parser": true,
-    "use_webview": true,
-    "title": {
-      "selector": ".text-title"
-    },
-    "chapter": {
-      "selector": "h2"
-    },
-    "content": {
-      "selector": "#chapter-content"
-    },
-    "next_button": {
-      "selector": "button.space-y-2",
-      "action": 1,
-      "element_indexed": 5
-    },
-    "pre_button": {
-      "selector": "button.space-y-2",
-      "action": 1
-    }
-  },
-  {
-    "domain": "cvtruyenchu.org",
-    "key": "cvtruyenchu",
-    "use_webview": true,
-    "use_html_parser": true,
-    "title": {
-      "selector": "h1"
-    },
-    "chapter": {
-      "selector": "h2"
-    },
-    "content": {
-      "selector": ".chapter-content"
-    },
-    "next_button": {
-      "selector": ".flex.items-center.gap-2.rounded-full",
-      "action": 1,
-      "element_indexed": 1
-    },
-    "pre_button": {
-      "selector": ".flex.items-center.gap-2.rounded-full",
-      "action": 1
-    },
-    "content_replaces": [
-      "trước sau"
-    ]
-  },
-  {
-    "logo": "https://static.truyenfull.vision/favicons/favicon-192x192.png",
-    "domain": "truyenfull.vision",
-    "keys": [
-      "truyenfull.vn",
-      "truyenfull.vision"
-    ],
-    "title": {
-      "selector": ".truyen-title"
-    },
-    "chapter": {
-      "selector": ".chapter-title"
-    },
-    "content": {
-      "selector": "#chapter-c"
-    },
-    "next_button": {
-      "selector": "#next_chap",
-      "value": "href"
-    },
-    "pre_button": {
-      "selector": "#prev_chap",
-      "value": "href"
-    },
-    "use_html_parser": true,
-    "chapter_ignore_domain": true
-  },
-  {
-    "logo": "https://ntruyen.biz/imgs/logo.webp",
-    "domain": "ntruyen.biz",
-    "keys": [
-      "gicungco",
-      "ntruyen"
-    ],
-    "title": {
-      "selector": "h1"
-    },
-    "chapter": {
-      "selector": "h1"
-    },
-    "content": {
-      "selector": ".wrapper.prose"
-    },
-    "next_button": {
-      "selector": ".flex.items-center.justify-center.gap-2.mt-4 a",
-      "element_indexed": 1,
-      "value": "href",
-      "action": 1
-    },
-    "pre_button": {
-      "selector": ".flex.items-center.justify-center.gap-2.mt-4 a",
-      "value": "href",
-      "action": 1
-    },
-    "use_webview": false,
-    "use_html_parser": true,
-    "chapter_ignore_domain": false
-  },
-  {
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv30x4ZZLE9K-JhHGkoYPBiyGtOMhz2aGJIw&s",
-    "domain": "sstruyen.com.vn",
-    "key": "sstruyen",
-    "use_html_parser": true,
-    "title": {
-      "selector": ".current-book"
-    },
-    "chapter": {
-      "selector": ".current-chapter"
-    },
-    "content": {
-      "selector": ".truyen"
-    },
-    "next_button": {
-      "selector": ".next",
-      "value": "href"
-    },
-    "pre_button": {
-      "selector": ".back",
-      "value": "href"
-    }
-  },
-  {
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAyjuC45TvreKA10BJMxk6a_2Wuwd7eZiIEQ&s",
-    "domain": "bnsach.com",
-    "key": "bnsach.com",
-    "use_webview": true,
-    "use_html_parser": true,
-    "title": {
-      "selector": "a.title"
-    },
-    "chapter": {
-      "selector": "#chuong-title"
-    },
-    "content": {
-      "selector": "#noi-dung"
-    },
-    "next_button": {
-      "selector": ".page-next",
-      "value": "href",
-      "action": 0
-    },
-    "pre_button": {
-      "selector": ".page-prev",
-      "value": "href",
-      "action": 0
-    },
-    "data_ready_checker": [
-      "div id=\"encrypted-content\" style=\"display: none;\""
-    ]
-  },
-  {
-    "domain": "lovetruyen.me",
-    "use_html_parser": true,
-    "key": "lovetruyen",
-    "title": {
-      "selector": ".story-title"
-    },
-    "chapter": {
-      "selector": ".chapter-title"
-    },
-    "content": {
-      "selector": "#chapter-content"
-    },
-    "next_button": {
-      "selector": ".chapter-button a",
-      "element_indexed": 2,
-      "value": "href"
-    },
-    "pre_button": {
-      "selector": ".chapter-button a",
-      "element_indexed": 0,
-      "value": "href"
-    },
-    "chapter_ignore_domain": true
-  },
-  {
-    "domain": "metruyenful.com",
-    "key": "metruyenful",
-    "use_html_parser": true,
-    "use_webview": true,
-    "title": {
-      "selector": ".breadcrumb a",
-      "element_indexed": 2
-    },
-    "chapter": {
-      "selector": ".chapter-text"
-    },
-    "content": {
-      "selector": "#chapter-c"
-    },
-    "next_button": {
-      "selector": ".btn-chapter-nav",
-      "element_indexed": 2,
-      "action": 1
-    },
-    "pre_button": {
-      "selector": ".btn-prev",
-      "action": 1
-    }
-  },
-  {
-    "logo": "https://tytnovel.xyz/images/logo.png",
-    "domain": "tytnovel.xyz",
-    "key": "tytnovel",
-    "use_html_parser": true,
-    "title": {
-      "selector": ".vstack a"
-    },
-    "chapter": {
-      "selector": ".vstack a",
-      "element_indexed": 1
-    },
-    "content": {
-      "selector": "#chapterContent"
-    },
-    "next_button": {
-      "selector": ".btn-outline-primary",
-      "value": "href",
-      "element_indexed": 2
-    },
-    "pre_button": {
-      "selector": ".btn-outline-primary",
-      "value": "href",
-      "element_indexed": 1
-    },
-    "chapter_ignore_domain": true
-  },
-  {
-    "logo": "https://truyenyy.mobi/wp-content/uploads/2025/04/truyenyy.mobi-logo-1.png",
-    "domain": "truyenyy.mobie",
-    "key": "truyenyy",
-    "use_html_parser": true,
-    "use_webview": true,
-    "title": {
-      "selector": ".truyen-title"
-    },
-    "chapter": {
-      "selector": ".chapter-text"
-    },
-    "content": {
-      "selector": "#chapter-c"
-    },
-    "next_button": {
-      "selector": "#next_chap",
-      "value": "href",
-      "action": 1
-    },
-    "pre_button": {
-      "selector": "#prev_chap",
-      "value": "href",
-      "action": 1
-    }
-  },
-  {
-    "logo": "https://metruyenchu.com.vn/images/logo.png",
-    "domain": "metruyenchu.com.vn",
-    "key": "metruyenchu.com.vn",
-    "use_html_parser": true,
-    "title": {
-      "selector": "h1"
-    },
-    "chapter": {
-      "selector": "h2"
-    },
-    "content": {
-      "selector": "main"
-    },
-    "content_replaces": [
-      "<< Chương trước",
-      "Chương tiếp >>",
-      "A A A"
-    ],
-    "content_removes": [
-      {
-        "start": "Bạn có thể dùng phím mũi tên",
-        "end": "Tăng font"
+    {
+        "logo": "https://truyenwikidich.net/static/img/logo-wiki-b.gif",
+        "domain": "truyenwikidich.net",
+        "keys": ["truyenwikidich","wikidich.info"],
+        "use_html_parser": true,
+        "title": {
+            "selector": ".book-title"
+        },
+        "chapter": {
+            "selector": ".book-title",
+            "element_indexed": 1
+        },
+        "content": {
+            "selector": "#bookContentBody"
+        },
+        "next_button": {
+            "selector": "#btnNextChapter",
+            "value": "href"
+        },
+        "pre_button": {
+            "selector": "#btnPreChapter",
+            "value": "href"
+        }
+    },
+    {
+        "logo": "https://static.wattpad.com/img/logos/wp-logo-orange.png",
+        "domain": "wattpad.com.vn",
+        "keys": [
+            "wattpad.com.vn"
+        ],
+        "use_html_parser": true,
+        "title": {
+            "selector": ".current-book"
+        },
+        "chapter": {
+            "selector": ".current-chapter"
+        },
+        "content": {
+            "selector": ".truyen"
+        },
+        "next_button": {
+            "selector": ".next",
+            "value": "href"
+        },
+        "pre_button": {
+            "selector": ".back",
+            "value": "href"
+        }
+    },
+    {
+        "logo": "https://static.wattpad.com/img/logos/wp-logo-orange.png",
+        "domain": "wattpad.com",
+        "keys": [
+            "wattpad.com"
+        ],
+        "use_html_parser": true,
+        "title": {
+            "selector": "h2"
+        },
+        "chapter": {
+            "selector": "h1"
+        },
+        "content": {
+            "use_proxy": "https://novel-reader-1063262486780.asia-southeast1.run.app/redirect?origin=",
+            "selector": "p",
+            "interceptor": "wattpad"
+        },
+        "next_button": {
+            "selector": "#story-part-navigation a",
+            "value": "href"
+        },
+        "pre_button": {
+            "selector": "#story-part-navigation a",
+            "value": "href"
+        },
+        "chapter_ignore_domain": true
+    },
+    {
+        "logo": "https://static.wattpad.com/img/logos/wp-logo-orange.png",
+        "domain": "wattpad.com.vn",
+        "keys": [
+            "wattpad.com.vn"
+        ],
+        "use_html_parser": true,
+        "title": {
+            "selector": ".current-book"
+        },
+        "chapter": {
+            "selector": ".current-chapter"
+        },
+        "content": {
+            "selector": ".truyen"
+        },
+        "next_button": {
+            "selector": ".next",
+            "value": "href"
+        },
+        "pre_button": {
+            "selector": ".back",
+            "value": "href"
+        }
+    },
+    {
+        "logo": "https://noveltoon.vn/official/noveltoon/icon-128.png",
+        "domain": "noveltoon.vn",
+        "keys": [
+            "noveltoon"
+        ],
+        "use_html_parser": true,
+        "title": {
+            "selector": ".watch-main-title"
+        },
+        "chapter": {
+            "selector": ".watch-chapter-title"
+        },
+        "content": {
+            "selector": ".watch-chapter-detail"
+        },
+        "next_button": {
+            "selector": ".bottom-bar a",
+            "value": "href",
+            "element_indexed": 1
+        },
+        "pre_button": {
+            "selector": ".bottom-bar a",
+            "value": "href"
+        },
+        "chapter_ignore_domain": true
+    },
+    {
+        "logo": "https://www.wikidich.com.vn/images/logo.png",
+        "domain": "wikidich.com.vn",
+        "use_html_parser": true,
+        "key": "wikidich.com.vn",
+        "title": {
+            "selector": "h1"
+        },
+        "chapter": {
+            "selector": "h2"
+        },
+        "content": {
+            "selector": ".truyen"
+        },
+        "next_button": {
+            "selector": ".next",
+            "value": "href"
+        },
+        "pre_button": {
+            "selector": ".back",
+            "value": "href"
+        }
+    },
+    {
+        "logo": "https://www.tvtruyen.com/public/assets/images/logo-truyentv.webp",
+        "domain": "tvtruyen.com",
+        "use_html_parser": true,
+        "use_webview": true,
+        "chapter_ignore_domain": true,
+        "key": "tvtruyen",
+        "title": {
+            "selector": ".truyen-title"
+        },
+        "data_loading_checker": ["<div id=\"chapter-content\" style=\"font-size:"],
+        "chapter": {
+            "selector": ".chapter-text-info"
+        },
+        "content": {
+            "selector": "#chapter-content"
+        },
+        "next_button": {
+            "selector": "#next_chap",
+            "value": "href"
+        },
+        "pre_button": {
+            "selector": "#prev_chap",
+            "value": "href"
+        }
+    },
+    {
+        "logo": "https://play-lh.googleusercontent.com/ySl8uNRjXrdZoY4xJZWZ0A875z4lTVLvJckaE3ECsL8OitY0g5UES9QMpNhO7OO1hH4=w480-h960-rw",
+        "domain": "m.tangthuvien.net",
+        "key": "tangthuvien",
+        "chapter": {
+            "selector": ".page-title",
+            "value": "text"
+        },
+        "content": {
+            "selector": ".chap-c",
+            "value": "text"
+        },
+        "next_button": {
+            "selector": ".pull-right",
+            "action": 1
+        },
+        "pre_button": {
+            "selector": ".control-chap a",
+            "action": 1
+        },
+        "use_webview": true,
+        "use_html_parser": true,
+        "data_loading_checker": [
+            "id=\"control-chap\""
+        ]
+    },
+    {
+        "logo": "https://assets.metruyencv.com/build/assets/logo-776b73c9.png",
+        "domain": "metruyencv.com",
+        "key": "metruyencv",
+        "use_html_parser": true,
+        "use_webview": true,
+        "title": {
+            "selector": ".text-title"
+        },
+        "chapter": {
+            "selector": "h2"
+        },
+        "content": {
+            "selector": "#chapter-content"
+        },
+        "next_button": {
+            "selector": "button.space-y-2",
+            "action": 1,
+            "element_indexed": 5
+        },
+        "pre_button": {
+            "selector": "button.space-y-2",
+            "action": 1
+        }
+    },
+    {
+        "logo": "/images/logo.png",
+        "domain": "truyenchucv.org",
+        "keys": [
+            "truyenchucv.org",
+            "www.truyenchucv.org",
+            "cvtruyenchu"
+        ],
+        "use_html_parser": true,
+        "use_webview": true,
+        "title": {
+            "selector": "ol[itemscope][itemtype=\"https://schema.org/BreadcrumbList\"] span[itemprop=\"name\"]",
+            "element_indexed": 1
+        },
+        "chapter": {
+            "selector": "div.chapter-content > p",
+            "element_indexed": 0
+        },
+        "content": {
+            "selector": ".chapter-content"
+        },
+        "next_button": {
+            "selector": "span.cursor-pointer",
+            "action": 1,
+            "element_indexed": 0
+        },
+        "pre_button": {
+            "selector": "a[href*=\"/chuong-\"]",
+            "value": "href",
+            "element_indexed": 1
+        },
+        "data_loading_checker": [],
+        "data_ready_checker": [],
+        "chapter_ignore_domain": false
+    },
+    {
+        "logo": "https://static.truyenfull.vision/favicons/favicon-192x192.png",
+        "domain": "truyenfull.vision",
+        "keys": [
+            "truyenfull.vn",
+            "truyenfull.vision"
+        ],
+        "title": {
+            "selector": ".truyen-title"
+        },
+        "chapter": {
+            "selector": ".chapter-title"
+        },
+        "content": {
+            "selector": "#chapter-c"
+        },
+        "next_button": {
+            "selector": "#next_chap",
+            "value": "href"
+        },
+        "pre_button": {
+            "selector": "#prev_chap",
+            "value": "href"
+        },
+        "use_html_parser": true,
+        "chapter_ignore_domain": true
+    },
+    {
+        "logo": "https://ntruyen.biz/imgs/logo.webp",
+        "domain": "ntruyen.biz",
+        "keys": [
+            "gicungco",
+            "ntruyen"
+        ],
+        "title": {
+            "selector": "h1"
+        },
+        "chapter": {
+            "selector": "h1"
+        },
+        "content": {
+            "selector": ".wrapper.prose"
+        },
+        "next_button": {
+            "selector": ".flex.items-center.justify-center.gap-2.mt-4 a",
+            "element_indexed": 1,
+            "value": "href",
+            "action": 1
+        },
+        "pre_button": {
+            "selector": ".flex.items-center.justify-center.gap-2.mt-4 a",
+            "value": "href",
+            "action": 1
+        },
+        "use_webview": false,
+        "use_html_parser": true,
+        "chapter_ignore_domain": false
+    },
+    {
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv30x4ZZLE9K-JhHGkoYPBiyGtOMhz2aGJIw&s",
+        "domain": "sstruyen.com.vn",
+        "key": "sstruyen",
+        "use_html_parser": true,
+        "title": {
+            "selector": ".current-book"
+        },
+        "chapter": {
+            "selector": ".current-chapter"
+        },
+        "content": {
+            "selector": ".truyen"
+        },
+        "next_button": {
+            "selector": ".next",
+            "value": "href"
+        },
+        "pre_button": {
+            "selector": ".back",
+            "value": "href"
+        }
+    },
+    {
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAyjuC45TvreKA10BJMxk6a_2Wuwd7eZiIEQ&s",
+        "domain": "bnsach.com",
+        "key": "bnsach.com",
+        "use_webview": true,
+        "use_html_parser": true,
+        "title": {
+            "selector": "a.title"
+        },
+        "chapter": {
+            "selector": "#chuong-title"
+        },
+        "content": {
+            "selector": "#noi-dung"
+        },
+        "next_button": {
+            "selector": ".page-next",
+            "value": "href",
+            "action": 0
+        },
+        "pre_button": {
+            "selector": ".page-prev",
+            "value": "href",
+            "action": 0
+        },
+        "data_ready_checker": [
+            "div id=\"encrypted-content\" style=\"display: none;\""
+        ]
+    },
+    {
+        "domain": "lovetruyen.me",
+        "use_html_parser": true,
+        "key": "lovetruyen",
+        "title": {
+            "selector": ".story-title"
+        },
+        "chapter": {
+            "selector": ".chapter-title"
+        },
+        "content": {
+            "selector": "#chapter-content"
+        },
+        "next_button": {
+            "selector": ".chapter-button a",
+            "element_indexed": 2,
+            "value": "href"
+        },
+        "pre_button": {
+            "selector": ".chapter-button a",
+            "element_indexed": 0,
+            "value": "href"
+        },
+        "chapter_ignore_domain": true
+    },
+    {
+        "domain": "metruyenful.com",
+        "key": "metruyenful",
+        "use_html_parser": true,
+        "use_webview": true,
+        "title": {
+            "selector": ".breadcrumb a",
+            "element_indexed": 2
+        },
+        "chapter": {
+            "selector": ".chapter-text"
+        },
+        "content": {
+            "selector": "#chapter-c"
+        },
+        "next_button": {
+            "selector": ".btn-chapter-nav",
+            "element_indexed": 2,
+            "action": 1
+        },
+        "pre_button": {
+            "selector": ".btn-prev",
+            "action": 1
+        }
+    },
+    {
+        "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/77/ae/7677aea6-5010-4f40-1bf3-87a9fb743176/AppIcon-0-0-1x_U007emarketing-0-9-0-0-85-220.png/1200x630wa.png",
+        "domain": "tytnovel.app",
+        "keys": ["tytnovel.app", "www.tytnovel.app","tytnovel"],
+        "use_html_parser": true,
+        "use_webview": true,
+        "title": {
+            "selector": ".vstack.text-center .text-decoration-none",
+            "value": "text",
+            "element_indexed": 0
+        },
+        "chapter": {
+            "selector": ".vstack.text-center .text-decoration-none",
+            "value": "text",
+            "element_indexed": 1
+        },
+        "content": {
+            "selector": "#chapterContent",
+            "value": "text"
+        },
+        "next_button": {
+            "selector": "a.btn.btn-outline-primary",
+            "value": "href",
+            "element_indexed": 2
+        },
+        "pre_button": {
+            "selector": "a.btn.btn-outline-primary",
+            "value": "href",
+            "element_indexed": 1
+        },
+        "data_loading_checker": [],
+        "data_ready_checker": [],
+        "chapter_ignore_domain": true
+    },
+    {
+        "logo": "https://truyenyy.mobi/wp-content/uploads/2025/04/truyenyy.mobi-logo-1.png",
+        "domain": "truyenyy.mobie",
+        "key": "truyenyy",
+        "use_html_parser": true,
+        "use_webview": true,
+        "title": {
+            "selector": ".truyen-title"
+        },
+        "chapter": {
+            "selector": ".chapter-text"
+        },
+        "content": {
+            "selector": "#chapter-c"
+        },
+        "next_button": {
+            "selector": "#next_chap",
+            "value": "href",
+            "action": 1
+        },
+        "pre_button": {
+            "selector": "#prev_chap",
+            "value": "href",
+            "action": 1
+        }
+    },
+    {
+        "logo": "https://metruyenchu.com.vn/images/logo.png",
+        "domain": "metruyenchu.com.vn",
+        "key": "metruyenchu.com.vn",
+        "use_html_parser": true,
+        "title": {
+            "selector": "h1"
+        },
+        "chapter": {
+            "selector": "h2"
+        },
+        "content": {
+            "selector": "main"
+        },
+        "content_replaces": [
+            "<< Chương trước",
+            "Chương tiếp >>",
+            "A A A"
+        ],
+        "content_removes": [
+            {
+                "start": "Bạn có thể dùng phím mũi tên",
+                "end": "Tăng font"
+            },
+            {
+                "start": "Mê Truyện Chữ",
+                "end": "Chương tiếp >>"
+            }
+        ],
+        "next_button": {
+            "selector": "#gotochap a",
+            "value": "href",
+            "element_indexed": 2
+        },
+        "pre_button": {
+            "selector": "#gotochap a",
+            "value": "href"
+        }
+    },
+    {
+        "logo": "https://truyenchufull.info/doctruyenchufull-logo.png",
+        "domain": "truyenso1.com",
+        "keys": [
+            "truyenchufull",
+            "truyenso1"
+        ],
+        "use_html_parser": true,
+        "title": {
+            "selector": ".comic-chapter-title"
+        },
+        "chapter": {
+            "selector": ".chapter-title"
+        },
+        "content": {
+            "selector": ".chapter-content"
+        },
+        "next_button": {
+            "selector": ".next",
+            "value": "href"
+        },
+        "chapter_ignore_domain": true,
+        "pre_button": {
+            "selector": ".prev",
+            "value": "href"
+        }
+    },
+    {
+        "domain": "truyenmoiss.com",
+        "keys": [
+            "truyenmoi"
+        ],
+        "title": {
+            "selector": ".truyen-title"
+        },
+        "chapter": {
+            "selector": ".chapter-title"
+        },
+        "content": {
+            "selector": ".chapter-content"
+        },
+        "next_button": {
+            "selector": "#next_chap",
+            "value": "href"
+        },
+        "pre_button": {
+            "selector": "#prev_chap",
+            "value": "href"
+        },
+        "use_html_parser": true,
+        "chapter_ignore_domain": true
+    },
+    {
+      "logo": "/images/logo.png",
+      "domain": "truyenplus.vn",
+      "keys": [
+        "truyenplus.vn",
+        "www.truyenplus.vn"
+      ],
+      "use_html_parser": true,
+      "use_webview": true,
+      "title": {
+        "selector": ".current-book",
+        "value": "text"
       },
-      {
-        "start": "Mê Truyện Chữ",
-        "end": "Chương tiếp >>"
-      }
-    ],
-    "next_button": {
-      "selector": "#gotochap a",
-      "value": "href",
-      "element_indexed": 2
+      "chapter": {
+        "selector": ".current-chapter",
+        "value": "text"
+      },
+      "content": {
+        "selector": ".truyen",
+        "value": "text"
+      },
+      "next_button": {
+        "selector": ".next",
+        "value": "href",
+        "action": 0,
+        "element_indexed": 0
+      },
+      "pre_button": {
+        "selector": ".back",
+        "value": "href",
+        "action": 0,
+        "element_indexed": 0
+      },
+      "data_loading_checker": [],
+      "data_ready_checker": [],
+      "chapter_ignore_domain": false
     },
-    "pre_button": {
-      "selector": "#gotochap a",
-      "value": "href"
+    {
+      "logo": "/images/logo.png",
+      "domain": "thichtruyen.com.vn",
+      "keys": ["thichtruyen.com.vn", "www.thichtruyen.com.vn"],
+      "use_html_parser": true,
+      "use_webview": true,
+      "title": {
+        "selector": ".current-book",
+        "value": "text"
+      },
+      "chapter": {
+        "selector": ".current-chapter",
+        "value": "text"
+      },
+      "content": {
+        "selector": "#story",
+        "value": "text"
+      },
+      "next_button": {
+        "selector": ".next",
+        "value": "href",
+        "element_indexed": 0
+      },
+      "pre_button": {
+        "selector": ".back",
+        "value": "href",
+        "element_indexed": 0
+      },
+      "data_loading_checker": [],
+      "data_ready_checker": [],
+      "chapter_ignore_domain": false
+    },
+    {
+      "logo": "https://metruyenhot.me/frontend/images/logo.png",
+      "domain": "metruyenhot.me",
+      "keys": [
+        "metruyenhot.me",
+        "www.metruyenhot.me",
+        "metruyenhotmoi.com",
+        "www.metruyenhotmoi.com"
+      ],
+      "use_html_parser": true,
+      "use_webview": true,
+      "title": {
+        "selector": "h1.rv-full-story-title",
+        "value": "text"
+      },
+      "chapter": {
+        "selector": ".rv-chapt-title h2 > a",
+        "value": "text"
+      },
+      "content": {
+        "selector": ".chapter-c"
+      },
+      "next_button": {
+        "selector": "li.detail-chapter-btn a",
+        "value": "href",
+        "action": 0,
+        "element_indexed": 1
+      },
+      "pre_button": {
+        "selector": "li.detail-chapter-btn a",
+        "value": "href",
+        "action": 0,
+        "element_indexed": 0
+      },
+      "data_loading_checker": [],
+      "data_ready_checker": [],
+      "chapter_ignore_domain": false
     }
-  },
-  {
-    "logo": "https://truyenchufull.info/doctruyenchufull-logo.png",
-    "domain": "truyenso1.com",
-    "keys": [
-      "truyenchufull",
-      "truyenso1"
-    ],
-    "use_html_parser": true,
-    "title": {
-      "selector": ".comic-chapter-title"
-    },
-    "chapter": {
-      "selector": ".chapter-title"
-    },
-    "content": {
-      "selector": ".chapter-content"
-    },
-    "next_button": {
-      "selector": ".next",
-      "value": "href"
-    },
-    "chapter_ignore_domain": true,
-    "pre_button": {
-      "selector": ".prev",
-      "value": "href"
-    }
-  },
-  {
-    "domain": "truyenmoiss.com",
-    "keys": [
-      "truyenmoi"
-    ],
-    "title": {
-      "selector": ".truyen-title"
-    },
-    "chapter": {
-      "selector": ".chapter-title"
-    },
-    "content": {
-      "selector": ".chapter-content"
-    },
-    "next_button": {
-      "selector": "#next_chap",
-      "value": "href"
-    },
-    "pre_button": {
-      "selector": "#prev_chap",
-      "value": "href"
-    },
-    "use_html_parser": true,
-    "chapter_ignore_domain": true
-  }
 ]
