@@ -2,7 +2,7 @@
     {
         "logo": "https://truyenwikidich.net/static/img/logo-wiki-b.gif",
         "domain": "truyenwikidich.net",
-        "keys": ["truyenwikidich","wikidich.info"],
+        "keys": ["truyenwikidich","wikidich.info", "wikicv.net"],
         "use_html_parser": true,
         "title": {
             "selector": ".book-title"
