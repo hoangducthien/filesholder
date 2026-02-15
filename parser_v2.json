@@ -680,5 +680,36 @@
       "data_loading_checker": [],
       "data_ready_checker": [],
       "chapter_ignore_domain": false
+    },
+    {
+      "logo": "https://xtruyen.vn/wp-content/uploads/2025/12/cropped-xlogox-Copy-180x180.png",
+      "domain": "xtruyen.vn",
+      "keys": [
+        "xtruyen.vn",
+        "www.xtruyen.vn"
+      ],
+      "use_html_parser": true,
+      "use_webview": true,
+      "title": {
+        "selector": "h1"
+      },
+      "chapter": {
+        "selector": "h2",
+        "element_indexed": 0
+      },
+      "content": {
+        "selector": "#chapter-reading-content"
+      },
+      "next_button": {
+        "selector": "a.next_page",
+        "value": "href"
+      },
+      "pre_button": {
+        "selector": "a.prev_page",
+        "value": "href"
+      },
+      "data_loading_checker": [],
+      "data_ready_checker": ["loading-box"],
+      "chapter_ignore_domain": true
     }
 ]
