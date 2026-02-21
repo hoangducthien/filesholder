@@ -307,19 +307,23 @@
             "selector": ".wrapper.prose"
         },
         "next_button": {
-            "selector": ".flex.items-center.justify-center.gap-2.mt-4 a",
-            "element_indexed": 1,
-            "value": "href",
-            "action": 1
+            "selector": ".flex.items-center.justify-center.gap-2.mt-4 a:last-child",
+            "element_indexed": 0,
+            "value": "href"
         },
         "pre_button": {
-            "selector": ".flex.items-center.justify-center.gap-2.mt-4 a",
-            "value": "href",
-            "action": 1
+            "selector": ".flex.items-center.justify-center.gap-2.mt-4 a:first-child",
+            "element_indexed": 0,
+            "value": "href"
         },
-        "use_webview": false,
+        "use_webview": true,
         "use_html_parser": true,
-        "chapter_ignore_domain": false
+        "chapter_ignore_domain": true,
+        "data_loading_checker": [
+            "wrapper prose"
+        ],
+        "data_ready_checker": [],
+        "detail_first_chapter_js": "(function(){var a=document.querySelector('a[href*=\"/doc-truyen/\"]');return a?a.href:'';  })()"
     },
     {
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv30x4ZZLE9K-JhHGkoYPBiyGtOMhz2aGJIw&s",
