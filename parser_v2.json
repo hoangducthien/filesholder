@@ -711,5 +711,50 @@
       "data_loading_checker": [],
       "data_ready_checker": ["loading-box"],
       "chapter_ignore_domain": true
+    },
+    {
+        "logo": "https://cdn.nhieutruyen.com/assets/nhieutruyen-logo.png",
+        "domain": "nhieutruyen.com",
+        "keys": [
+            "nhieutruyen.com",
+            "www.nhieutruyen.com"
+        ],
+        "use_html_parser": true,
+        "use_webview": true,
+        "title": {
+            "selector": "h1"
+        },
+        "chapter": {
+            "selector": "#chapter-content h2",
+            "value": "text"
+        },
+        "content": {
+            "selector": "#chapter-content"
+        },
+        "content_removes": [
+            {
+                "start": "nhieutruyen.com"
+            }
+        ],
+        "data_loading_checker": [
+            "id=\"chapter-content\""
+        ],
+        "data_ready_checker": [],
+        "next_button": {
+            "selector": ".space-x-2 a",
+            "value": "href",
+            "element_indexed": 1
+        },
+        "pre_button": {
+            "selector": ".space-x-2 a",
+            "value": "href",
+            "element_indexed": 0
+        },
+        "chapter_ignore_domain": true,
+        "detail_first_chapter": {
+            "selector": "a[href*='/chuong-']",
+            "value": "href",
+            "element_indexed": 0
+        }
     }
 ]
