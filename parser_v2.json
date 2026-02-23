@@ -901,6 +901,6 @@
             "selector": "#btnReadStory",
             "value": "href"
         },
-        "chapter_ignore_domain": true
+        "chapter_ignore_domain": false
     }
 ]
