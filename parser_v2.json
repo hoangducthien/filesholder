@@ -869,5 +869,38 @@
             "value": "href",
             "element_indexed": 0
         }
+    },
+    {
+        "logo": "https://tiemtruyenchu.com/uploads/logo.png",
+        "domain": "tiemtruyenchu.com",
+        "keys": [
+            "tiemtruyenchu.com",
+            "tiemtruyenchu"
+        ],
+        "use_html_parser": true,
+        "title": {
+            "selector": ".text-center.mt-3 a"
+        },
+        "chapter": {
+            "selector": "h2.text-center.fw-bold"
+        },
+        "content": {
+            "selector": ".chapter-content"
+        },
+        "next_button": {
+            "selector": ".btn-nav",
+            "element_indexed": 1,
+            "value": "href"
+        },
+        "pre_button": {
+            "selector": ".btn-nav",
+            "element_indexed": 0,
+            "value": "href"
+        },
+        "detail_first_chapter": {
+            "selector": "#btnReadStory",
+            "value": "href"
+        },
+        "chapter_ignore_domain": true
     }
 ]
