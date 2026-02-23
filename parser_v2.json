@@ -890,12 +890,14 @@
         "next_button": {
             "selector": ".btn-nav",
             "element_indexed": 1,
-            "value": "href"
+            "value": "href",
+            "action": 1
         },
         "pre_button": {
             "selector": ".btn-nav",
             "element_indexed": 0,
-            "value": "href"
+            "value": "href",
+            "action": 1
         },
         "detail_first_chapter": {
             "selector": "#btnReadStory",
