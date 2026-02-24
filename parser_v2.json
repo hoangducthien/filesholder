@@ -569,13 +569,13 @@
         "key": "metruyenchu.com.vn",
         "use_html_parser": true,
         "title": {
-            "selector": "h1"
+            "selector": ".current-book"
         },
         "chapter": {
-            "selector": "h2"
+            "selector": ".current-chapter"
         },
         "content": {
-            "selector": "main"
+            "selector": ".truyen"
         },
         "content_replaces": [
             "<< Chương trước",
@@ -589,7 +589,7 @@
             },
             {
                 "start": "Mê Truyện Chữ",
-                "end": "Chương tiếp >>"
+                "end": "Truyện Hot Mới"
             }
         ],
         "next_button": {
@@ -602,7 +602,9 @@
             "value": "href"
         },
         "detail_first_chapter": {
-            "selector": "clearfix"
+            "selector": ".lstbtn a",
+            "value": "href",
+            "element_indexed": 0
         }
     },
     {
