@@ -111,6 +111,7 @@
         "keys": [
             "wattpad.com"
         ],
+        "enable_download": false,
         "use_html_parser": true,
         "title": {
             "selector": "h2"
@@ -187,7 +188,8 @@
             "selector": ".bottom-bar a",
             "value": "href"
         },
-        "chapter_ignore_domain": true
+        "chapter_ignore_domain": true,
+        "enable_download": false
     },
     {
         "logo": "https://www.wikidich.com.vn/images/logo.png",
@@ -253,6 +255,7 @@
         "logo": "https://play-lh.googleusercontent.com/ySl8uNRjXrdZoY4xJZWZ0A875z4lTVLvJckaE3ECsL8OitY0g5UES9QMpNhO7OO1hH4=w480-h960-rw",
         "domain": "m.tangthuvien.net",
         "key": "tangthuvien",
+        "enable_download": false,
         "chapter": {
             "selector": ".page-title",
             "value": "text"
@@ -351,7 +354,8 @@
         "domain": "ntruyen.biz",
         "keys": [
             "gicungco",
-            "ntruyen"
+            "ntruyen",
+            "ntruyen.biz"
         ],
         "title": {
             "selector": "h1"
@@ -412,6 +416,7 @@
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAyjuC45TvreKA10BJMxk6a_2Wuwd7eZiIEQ&s",
         "domain": "bnsach.com",
         "key": "bnsach.com",
+        "enable_download": false,
         "use_webview": true,
         "use_html_parser": true,
         "title": {
