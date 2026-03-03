@@ -895,16 +895,16 @@
             "selector": ".chapter-content"
         },
         "next_button": {
-            "selector": ".btn-nav",
+            "selector": "a.btn-nav[href*='/chuong/']",
             "element_indexed": 1,
             "value": "href",
-            "action": 1
+            "action": 0
         },
         "pre_button": {
-            "selector": ".btn-nav",
+            "selector": "a.btn-nav[href*='/chuong/']",
             "element_indexed": 0,
             "value": "href",
-            "action": 1
+            "action": 0
         },
         "detail_first_chapter": {
             "selector": "#btnReadStory",
