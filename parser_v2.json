@@ -898,13 +898,13 @@
             "selector": "a.btn-nav[href*='/chuong/']",
             "element_indexed": 1,
             "value": "href",
-            "action": 0
+            "action": 1
         },
         "pre_button": {
             "selector": "a.btn-nav[href*='/chuong/']",
             "element_indexed": 0,
             "value": "href",
-            "action": 0
+            "action": 1
         },
         "detail_first_chapter": {
             "selector": "#btnReadStory",
