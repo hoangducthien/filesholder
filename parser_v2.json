@@ -911,5 +911,43 @@
             "value": "href"
         },
         "chapter_ignore_domain": false
+    },
+    {
+        "logo": "https://nhatruyen.site/wp-content/uploads/2026/02/cropped-Nhatruyen_Logo-192x192.jpg",
+        "domain": "nhatruyen.site",
+        "keys": [
+            "nhatruyen.site",
+            "www.nhatruyen.site"
+        ],
+        "use_html_parser": true,
+        "title": {
+            "selector": "h1.page-title"
+        },
+        "chapter": {
+            "selector": "h1.page-title"
+        },
+        "content": {
+            "selector": ".entry-content"
+        },
+        "content_removes": [
+            {
+                "start": "[COTENT]"
+            }
+        ],
+        "next_button": {
+            "selector": ".story-navigation-container a",
+            "value": "href",
+            "element_indexed": 1
+        },
+        "pre_button": {
+            "selector": ".story-navigation-container a",
+            "value": "href",
+            "element_indexed": 0
+        },
+        "detail_first_chapter": {
+            "selector": "a.nt-btn-first",
+            "value": "href"
+        },
+        "chapter_ignore_domain": true
     }
 ]
