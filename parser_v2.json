@@ -959,5 +959,77 @@
       "value": "href"
     },
     "chapter_ignore_domain": true
+  },
+  {
+    "domain": "metruyensangtac.com",
+    "keys": [
+      "metruyensangtac.com",
+      "www.metruyensangtac.com"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": "h3.chuong_ten",
+      "element_indexed": 0
+    },
+    "chapter": {
+      "selector": "h3.chuong_ten",
+      "element_indexed": 0
+    },
+    "content": {
+      "selector": ".chapter-content .content-text"
+    },
+    "next_button": {
+      "selector": ".next-chapter a.nav-chapter-btn",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "pre_button": {
+      "selector": ".prev-chapter a.nav-chapter-btn",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "detail_first_chapter": {
+      "selector": "div.book-3d a[href*=\"/read/\"]",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "data_loading_checker": [
+      "chapter-content"
+    ],
+    "data_ready_checker": [],
+    "chapter_ignore_domain": true
+  },
+  {
+    "logo": "https://navyteamn.com/storage/site/UTXsBXH3MCbGasHyEXINMrWKSqzTCkRL865M2PMl.png",
+    "domain": "navyteamn.com",
+    "keys": [
+      "navyteamn.com",
+      "www.navyteamn.com"
+    ],
+    "use_html_parser": true,
+    "title": {
+      "selector": ".chapter-title",
+      "element_indexed": 0
+    },
+    "chapter": {
+      "selector": ".chapter-title",
+      "element_indexed": 0
+    },
+    "content": {
+      "selector": ".chapter-content"
+    },
+    "next_button": {
+      "selector": "a.nav-btn.next-btn[href*=\"chuong\"]",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "pre_button": {
+      "selector": "a.nav-btn.prev-btn[href*=\"chuong\"]",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "detail_first_chapter_js": "(function(){var p=window.location.pathname;return p.endsWith('/')?window.location.origin+p+'chuong-1':window.location.origin+p+'/chuong-1';})()",
+    "chapter_ignore_domain": true
   }
 ]
