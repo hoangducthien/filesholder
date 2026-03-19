@@ -1031,5 +1031,41 @@
     },
     "detail_first_chapter_js": "(function(){var p=window.location.pathname;return p.endsWith('/')?window.location.origin+p+'chuong-1':window.location.origin+p+'/chuong-1';})()",
     "chapter_ignore_domain": true
+  },
+  {
+    "domain": "msvtruyen.com",
+    "keys": [
+      "msvtruyen.com",
+      "www.msvtruyen.com"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": "h1.text-color-custom.h2"
+    },
+    "chapter": {
+      "selector": "div#story-header h3"
+    },
+    "content": {
+      "selector": "div#chapter-content"
+    },
+    "next_button": {
+      "selector": "a.btn.btn-white:has(i.fa-arrow-right)",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "pre_button": {
+      "selector": "a.btn.btn-white:has(i.fa-arrow-left)",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "detail_first_chapter": {
+      "selector": "a.btn.btn-danger[href*='/doc-truyen/']",
+      "value": "href"
+    },
+    "data_loading_checker": [
+      "chapter-content"
+    ],
+    "chapter_ignore_domain": true
   }
 ]
