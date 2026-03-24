@@ -1067,5 +1067,135 @@
       "chapter-content"
     ],
     "chapter_ignore_domain": true
+  },
+  {
+    "logo": "/favicon.ico",
+    "domain": "webtruyendich.com",
+    "keys": [
+      "webtruyendich.com",
+      "webtruyendich"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "enable_download": true,
+    "title": {
+      "selector": "#chapter-title"
+    },
+    "chapter": {
+      "selector": "#chapter-title"
+    },
+    "content": {
+      "selector": "#article"
+    },
+    "next_button": {
+      "selector": "a.next-link",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "a.pre-link",
+      "value": "href"
+    },
+    "detail_first_chapter": {
+      "selector": "a.bg-red-600",
+      "value": "href"
+    },
+    "data_ready_checker": [
+      "stream-spinner"
+    ],
+    "content_load_js": ";"
+  },
+  {
+    "domain": "hotruyen1.com",
+    "keys": [
+      "hotruyen1.com",
+      "www.hotruyen1.com"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": "#chcontent .chname",
+      "element_indexed": 0
+    },
+    "chapter": {
+      "selector": ".chtitle",
+      "element_indexed": 0
+    },
+    "content": {
+      "selector": "#borderchapter"
+    },
+    "next_button": {
+      "selector": "a[title=\"Chương sau\"]",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "a[title=\"Chương trước\"]",
+      "value": "href"
+    },
+    "detail_first_chapter_js": "(function(){var u='/muc-luc-sv/'+trTitle+'-'+bid;var x=new XMLHttpRequest();x.open('GET',u,false);x.send(null);var d=new DOMParser().parseFromString(x.responseText,'text/html');var a=d.querySelector('a[href*=\"chuong\"]');return a?new URL(a.getAttribute('href'),window.location.origin+u).href:'';}())"
+  },
+  {
+    "domain": "truyenflow.com",
+    "keys": [
+      "truyenflow.com",
+      "www.truyenflow.com"
+    ],
+    "use_html_parser": true,
+    "title": {
+      "selector": "h1"
+    },
+    "chapter": {
+      "selector": "h2"
+    },
+    "content": {
+      "selector": ".chapter-content"
+    },
+    "next_button": {
+      "selector": "a[href*=\"/chuong-\"]",
+      "value": "href",
+      "element_indexed": 1
+    },
+    "pre_button": {
+      "selector": "a[href*=\"/chuong-\"]",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "detail_first_chapter": {
+      "selector": "a.btn-read",
+      "value": "href"
+    }
+  },
+  {
+    "domain": "teamtruyen.com",
+    "keys": [
+      "teamtruyen.com",
+      "teamtruyen"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "enable_download": true,
+    "title": {
+      "selector": "h1.stitle"
+    },
+    "chapter": {
+      "selector": "h1"
+    },
+    "content": {
+      "selector": "#chapter-content, .chapter-content, .reading-content, article.content, .content-chapter"
+    },
+    "next_button": {
+      "selector": "a[title='Chương sau'], a:contains(Chương sau)",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "a[title='Chương trước'], a:contains(Chương trước)",
+      "value": "href"
+    },
+    "detail_first_chapter": {
+      "selector": "a[href*='/chuong-1']",
+      "value": "href"
+    },
+    "data_loading_checker": [
+      "Đang tải"
+    ]
   }
 ]
