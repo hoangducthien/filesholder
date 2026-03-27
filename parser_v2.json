@@ -363,8 +363,6 @@
     "logo": "https://ntruyen.biz/imgs/logo.webp",
     "domain": "ntruyen.biz",
     "keys": [
-      "gicungco",
-      "ntruyen",
       "ntruyen.biz"
     ],
     "title": {
@@ -1197,5 +1195,36 @@
     "data_loading_checker": [
       "Đang tải"
     ]
+  },
+  {
+    "logo": "https://ntruyen.com.vn/images/logo.png",
+    "domain": "ntruyen.com.vn",
+    "keys": [
+      "ntruyen.com.vn",
+      "www.ntruyen.com.vn"
+    ],
+    "use_html_parser": true,
+    "title": {
+      "selector": "h1.current-book"
+    },
+    "chapter": {
+      "selector": "h2.current-chapter"
+    },
+    "content": {
+      "selector": "div.truyen"
+    },
+    "next_button": {
+      "selector": "a.next",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "a.back",
+      "value": "href"
+    },
+    "detail_first_chapter": {
+      "selector": ".lstbtn a",
+      "value": "href",
+      "element_indexed": 0
+    }
   }
 ]
