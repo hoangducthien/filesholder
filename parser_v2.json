@@ -481,7 +481,8 @@
     "detail_first_chapter": {
       "selector": "a.read-btn",
       "value": "href"
-    }
+    },
+    "logo": "https://lovetruyen.me/favicon.ico"
   },
   {
     "domain": "metruyenful.com",
@@ -510,7 +511,8 @@
     "detail_first_chapter": {
       "selector": "#list-chapter .list-chapter a",
       "value": "href"
-    }
+    },
+    "logo": "https://metruyenful.com/favicon.ico"
   },
   {
     "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/77/ae/7677aea6-5010-4f40-1bf3-87a9fb743176/AppIcon-0-0-1x_U007emarketing-0-9-0-0-85-220.png/1200x630wa.png",
@@ -679,7 +681,8 @@
     "detail_first_chapter": {
       "selector": "#firstChapter",
       "value": "href"
-    }
+    },
+    "logo": "https://truyenmoikk.com/favicon.ico"
   },
   {
     "logo": "/images/logo.png",
@@ -996,7 +999,8 @@
       "chapter-content"
     ],
     "data_ready_checker": [],
-    "chapter_ignore_domain": true
+    "chapter_ignore_domain": true,
+    "logo": "https://metruyensangtac.com/favicon.ico"
   },
   {
     "logo": "https://navyteamn.com/storage/site/UTXsBXH3MCbGasHyEXINMrWKSqzTCkRL865M2PMl.png",
@@ -1064,7 +1068,8 @@
     "data_loading_checker": [
       "chapter-content"
     ],
-    "chapter_ignore_domain": true
+    "chapter_ignore_domain": true,
+    "logo": "https://msvtruyen.com/photos/default/resize-2.png"
   },
   {
     "logo": "/favicon.ico",
@@ -1129,7 +1134,8 @@
       "selector": "a[title=\"Chương trước\"]",
       "value": "href"
     },
-    "detail_first_chapter_js": "(function(){var u='/muc-luc-sv/'+trTitle+'-'+bid;var x=new XMLHttpRequest();x.open('GET',u,false);x.send(null);var d=new DOMParser().parseFromString(x.responseText,'text/html');var a=d.querySelector('a[href*=\"chuong\"]');return a?new URL(a.getAttribute('href'),window.location.origin+u).href:'';}())"
+    "detail_first_chapter_js": "(function(){var u='/muc-luc-sv/'+trTitle+'-'+bid;var x=new XMLHttpRequest();x.open('GET',u,false);x.send(null);var d=new DOMParser().parseFromString(x.responseText,'text/html');var a=d.querySelector('a[href*=\"chuong\"]');return a?new URL(a.getAttribute('href'),window.location.origin+u).href:'';}())",
+    "logo": "https://hotruyen1.com/icon5.png"
   },
   {
     "domain": "truyenflow.com",
@@ -1160,7 +1166,8 @@
     "detail_first_chapter": {
       "selector": "a.btn-read",
       "value": "href"
-    }
+    },
+    "logo": "https://truyenflow.com/favicon.ico"
   },
   {
     "domain": "teamtruyen.com",
@@ -1194,7 +1201,8 @@
     },
     "data_loading_checker": [
       "Đang tải"
-    ]
+    ],
+    "logo": "https://teamtruyen.com/images/brand/logo-64.png"
   },
   {
     "logo": "https://ntruyen.com.vn/images/logo.png",
