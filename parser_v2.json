@@ -1234,5 +1234,28 @@
       "value": "href",
       "element_indexed": 0
     }
+  },
+  {
+    "domain": "truyencom.com",
+    "keys": ["truyencom.com", "www.truyencom.com", "truyencom.blerino.com"],
+    "logo": "https://cdn.truyencom.com/truyencom_logo.png",
+    "use_html_parser": true,
+    "title": { "selector": ".truyen-title" },
+    "chapter": { "selector": ".chapter-title" },
+    "content": { "selector": ".chapter-c" },
+    "next_button": {
+      "selector": "a[title^=\"Chương \"]",
+      "value": "href",
+      "element_indexed": 1
+    },
+    "pre_button": {
+      "selector": "a[title^=\"Chương \"]",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "detail_first_chapter": {
+      "selector": ".l-chapters li:first-child a",
+      "value": "href"
+    }
   }
 ]
