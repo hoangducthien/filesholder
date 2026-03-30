@@ -1257,5 +1257,29 @@
       "selector": ".l-chapters li:first-child a",
       "value": "href"
     }
+  },
+  {
+    "domain": "metruyencv.com.vn",
+    "keys": ["metruyencv.com.vn", "www.metruyencv.com.vn"],
+    "logo": "https://metruyencv.com.vn/images/logo.png",
+    "use_html_parser": true,
+    "title": { "selector": "h1" },
+    "chapter": { "selector": "h2" },
+    "content": { "selector": "div.truyen" },
+    "next_button": {
+      "selector": "a.next",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "pre_button": {
+      "selector": "a.back",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "detail_first_chapter": {
+      "selector": "a[href*=\"/chuong-\"]",
+      "value": "href",
+      "element_indexed": 0
+    }
   }
 ]
