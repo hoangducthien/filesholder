@@ -485,6 +485,36 @@
     "logo": "https://lovetruyen.me/favicon.ico"
   },
   {
+    "domain": "metruyenful.com",
+    "key": "metruyenful",
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": ".breadcrumb a",
+      "element_indexed": 2
+    },
+    "chapter": {
+      "selector": ".chapter-text"
+    },
+    "content": {
+      "selector": "#chapter-c"
+    },
+    "next_button": {
+      "selector": ".btn-chapter-nav",
+      "element_indexed": 2,
+      "action": 1
+    },
+    "pre_button": {
+      "selector": ".btn-prev",
+      "action": 1
+    },
+    "detail_first_chapter": {
+      "selector": "#list-chapter .list-chapter a",
+      "value": "href"
+    },
+    "logo": "https://metruyenful.com/favicon.ico"
+  },
+  {
     "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/77/ae/7677aea6-5010-4f40-1bf3-87a9fb743176/AppIcon-0-0-1x_U007emarketing-0-9-0-0-85-220.png/1200x630wa.png",
     "domain": "tytnovel.app",
     "keys": [
@@ -521,6 +551,32 @@
     "data_loading_checker": [],
     "data_ready_checker": [],
     "chapter_ignore_domain": true
+  },
+  {
+    "logo": "https://truyenyy.mobi/wp-content/uploads/2025/04/truyenyy.mobi-logo-1.png",
+    "domain": "truyenyy.mobie",
+    "key": "truyenyy",
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": ".truyen-title"
+    },
+    "chapter": {
+      "selector": ".chapter-text"
+    },
+    "content": {
+      "selector": "#chapter-c"
+    },
+    "next_button": {
+      "selector": "#next_chap",
+      "value": "href",
+      "action": 1
+    },
+    "pre_button": {
+      "selector": "#prev_chap",
+      "value": "href",
+      "action": 1
+    }
   },
   {
     "logo": "https://metruyenchu.com.vn/images/logo.png",
@@ -1181,12 +1237,22 @@
   },
   {
     "domain": "truyencom.com",
-    "keys": ["truyencom.com", "www.truyencom.com", "truyencom.blerino.com"],
+    "keys": [
+      "truyencom.com",
+      "www.truyencom.com",
+      "truyencom.blerino.com"
+    ],
     "logo": "https://cdn.truyencom.com/truyencom_logo.png",
     "use_html_parser": true,
-    "title": { "selector": ".truyen-title" },
-    "chapter": { "selector": ".chapter-title" },
-    "content": { "selector": ".chapter-c" },
+    "title": {
+      "selector": ".truyen-title"
+    },
+    "chapter": {
+      "selector": ".chapter-title"
+    },
+    "content": {
+      "selector": ".chapter-c"
+    },
     "next_button": {
       "selector": "a[title^=\"Chương \"]",
       "value": "href",
@@ -1204,12 +1270,21 @@
   },
   {
     "domain": "metruyencv.com.vn",
-    "keys": ["metruyencv.com.vn", "www.metruyencv.com.vn"],
+    "keys": [
+      "metruyencv.com.vn",
+      "www.metruyencv.com.vn"
+    ],
     "logo": "https://metruyencv.com.vn/images/logo.png",
     "use_html_parser": true,
-    "title": { "selector": "h1" },
-    "chapter": { "selector": "h2" },
-    "content": { "selector": "div.truyen" },
+    "title": {
+      "selector": "h1"
+    },
+    "chapter": {
+      "selector": "h2"
+    },
+    "content": {
+      "selector": "div.truyen"
+    },
     "next_button": {
       "selector": "a.next",
       "value": "href",
@@ -1225,5 +1300,39 @@
       "value": "href",
       "element_indexed": 0
     }
+  },
+  {
+    "domain": "phamvuc.com",
+    "keys": [
+      "phamvuc.com",
+      "www.phamvuc.com"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": "h1"
+    },
+    "chapter": {
+      "selector": "h2"
+    },
+    "content": {
+      "selector": "#chapterContent"
+    },
+    "next_button": {
+      "selector": "a[title=\"Chương sau\"]",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "a[title=\"Chương trước\"]",
+      "value": "href"
+    },
+    "detail_first_chapter": {
+      "selector": "a[href*='/chuong-1']",
+      "value": "href"
+    },
+    "data_loading_checker": [
+      "chapterContent"
+    ],
+    "logo": "https://phamvuc.com/assets/images/logo.jpg?v=5"
   }
 ]
