@@ -553,32 +553,6 @@
     "chapter_ignore_domain": true
   },
   {
-    "logo": "https://truyenyy.mobi/wp-content/uploads/2025/04/truyenyy.mobi-logo-1.png",
-    "domain": "truyenyy.mobie",
-    "key": "truyenyy",
-    "use_html_parser": true,
-    "use_webview": true,
-    "title": {
-      "selector": ".truyen-title"
-    },
-    "chapter": {
-      "selector": ".chapter-text"
-    },
-    "content": {
-      "selector": "#chapter-c"
-    },
-    "next_button": {
-      "selector": "#next_chap",
-      "value": "href",
-      "action": 1
-    },
-    "pre_button": {
-      "selector": "#prev_chap",
-      "value": "href",
-      "action": 1
-    }
-  },
-  {
     "logo": "https://metruyenchu.com.vn/images/logo.png",
     "domain": "metruyenchu.com.vn",
     "key": "metruyenchu.com.vn",
@@ -931,8 +905,9 @@
       "www.nhatruyen.site"
     ],
     "use_html_parser": true,
+    "use_webview": true,
     "title": {
-      "selector": "h1.page-title"
+      "selector": "ol.breadcrumb li a[href*='/truyen/']"
     },
     "chapter": {
       "selector": "h1.page-title"
