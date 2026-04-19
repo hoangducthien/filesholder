@@ -631,7 +631,8 @@
   {
     "domain": "truyenmoikk.com",
     "keys": [
-      "truyenmoikk"
+      "truyenmoikk",
+      "truyenmoiqq"
     ],
     "title": {
       "selector": ".truyen-title"
@@ -1309,5 +1310,44 @@
       "chapterContent"
     ],
     "logo": "https://phamvuc.com/assets/images/logo.jpg?v=5"
+  },
+  {
+    "domain": "zingtruyen.store",
+    "keys": [
+      "zingtruyen.store",
+      "www.zingtruyen.store"
+    ],
+    "logo": "https://zingtruyen.store/asset/favicon.ico",
+    "use_html_parser": true,
+    "title": {
+      "selector": ".story-title a"
+    },
+    "chapter": {
+      "selector": "h2.chapter-title"
+    },
+    "content": {
+      "selector": "#chapter-content"
+    },
+    "content_removes": [
+      {
+        "start": "Bạn đang đọc truyện trên",
+        "end": "ZingTruyen"
+      }
+    ],
+    "next_button": {
+      "selector": "a.btn-next[rel=\"next\"]",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "pre_button": {
+      "selector": "a.btn-prev[rel=\"prev\"]",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "detail_first_chapter": {
+      "selector": "ul.chapters.v1.scroll li:first-child a",
+      "value": "href"
+    },
+    "chapter_ignore_domain": true
   }
 ]
