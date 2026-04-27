@@ -39,7 +39,9 @@
         "start": "close Advertisements",
         "end": "GliaStudios"
       }
-    ]
+    ],
+    "use_webview": true,
+    "data_ready_checker": ["tpads_article_top_container"]
   },
   {
     "logo": "https://sangtacviet.app/favicon.png",
