@@ -42,7 +42,7 @@
     ],
     "use_webview": true,
     "data_ready_checker": [
-      "<div id=\"bookContentBody\"  data-activates='ddAddName' style=\"margin-top: 1rem\">"
+      "<div id=\"bookContentBody\" class=\"\" data-activates='ddAddName'"
     ]
   },
   {
