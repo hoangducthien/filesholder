@@ -41,7 +41,9 @@
       }
     ],
     "use_webview": true,
-    "data_ready_checker": ["tpads_article_top_container"]
+    "data_ready_checker": [
+      "<div id=\"bookContentBody\"  data-activates='ddAddName' style=\"margin-top: 1rem\">"
+    ]
   },
   {
     "logo": "https://sangtacviet.app/favicon.png",
