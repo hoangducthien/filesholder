@@ -1,50 +1,25 @@
 [
   {
-    "logo": "https://truyenwikidich.net/static/img/logo-wiki-b.gif",
-    "domain": "wikicv.net",
-    "keys": [
-      "truyenwikidich",
-      "wikidich.info",
-      "wikicv.net"
-    ],
-    "use_html_parser": true,
-    "title": {
-      "selector": ".book-title"
+        "logo": "https://truyenwikidich.net/static/img/logo-wiki-b.gif",
+        "domain": "wikicv.net",
+        "keys": ["truyenwikidich", "wikidich.info", "wikicv.net"],
+        "use_html_parser": true,
+        "title": {"selector": ".book-title"},
+        "chapter": {"selector": ".book-title", "element_indexed": 1},
+        "content": {"selector": "#bookContentBody"},
+        "next_button": {"selector": "#btnNextChapter", "value": "href"},
+        "pre_button": {"selector": "#btnPreChapter", "value": "href"},
+        "detail_first_chapter": {"selector": ".control-btns a.orange-btn", "value": "href"},
+        "content_removes": [
+          {"start": "║༺☆༻", "end": "༺☆༻║"},
+          {"start": "closeAdvertisements", "end": "Powered by GliaStudios"}
+        ],
+        "use_webview": true,
+        "data_ready_checker": [],
+        "data_loading_checker": [
+          "id=\"bookContentBody\" class=\"\""
+        ]
     },
-    "chapter": {
-      "selector": ".book-title",
-      "element_indexed": 1
-    },
-    "content": {
-      "selector": "#bookContentBody"
-    },
-    "next_button": {
-      "selector": "#btnNextChapter",
-      "value": "href"
-    },
-    "pre_button": {
-      "selector": "#btnPreChapter",
-      "value": "href"
-    },
-    "detail_first_chapter": {
-      "selector": ".control-btns a.orange-btn",
-      "value": "href"
-    },
-    "content_removes": [
-      {
-        "start": "║༺☆༻",
-        "end": "༺☆༻║"
-      },
-      {
-        "start": "close Advertisements",
-        "end": "GliaStudios"
-      }
-    ],
-    "use_webview": true,
-    "data_ready_checker": [
-      "<div id=\"bookContentBody\" class=\"\" data-activates='ddAddName'"
-    ]
-  },
   {
     "logo": "https://sangtacviet.app/favicon.png",
     "domain": "sangtacviet.app",
