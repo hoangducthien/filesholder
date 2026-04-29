@@ -1367,5 +1367,64 @@
         "data_loading_checker": [],
         "data_ready_checker": [],
         "chapter_ignore_domain": false
+    },
+    {
+        "logo": "https://cdn.webnovel.vn/img/favicon.ico",
+        "domain": "webnovel.vn",
+        "keys": [
+            "webnovel.vn",
+            "www.webnovel.vn"
+        ],
+        "use_html_parser": true,
+        "use_webview": false,
+        "title": {
+            "selector": "h1.reader__title a",
+            "value": "text"
+        },
+        "chapter": {
+            "selector": "p.reader__chapter",
+            "value": "text"
+        },
+        "content": {
+            "selector": "#chapter-c"
+        },
+        "next_button": {
+            "selector": "a[rel=\"next\"]",
+            "value": "href",
+            "element_indexed": 0
+        },
+        "pre_button": {
+            "selector": "a[rel=\"prev\"]",
+            "value": "href",
+            "element_indexed": 0
+        },
+        "detail_first_chapter_js": "(function(){var p=window.location.pathname;if(!p.endsWith('/'))p+='/';return window.location.origin+p+'chuong-1/';})()"
+    },
+    {
+        "logo": "https://itruyenchu.org/icon.webp",
+        "domain": "itruyenchu.org",
+        "keys": [
+            "itruyenchu.org",
+            "www.itruyenchu.org"
+        ],
+        "use_html_parser": true,
+        "use_webview": false,
+        "title": {
+            "selector": "h1",
+            "value": "text",
+            "element_indexed": 0
+        },
+        "chapter": {
+            "selector": "h2.chapter-title",
+            "value": "text"
+        },
+        "content": {
+            "selector": "div.content.mx-auto"
+        },
+        "detail_first_chapter": {
+            "selector": "a[href*=\"/chuong-1\"]",
+            "value": "href",
+            "element_indexed": 0
+        }
     }
 ]
