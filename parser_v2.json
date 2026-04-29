@@ -1398,7 +1398,8 @@
             "value": "href",
             "element_indexed": 0
         },
-        "detail_first_chapter_js": "(function(){var p=window.location.pathname;if(!p.endsWith('/'))p+='/';return window.location.origin+p+'chuong-1/';})()"
+        "detail_first_chapter_js": "(function(){var p=window.location.pathname;if(!p.endsWith('/'))p+='/';return window.location.origin+p+'chuong-1/';})()",
+        "enable_download": false
     },
     {
         "logo": "https://itruyenchu.org/icon.webp",
