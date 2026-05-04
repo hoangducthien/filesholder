@@ -16,6 +16,9 @@
         ],
         "use_webview": true,
         "data_ready_checker": [],
+        "content_replaces": [
+            "·"
+        ],
         "data_loading_checker": [
           "id=\"bookContentBody\" class=\"\""
         ]
