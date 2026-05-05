@@ -16,9 +16,6 @@
         ],
         "use_webview": true,
         "data_ready_checker": [],
-        "content_replaces": [
-            "·"
-        ],
         "data_loading_checker": [
           "id=\"bookContentBody\" class=\"\""
         ]
@@ -1401,8 +1398,7 @@
             "value": "href",
             "element_indexed": 0
         },
-        "detail_first_chapter_js": "(function(){var p=window.location.pathname;if(!p.endsWith('/'))p+='/';return window.location.origin+p+'chuong-1/';})()",
-        "enable_download": false
+        "detail_first_chapter_js": "(function(){var p=window.location.pathname;if(!p.endsWith('/'))p+='/';return window.location.origin+p+'chuong-1/';})()"
     },
     {
         "logo": "https://itruyenchu.org/icon.webp",
@@ -1427,6 +1423,41 @@
         },
         "detail_first_chapter": {
             "selector": "a[href*=\"/chuong-1\"]",
+            "value": "href",
+            "element_indexed": 0
+        }
+    },
+    {
+        "logo": "https://dualeotruyenfull.net/wp-content/uploads/2025/12/cropped-favicon-192x192.webp",
+        "domain": "dualeotruyenfull.net",
+        "keys": [
+            "dualeotruyenfull.net",
+            "www.dualeotruyenfull.net"
+        ],
+        "use_html_parser": true,
+        "use_webview": false,
+        "title": {
+            "selector": "#breadcrumb-manga",
+            "value": "text"
+        },
+        "chapter": {
+            "selector": "h1",
+            "value": "text",
+            "element_indexed": 0
+        },
+        "content": {
+            "selector": ".chapter-body"
+        },
+        "next_button": {
+            "selector": "#next-link",
+            "value": "href"
+        },
+        "pre_button": {
+            "selector": "#prev-link",
+            "value": "href"
+        },
+        "detail_first_chapter": {
+            "selector": "a.uk-button-primary[href*=\"chuong-1\"]",
             "value": "href",
             "element_indexed": 0
         }
