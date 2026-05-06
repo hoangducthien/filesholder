@@ -12,6 +12,7 @@
         "detail_first_chapter": {"selector": ".control-btns a.orange-btn", "value": "href"},
         "content_removes": [
           {"start": "║༺☆༻", "end": "༺☆༻║"},
+          {"start": "║༺★༻", "end": "༺★༻║"},
           {"start": "closeAdvertisements", "end": "Powered by GliaStudios"}
         ],
         "use_webview": true,
