@@ -1,25 +1,33 @@
 [
   {
-    "logo": "https://www.wikidich.com.vn/images/logo.png",
-    "domain": "wikidich.com.vn",
-    "use_html_parser": true,
-    "key": "wikidich.com.vn",
-    "title": {
-      "selector": "h1"
-    },
-    "chapter": {
-      "selector": "h2"
-    },
-    "content": {
-      "selector": ".truyen"
-    },
-    "next_button": {
-      "selector": ".next",
-      "value": "href"
-    },
-    "pre_button": {
-      "selector": ".back",
-      "value": "href"
+        "logo": "https://static.truyenfull.vision/favicons/favicon-192x192.png",
+        "domain": "truyenfull.vision",
+        "keys": [
+            "truyenfull.vn",
+            "truyenfull.vision"
+        ],
+        "title": {
+            "selector": ".truyen-title"
+        },
+        "chapter": {
+            "selector": ".chapter-title"
+        },
+        "content": {
+            "selector": "#chapter-c"
+        },
+        "next_button": {
+            "selector": "#next_chap",
+            "value": "href"
+        },
+        "pre_button": {
+            "selector": "#prev_chap",
+            "value": "href"
+        },
+        "detail_first_chapter": {
+            "selector": ".list-chapter li a",
+            "value": "href"
+        },
+        "use_html_parser": true,
+        "chapter_ignore_domain": true
     }
-  }
 ]
