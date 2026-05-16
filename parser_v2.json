@@ -401,40 +401,6 @@
         }
     },
     {
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAyjuC45TvreKA10BJMxk6a_2Wuwd7eZiIEQ&s",
-        "domain": "bnsach.com",
-        "key": "bnsach.com",
-        "enable_download": false,
-        "use_webview": true,
-        "use_html_parser": true,
-        "title": {
-            "selector": "a.title"
-        },
-        "chapter": {
-            "selector": "#chuong-title"
-        },
-        "content": {
-            "selector": "#noi-dung"
-        },
-        "next_button": {
-            "selector": ".page-next",
-            "value": "href",
-            "action": 0
-        },
-        "pre_button": {
-            "selector": ".page-prev",
-            "value": "href",
-            "action": 0
-        },
-        "data_ready_checker": [
-            "div id=\"encrypted-content\" style=\"display: none;\""
-        ],
-        "detail_first_chapter": {
-            "selector": "#truyen-nav a.truyen-button",
-            "value": "href"
-        }
-    },
-    {
         "domain": "lovetruyen.me",
         "use_html_parser": true,
         "key": "lovetruyen",
@@ -463,74 +429,6 @@
             "value": "href"
         },
         "logo": "https://lovetruyen.me/favicon.ico"
-    },
-    {
-        "domain": "metruyenful.com",
-        "key": "metruyenful",
-        "use_html_parser": true,
-        "use_webview": true,
-        "title": {
-            "selector": ".breadcrumb a",
-            "element_indexed": 2
-        },
-        "chapter": {
-            "selector": ".chapter-text"
-        },
-        "content": {
-            "selector": "#chapter-c"
-        },
-        "next_button": {
-            "selector": ".btn-chapter-nav",
-            "element_indexed": 2,
-            "action": 1
-        },
-        "pre_button": {
-            "selector": ".btn-prev",
-            "action": 1
-        },
-        "detail_first_chapter": {
-            "selector": "#list-chapter .list-chapter a",
-            "value": "href"
-        },
-        "logo": "https://metruyenful.com/favicon.ico"
-    },
-    {
-        "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/77/ae/7677aea6-5010-4f40-1bf3-87a9fb743176/AppIcon-0-0-1x_U007emarketing-0-9-0-0-85-220.png/1200x630wa.png",
-        "domain": "tytnovel.app",
-        "keys": [
-            "tytnovel.app",
-            "www.tytnovel.app",
-            "tytnovel"
-        ],
-        "use_html_parser": true,
-        "use_webview": true,
-        "title": {
-            "selector": ".vstack.text-center .text-decoration-none",
-            "value": "text",
-            "element_indexed": 0
-        },
-        "chapter": {
-            "selector": ".vstack.text-center .text-decoration-none",
-            "value": "text",
-            "element_indexed": 1
-        },
-        "content": {
-            "selector": "#chapterContent",
-            "value": "text"
-        },
-        "next_button": {
-            "selector": "a.btn.btn-outline-primary",
-            "value": "href",
-            "element_indexed": 2
-        },
-        "pre_button": {
-            "selector": "a.btn.btn-outline-primary",
-            "value": "href",
-            "element_indexed": 1
-        },
-        "data_loading_checker": [],
-        "data_ready_checker": [],
-        "chapter_ignore_domain": true
     },
     {
         "logo": "https://metruyenchu.com.vn/images/logo.png",
@@ -639,86 +537,6 @@
             "value": "href"
         },
         "logo": "https://truyenmoikk.com/favicon.ico"
-    },
-    {
-        "logo": "/images/logo.png",
-        "domain": "truyenplus.vn",
-        "keys": [
-            "truyenplus.vn",
-            "www.truyenplus.vn"
-        ],
-        "use_html_parser": true,
-        "use_webview": true,
-        "title": {
-            "selector": ".current-book",
-            "value": "text"
-        },
-        "chapter": {
-            "selector": ".current-chapter",
-            "value": "text"
-        },
-        "content": {
-            "selector": ".truyen",
-            "value": "text"
-        },
-        "next_button": {
-            "selector": ".next",
-            "value": "href",
-            "action": 0,
-            "element_indexed": 0
-        },
-        "pre_button": {
-            "selector": ".back",
-            "value": "href",
-            "action": 0,
-            "element_indexed": 0
-        },
-        "data_loading_checker": [],
-        "data_ready_checker": [],
-        "chapter_ignore_domain": false,
-        "detail_first_chapter": {
-            "selector": ".lstbtn a",
-            "value": "href"
-        }
-    },
-    {
-        "logo": "/images/logo.png",
-        "domain": "thichtruyen.com.vn",
-        "keys": [
-            "thichtruyen.com.vn",
-            "www.thichtruyen.com.vn"
-        ],
-        "use_html_parser": true,
-        "use_webview": true,
-        "title": {
-            "selector": ".current-book",
-            "value": "text"
-        },
-        "chapter": {
-            "selector": ".current-chapter",
-            "value": "text"
-        },
-        "content": {
-            "selector": "#story",
-            "value": "text"
-        },
-        "next_button": {
-            "selector": ".next",
-            "value": "href",
-            "element_indexed": 0
-        },
-        "pre_button": {
-            "selector": ".back",
-            "value": "href",
-            "element_indexed": 0
-        },
-        "data_loading_checker": [],
-        "data_ready_checker": [],
-        "chapter_ignore_domain": false,
-        "detail_first_chapter": {
-            "selector": ".lstbtn a",
-            "value": "href"
-        }
     },
     {
         "logo": "https://metruyenhot.me/frontend/images/logo.png",
@@ -1160,37 +978,6 @@
             "Đang tải"
         ],
         "logo": "https://teamtruyen.com/images/brand/logo-64.png"
-    },
-    {
-        "logo": "https://ntruyen.com.vn/images/logo.png",
-        "domain": "ntruyen.com.vn",
-        "keys": [
-            "ntruyen.com.vn",
-            "www.ntruyen.com.vn"
-        ],
-        "use_html_parser": true,
-        "title": {
-            "selector": "h1.current-book"
-        },
-        "chapter": {
-            "selector": "h2.current-chapter"
-        },
-        "content": {
-            "selector": "div.truyen"
-        },
-        "next_button": {
-            "selector": "a.next",
-            "value": "href"
-        },
-        "pre_button": {
-            "selector": "a.back",
-            "value": "href"
-        },
-        "detail_first_chapter": {
-            "selector": ".lstbtn a",
-            "value": "href",
-            "element_indexed": 0
-        }
     },
     {
         "domain": "truyencom.com",
