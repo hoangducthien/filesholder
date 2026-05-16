@@ -1462,5 +1462,38 @@
             "value": "href",
             "element_indexed": 0
         }
+    },
+    {
+        "logo": "https://truyenchu.net/wp-content/uploads/2025/01/favicon-32x32-1.png",
+        "domain": "truyenchu.net",
+        "keys": [
+            "truyenchu.net",
+            "www.truyenchu.net"
+        ],
+        "use_html_parser": true,
+        "use_webview": false,
+        "title": {
+            "selector": ".c-breadcrumb a[href*=\"/truyen/\"]",
+            "value": "text",
+            "element_indexed": 0
+        },
+        "chapter": {
+            "selector": "h1#chapter-heading",
+            "value": "text"
+        },
+        "content": {
+            "selector": ".reading-content .text-left"
+        },
+        "next_button": {
+            "selector": "a.next_page",
+            "value": "href",
+            "element_indexed": 0
+        },
+        "pre_button": {
+            "selector": "a.prev_page",
+            "value": "href",
+            "element_indexed": 0
+        },
+        "detail_first_chapter_js": "(function(){var p=window.location.pathname;if(!p.endsWith('/'))p+='/';return window.location.origin+p+'chuong-1/';})()"
     }
 ]
