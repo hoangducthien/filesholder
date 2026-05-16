@@ -1495,5 +1495,37 @@
             "element_indexed": 0
         },
         "detail_first_chapter_js": "(function(){var p=window.location.pathname;if(!p.endsWith('/'))p+='/';return window.location.origin+p+'chuong-1/';})()"
+    },
+    {
+        "logo": "https://tieuthuyet.vn/fav/favicon.ico",
+        "domain": "tieuthuyet.vn",
+        "keys": [
+            "tieuthuyet.vn",
+            "www.tieuthuyet.vn"
+        ],
+        "use_html_parser": true,
+        "use_webview": false,
+        "title": {
+            "selector": "a.truyen-title",
+            "value": "title"
+        },
+        "chapter": {
+            "selector": "a.chapter-title",
+            "value": "text"
+        },
+        "content": {
+            "selector": "#dynamic-content .chapter-content"
+        },
+        "next_button": {
+            "selector": "a#next_chap",
+            "value": "href",
+            "element_indexed": 0
+        },
+        "pre_button": {
+            "selector": "a#prev_chap",
+            "value": "href",
+            "element_indexed": 0
+        },
+        "detail_first_chapter_js": "(function(){var p=window.location.pathname;if(p.endsWith('/'))p=p.slice(0,-1);return window.location.origin+p+'/chuong-1';})()"
     }
 ]
