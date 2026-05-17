@@ -1,10 +1,12 @@
 [
   {
-        "logo": "https://static.truyenfull.vision/favicons/favicon-192x192.png",
-        "domain": "truyenfull.vision",
+        "logo": "https://static.truyenfull.today/favicons/favicon-192x192.png",
+        "domain": "truyenfull.today",
         "keys": [
             "truyenfull.vn",
-            "truyenfull.vision"
+            "truyenfull.vision",
+            "truyenfull.today",
+            "www.truyenfull.today"
         ],
         "title": {
             "selector": ".truyen-title"
