@@ -251,37 +251,38 @@
     }
   },
   {
-    "logo": "https://static.truyenfull.vision/favicons/favicon-192x192.png",
-    "domain": "truyenfull.today",
-    "keys": [
-      "truyenfull.today",
-      "truyenfull.vn",
-      "truyenfull.vision"
-    ],
-    "title": {
-      "selector": ".truyen-title"
+        "logo": "https://static.truyenfull.today/favicons/favicon-192x192.png",
+        "domain": "truyenfull.today",
+        "keys": [
+            "truyenfull.vn",
+            "truyenfull.vision",
+            "truyenfull.today",
+            "www.truyenfull.today"
+        ],
+        "title": {
+            "selector": ".truyen-title"
+        },
+        "chapter": {
+            "selector": ".chapter-title"
+        },
+        "content": {
+            "selector": "#chapter-c"
+        },
+        "next_button": {
+            "selector": "#next_chap",
+            "value": "href"
+        },
+        "pre_button": {
+            "selector": "#prev_chap",
+            "value": "href"
+        },
+        "detail_first_chapter": {
+            "selector": ".list-chapter li a",
+            "value": "href"
+        },
+        "use_html_parser": true,
+        "chapter_ignore_domain": true
     },
-    "chapter": {
-      "selector": ".chapter-title"
-    },
-    "content": {
-      "selector": "#chapter-c"
-    },
-    "next_button": {
-      "selector": "#next_chap",
-      "value": "href"
-    },
-    "pre_button": {
-      "selector": "#prev_chap",
-      "value": "href"
-    },
-    "detail_first_chapter": {
-      "selector": ".list-chapter li a",
-      "value": "href"
-    },
-    "use_html_parser": true,
-    "chapter_ignore_domain": true
-  },
   {
     "logo": "https://ntruyen.xyz/imgs/logo.webp",
     "domain": "ntruyen.xyz",
