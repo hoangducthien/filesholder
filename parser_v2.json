@@ -14,7 +14,10 @@
       {"start": "║༺☆༻", "end": "༺☆༻║"},
       {"start": "║༺★༻", "end": "༺★༻║"},
       {"start": "closeAdvertisements", "end": "Powered by GliaStudios"}
-    ]
+    ],
+    "content_replaces": [
+            "·"
+     ]
   },
   {
     "logo": "https://sangtacviet.app/favicon.png",
