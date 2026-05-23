@@ -2,9 +2,6 @@
   {
     "logo": "https://truyenwikidich.net/static/img/logo-wiki-b.gif",
     "domain": "wikicv.net",
-     "content_replaces": [
-            "·"
-     ],
     "keys": ["truyenwikidich", "wikidich.info", "wikicv.net"],
     "use_html_parser": true,
     "title": {"selector": ".book-title"},
@@ -17,11 +14,6 @@
       {"start": "║༺☆༻", "end": "༺☆༻║"},
       {"start": "║༺★༻", "end": "༺★༻║"},
       {"start": "closeAdvertisements", "end": "Powered by GliaStudios"}
-    ],
-    "use_webview": true,
-    "data_ready_checker": [],
-    "data_loading_checker": [
-      "id=\"bookContentBody\" class=\"\""
     ]
   },
   {
