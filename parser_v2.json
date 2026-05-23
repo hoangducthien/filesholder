@@ -62,7 +62,8 @@
     ],
     "content_load_js": "var f=document.createElement('iframe');document.body.appendChild(f);XMLHttpRequest.prototype.send=f.contentWindow.XMLHttpRequest.prototype.send;document.body.removeChild(f);if(typeof chapterfetcher!=='undefined'){try{chapterfetcher.send('')}catch(e){console.log('STV send error:',e)}}",
     "chapter_ignore_domain": false,
-    "detail_first_chapter_js": "click:#readnowbtn"
+    "detail_first_chapter_js": "click:#readnowbtn",
+    "apply_word_segmentation": true
   },
   {
     "logo": "https://static.wattpad.com/img/logos/wp-logo-orange.png",
