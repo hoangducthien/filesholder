@@ -2,22 +2,51 @@
   {
     "logo": "https://truyenwikidich.net/static/img/logo-wiki-b.gif",
     "domain": "wikicv.net",
-    "keys": ["truyenwikidich", "wikidich.info", "wikicv.net"],
+    "keys": [
+      "truyenwikidich",
+      "wikidich.info",
+      "wikicv.net"
+    ],
     "use_html_parser": true,
-    "title": {"selector": ".book-title"},
-    "chapter": {"selector": ".book-title", "element_indexed": 1},
-    "content": {"selector": "#bookContentBody"},
-    "next_button": {"selector": "#btnNextChapter", "value": "href"},
-    "pre_button": {"selector": "#btnPreChapter", "value": "href"},
-    "detail_first_chapter": {"selector": ".control-btns a.orange-btn", "value": "href"},
+    "title": {
+      "selector": ".book-title"
+    },
+    "chapter": {
+      "selector": ".book-title",
+      "element_indexed": 1
+    },
+    "content": {
+      "selector": "#bookContentBody"
+    },
+    "next_button": {
+      "selector": "#btnNextChapter",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "#btnPreChapter",
+      "value": "href"
+    },
+    "detail_first_chapter": {
+      "selector": ".control-btns a.orange-btn",
+      "value": "href"
+    },
     "content_removes": [
-      {"start": "║༺☆༻", "end": "༺☆༻║"},
-      {"start": "║༺★༻", "end": "༺★༻║"},
-      {"start": "closeAdvertisements", "end": "Powered by GliaStudios"}
+      {
+        "start": "║༺☆༻",
+        "end": "༺☆༻║"
+      },
+      {
+        "start": "║༺★༻",
+        "end": "༺★༻║"
+      },
+      {
+        "start": "closeAdvertisements",
+        "end": "Powered by GliaStudios"
+      }
     ],
     "content_replaces": [
-            "·"
-     ]
+      "·"
+    ]
   },
   {
     "logo": "https://sangtacviet.app/favicon.png",
@@ -250,38 +279,38 @@
     }
   },
   {
-        "logo": "https://static.truyenfull.today/favicons/favicon-192x192.png",
-        "domain": "truyenfull.today",
-        "keys": [
-            "truyenfull.vn",
-            "truyenfull.vision",
-            "truyenfull.today",
-            "www.truyenfull.today"
-        ],
-        "title": {
-            "selector": ".truyen-title"
-        },
-        "chapter": {
-            "selector": ".chapter-title"
-        },
-        "content": {
-            "selector": "#chapter-c"
-        },
-        "next_button": {
-            "selector": "#next_chap",
-            "value": "href"
-        },
-        "pre_button": {
-            "selector": "#prev_chap",
-            "value": "href"
-        },
-        "detail_first_chapter": {
-            "selector": ".list-chapter li a",
-            "value": "href"
-        },
-        "use_html_parser": true,
-        "chapter_ignore_domain": true
+    "logo": "https://static.truyenfull.today/favicons/favicon-192x192.png",
+    "domain": "truyenfull.today",
+    "keys": [
+      "truyenfull.vn",
+      "truyenfull.vision",
+      "truyenfull.today",
+      "www.truyenfull.today"
+    ],
+    "title": {
+      "selector": ".truyen-title"
     },
+    "chapter": {
+      "selector": ".chapter-title"
+    },
+    "content": {
+      "selector": "#chapter-c"
+    },
+    "next_button": {
+      "selector": "#next_chap",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "#prev_chap",
+      "value": "href"
+    },
+    "detail_first_chapter": {
+      "selector": ".list-chapter li a",
+      "value": "href"
+    },
+    "use_html_parser": true,
+    "chapter_ignore_domain": true
+  },
   {
     "logo": "https://ntruyen.xyz/imgs/logo.webp",
     "domain": "ntruyen.xyz",
@@ -752,17 +781,17 @@
       "selector": ".chapter-c"
     },
     "next_button": {
-      "selector": "a[title^=\"Chương \"]",
+      "selector": "a#next_chap",
       "value": "href",
-      "element_indexed": 1
+      "element_indexed": 0
     },
     "pre_button": {
-      "selector": "a[title^=\"Chương \"]",
+      "selector": "a#prev_chap",
       "value": "href",
       "element_indexed": 0
     },
     "detail_first_chapter": {
-      "selector": ".l-chapters li:first-child a",
+      "selector": ".list-chapter li:first-child a",
       "value": "href"
     }
   },
