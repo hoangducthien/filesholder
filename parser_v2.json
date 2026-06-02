@@ -61,7 +61,7 @@
     ],
     "use_html_parser": true,
     "use_webview": true,
-    "min_android_version": 130,
+    "min_android_version": 129,
     "title": {
       "selector": "#booknameholder"
     },
