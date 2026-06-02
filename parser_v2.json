@@ -1050,5 +1050,38 @@
   "next_button": { "selector": "#gotochap a.next", "value": "href" },
   "pre_button": { "selector": "#gotochap a.back", "value": "href" },
   "detail_first_chapter": { "selector": "#chapter-list li:first-child a", "value": "href" }
-}
+},
+  {
+    "domain": "tacgiaviet.com",
+    "keys": [
+      "tacgiaviet.com",
+      "www.tacgiaviet.com"
+    ],
+    "logo": "https://www.google.com/s2/favicons?sz=128&domain=tacgiaviet.com",
+    "use_html_parser": true,
+    "title": {
+      "selector": ".reading-shell > a",
+      "element_indexed": 0
+    },
+    "chapter": {
+      "selector": ".chapter-reading-title"
+    },
+    "content": {
+      "selector": ".reading-content"
+    },
+    "next_button": {
+      "selector": "a.chapter-nav-next",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "pre_button": {
+      "selector": "a.chapter-nav-prev",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "detail_first_chapter": {
+      "selector": "a.story-detail-read-start",
+      "value": "href"
+    }
+  }
 ]
