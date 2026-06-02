@@ -62,6 +62,7 @@
     "use_html_parser": true,
     "use_webview": true,
     "min_android_version": 129,
+    "need_gecko": true,
     "title": {
       "selector": "#booknameholder"
     },
