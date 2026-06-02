@@ -1039,5 +1039,16 @@
       "element_indexed": 0
     },
     "detail_first_chapter_js": "(function(){var p=window.location.pathname;if(p.endsWith('/'))p=p.slice(0,-1);return window.location.origin+p+'/chuong-1';})()"
-  }
+  },
+  {
+  "domain": "metruyenchuvn.com",
+  "keys": ["metruyenchuvn.com", "www.metruyenchuvn.com"],
+  "use_html_parser": true,
+  "title": { "selector": ".current-book" },
+  "chapter": { "selector": ".current-chapter" },
+  "content": { "selector": ".truyen" },
+  "next_button": { "selector": "#gotochap a.next", "value": "href" },
+  "pre_button": { "selector": "#gotochap a.back", "value": "href" },
+  "detail_first_chapter": { "selector": "#chapter-list li:first-child a", "value": "href" }
+}
 ]
