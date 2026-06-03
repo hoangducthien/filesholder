@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "models": [
     {
       "id": "turbo-bichngoc",
@@ -273,6 +273,19 @@
       "sizeMB": 65,
       "engine": "standard",
       "avatarUrl": "https://firebasestorage.googleapis.com/v0/b/novelreader-8fdab.firebasestorage.app/o/avatar%2Fpos_4_8.png?alt=media&token=4dd0c258-1964-447d-b071-90d9260f581c"
+    },
+    {
+      "id": "ngochuyennew",
+      "languageCode": "vi",
+      "displayName": "Ngọc Huyền",
+      "fileName": "ngochuyennew.onnx",
+      "engine": "standard",
+      "quality": "good",
+      "sizeMB": 65,
+      "onnxUrl": "https://firebasestorage.googleapis.com/v0/b/novelreader-8fdab.firebasestorage.app/o/tts_model%2Fngochuyennew.onnx?alt=media&token=35929522-dde2-40d9-88e2-a5384dbae371",
+      "jsonUrl": "https://firebasestorage.googleapis.com/v0/b/novelreader-8fdab.firebasestorage.app/o/tts_model%2Fngochuyennew.onnx.json?alt=media&token=65490b5c-93d8-4278-8364-c088ed484770",
+      "avatarUrl": "https://firebasestorage.googleapis.com/v0/b/novelreader-8fdab.firebasestorage.app/o/avatar%2Fngochuyennew.png?alt=media&token=95adabef-8295-4c4c-b4df-43024c14c46f",
+      "demoUrl": "https://firebasestorage.googleapis.com/v0/b/novelreader-8fdab.firebasestorage.app/o/demo_voice%2Fdemo_ngochuyennew.wav?alt=media&token=f6d87547-534a-4f75-ab30-728aada19be0"
     }
   ]
 }
