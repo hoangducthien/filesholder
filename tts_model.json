@@ -153,6 +153,16 @@
       "onnxUrl": "https://firebasestorage.googleapis.com/v0/b/novelreader-8fdab.firebasestorage.app/o/tts_model%2Fvietthao3886.onnx?alt=media&token=93aee9fe-463a-42c9-8a53-f90e74c19053",
       "jsonUrl": "https://firebasestorage.googleapis.com/v0/b/novelreader-8fdab.firebasestorage.app/o/tts_model%2Fvietthao3886.onnx.json?alt=media&token=bb47c8f0-4779-4f47-a43c-1751b9eac0c9",
       "demoUrl": "https://firebasestorage.googleapis.com/v0/b/novelreader-8fdab.firebasestorage.app/o/demo_voice%2Fdemo_vietthao3886.wav?alt=media&token=ad7127f9-b087-4ba8-bc2d-a4e2b7a7f8a6"
+    },
+    ,
+    {
+      "id": "ngochuyennew",
+      "languageCode": "vi",
+      "displayName": "Ngọc Huyền",
+      "fileName": "ngochuyennew.onnx",
+      "onnxUrl": "https://firebasestorage.googleapis.com/v0/b/novelreader-8fdab.firebasestorage.app/o/tts_model%2Fngochuyennew.onnx?alt=media&token=35929522-dde2-40d9-88e2-a5384dbae371",
+      "jsonUrl": "https://firebasestorage.googleapis.com/v0/b/novelreader-8fdab.firebasestorage.app/o/tts_model%2Fngochuyennew.onnx.json?alt=media&token=65490b5c-93d8-4278-8364-c088ed484770",
+      "demoUrl": "https://firebasestorage.googleapis.com/v0/b/novelreader-8fdab.firebasestorage.app/o/demo_voice%2Fdemo_ngochuyennew.wav?alt=media&token=f6d87547-534a-4f75-ab30-728aada19be0"
     }
   ]
 }
