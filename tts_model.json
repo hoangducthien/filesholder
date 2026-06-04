@@ -154,7 +154,6 @@
       "jsonUrl": "https://firebasestorage.googleapis.com/v0/b/novelreader-8fdab.firebasestorage.app/o/tts_model%2Fvietthao3886.onnx.json?alt=media&token=bb47c8f0-4779-4f47-a43c-1751b9eac0c9",
       "demoUrl": "https://firebasestorage.googleapis.com/v0/b/novelreader-8fdab.firebasestorage.app/o/demo_voice%2Fdemo_vietthao3886.wav?alt=media&token=ad7127f9-b087-4ba8-bc2d-a4e2b7a7f8a6"
     },
-    ,
     {
       "id": "ngochuyennew",
       "languageCode": "vi",
