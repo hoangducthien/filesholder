@@ -186,6 +186,20 @@
     }
   },
   {
+        "logo": "https://www.google.com/s2/favicons?domain=truyenyy.co&sz=128",
+        "domain": "truyenyy.co",
+        "keys": ["truyenyy.co", "www.truyenyy.co"],
+        "use_html_parser": true,
+        "title": { "selector": "a.left-4", "value": "text" },
+        "chapter": { "selector": "h1" },
+        "content": { "selector": "article" },
+        "next_button": { "selector": "a.yy-btn.btn-active", "value": "href", "element_indexed": 0 },
+        "pre_button": { "selector": "a.yy-btn.btn-normal", "value": "href", "element_indexed": 0 },
+        "detail_first_chapter": { "selector": "a.bg-primarySecond", "value": "href" },
+        "chapter_ignore_domain": false,
+        "enable_download": false
+  },
+  {
     "logo": "https://noveltoon.vn/official/noveltoon/icon-128.png",
     "domain": "noveltoon.vn",
     "keys": [
