@@ -49,6 +49,204 @@
     ]
   },
   {
+    "domain": "metruyenchuvn.com",
+    "keys": [
+      "metruyenchuvn.com",
+      "www.metruyenchuvn.com"
+    ],
+    "logo": "https://metruyenchuvn.com/images/logo.png",
+    "use_html_parser": true,
+    "title": {
+      "selector": ".current-book"
+    },
+    "chapter": {
+      "selector": ".current-chapter"
+    },
+    "content": {
+      "selector": ".truyen"
+    },
+    "next_button": {
+      "selector": "#gotochap a.next",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "#gotochap a.back",
+      "value": "href"
+    },
+    "detail_first_chapter": {
+      "selector": "#chapter-list li:first-child a",
+      "value": "href"
+    }
+  },
+  {
+    "logo": "https://xtruyen.vn/wp-content/uploads/2025/12/cropped-xlogox-Copy-180x180.png",
+    "domain": "xtruyen.vn",
+    "keys": [
+      "xtruyen.vn",
+      "www.xtruyen.vn"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": "h1"
+    },
+    "chapter": {
+      "selector": "h2",
+      "element_indexed": 0
+    },
+    "content": {
+      "selector": "#chapter-reading-content"
+    },
+    "next_button": {
+      "selector": "a.next_page",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "a.prev_page",
+      "value": "href"
+    },
+    "data_loading_checker": [],
+    "data_ready_checker": [
+      "loading-box"
+    ],
+    "chapter_ignore_domain": true,
+    "detail_first_chapter": {
+      "selector": "#btn-read-first",
+      "value": "href"
+    }
+  },
+  {
+    "logo": "https://www.tvtruyen.com/public/assets/images/logo-truyentv.webp",
+    "domain": "tvtruyen.com",
+    "may_need_vpn": true,
+    "use_html_parser": true,
+    "use_webview": true,
+    "chapter_ignore_domain": true,
+    "key": "tvtruyen",
+    "title": {
+      "selector": ".truyen-title"
+    },
+    "data_loading_checker": [
+      "<div id=\"chapter-content\" style=\"font-size:"
+    ],
+    "chapter": {
+      "selector": ".chapter-text-info"
+    },
+    "content": {
+      "selector": "#chapter-content"
+    },
+    "next_button": {
+      "selector": "#next_chap",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "#prev_chap",
+      "value": "href"
+    },
+    "detail_first_chapter": {
+      "selector": ".comic-info-chapter a.chapter-link[href*='/chuong-']",
+      "value": "href",
+      "element_indexed": 0
+    }
+  },
+  {
+    "logo": "https://truyenchufull.info/doctruyenchufull-logo.png",
+    "domain": "truyenso1.com",
+    "keys": [
+      "truyenchufull",
+      "truyenso1"
+    ],
+    "use_html_parser": true,
+    "title": {
+      "selector": ".comic-chapter-title"
+    },
+    "chapter": {
+      "selector": ".chapter-title"
+    },
+    "content": {
+      "selector": ".chapter-content"
+    },
+    "next_button": {
+      "selector": ".next",
+      "value": "href"
+    },
+    "chapter_ignore_domain": true,
+    "pre_button": {
+      "selector": ".prev",
+      "value": "href"
+    },
+    "detail_first_chapter": {
+      "selector": ".chapters-list a.chapter-item",
+      "value": "href",
+      "element_indexed": 5
+    }
+  },
+  {
+    "domain": "truyenmoikk.com",
+    "keys": [
+      "truyenmoikk",
+      "truyenmoiqq",
+      "truyenmoiss"
+    ],
+    "title": {
+      "selector": ".truyen-title"
+    },
+    "chapter": {
+      "selector": ".chapter-title"
+    },
+    "content": {
+      "selector": ".chapter-content"
+    },
+    "next_button": {
+      "selector": "#next_chap",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "#prev_chap",
+      "value": "href"
+    },
+    "use_html_parser": true,
+    "chapter_ignore_domain": true,
+    "detail_first_chapter": {
+      "selector": "#firstChapter",
+      "value": "href"
+    },
+    "logo": "https://truyenmoikk.com/favicon.ico"
+  },
+  {
+    "logo": "https://static.truyenfull.today/favicons/favicon-192x192.png",
+    "domain": "truyenfull.today",
+    "keys": [
+      "truyenfull.vn",
+      "truyenfull.vision",
+      "truyenfull.today",
+      "www.truyenfull.today"
+    ],
+    "title": {
+      "selector": ".truyen-title"
+    },
+    "chapter": {
+      "selector": ".chapter-title"
+    },
+    "content": {
+      "selector": "#chapter-c"
+    },
+    "next_button": {
+      "selector": "#next_chap",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "#prev_chap",
+      "value": "href"
+    },
+    "detail_first_chapter": {
+      "selector": ".list-chapter li a",
+      "value": "href"
+    },
+    "use_html_parser": true,
+    "chapter_ignore_domain": true
+  },
+  {
     "logo": "https://sangtacviet.app/favicon.png",
     "domain": "sangtacviet.app",
     "keys": [
@@ -186,18 +384,39 @@
     }
   },
   {
-        "logo": "https://www.google.com/s2/favicons?domain=truyenyy.co&sz=128",
-        "domain": "truyenyy.co",
-        "keys": ["truyenyy.co", "www.truyenyy.co"],
-        "use_html_parser": true,
-        "title": { "selector": "a.left-4", "value": "text" },
-        "chapter": { "selector": "h1" },
-        "content": { "selector": "article" },
-        "next_button": { "selector": "a.yy-btn.btn-active", "value": "href", "element_indexed": 0 },
-        "pre_button": { "selector": "a.yy-btn.btn-normal", "value": "href", "element_indexed": 0 },
-        "detail_first_chapter": { "selector": "a.bg-primarySecond", "value": "href" },
-        "chapter_ignore_domain": false,
-        "enable_download": false
+    "logo": "https://www.google.com/s2/favicons?domain=truyenyy.co&sz=128",
+    "domain": "truyenyy.co",
+    "keys": [
+      "truyenyy.co",
+      "www.truyenyy.co"
+    ],
+    "use_html_parser": true,
+    "title": {
+      "selector": "a.left-4",
+      "value": "text"
+    },
+    "chapter": {
+      "selector": "h1"
+    },
+    "content": {
+      "selector": "article"
+    },
+    "next_button": {
+      "selector": "a.yy-btn.btn-active",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "pre_button": {
+      "selector": "a.yy-btn.btn-normal",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "detail_first_chapter": {
+      "selector": "a.bg-primarySecond",
+      "value": "href"
+    },
+    "chapter_ignore_domain": false,
+    "enable_download": false
   },
   {
     "logo": "https://noveltoon.vn/official/noveltoon/icon-128.png",
@@ -228,42 +447,8 @@
     "enable_download": false
   },
   {
-    "logo": "https://www.tvtruyen.com/public/assets/images/logo-truyentv.webp",
-    "domain": "tvtruyen.com",
-    "may_need_vpn": true,
-    "use_html_parser": true,
-    "use_webview": true,
-    "chapter_ignore_domain": true,
-    "key": "tvtruyen",
-    "title": {
-      "selector": ".truyen-title"
-    },
-    "data_loading_checker": [
-      "<div id=\"chapter-content\" style=\"font-size:"
-    ],
-    "chapter": {
-      "selector": ".chapter-text-info"
-    },
-    "content": {
-      "selector": "#chapter-content"
-    },
-    "next_button": {
-      "selector": "#next_chap",
-      "value": "href"
-    },
-    "pre_button": {
-      "selector": "#prev_chap",
-      "value": "href"
-    },
-    "detail_first_chapter": {
-      "selector": ".comic-info-chapter a.chapter-link[href*='/chuong-']",
-      "value": "href",
-      "element_indexed": 0
-    }
-  },
-  {
     "logo": "https://play-lh.googleusercontent.com/ySl8uNRjXrdZoY4xJZWZ0A875z4lTVLvJckaE3ECsL8OitY0g5UES9QMpNhO7OO1hH4=w480-h960-rw",
-    "domain": "m.tangthuvien.net",
+    "domain": "tangthuvien.top",
     "may_need_vpn": true,
     "key": "tangthuvien",
     "enable_download": false,
@@ -292,39 +477,6 @@
       "selector": "#btnReadBook",
       "value": "href"
     }
-  },
-  {
-    "logo": "https://static.truyenfull.today/favicons/favicon-192x192.png",
-    "domain": "truyenfull.today",
-    "keys": [
-      "truyenfull.vn",
-      "truyenfull.vision",
-      "truyenfull.today",
-      "www.truyenfull.today"
-    ],
-    "title": {
-      "selector": ".truyen-title"
-    },
-    "chapter": {
-      "selector": ".chapter-title"
-    },
-    "content": {
-      "selector": "#chapter-c"
-    },
-    "next_button": {
-      "selector": "#next_chap",
-      "value": "href"
-    },
-    "pre_button": {
-      "selector": "#prev_chap",
-      "value": "href"
-    },
-    "detail_first_chapter": {
-      "selector": ".list-chapter li a",
-      "value": "href"
-    },
-    "use_html_parser": true,
-    "chapter_ignore_domain": true
   },
   {
     "logo": "https://ntruyen.xyz/imgs/logo.webp",
@@ -419,70 +571,6 @@
     "logo": "https://lovetruyen.me/favicon.ico"
   },
   {
-    "logo": "https://truyenchufull.info/doctruyenchufull-logo.png",
-    "domain": "truyenso1.com",
-    "keys": [
-      "truyenchufull",
-      "truyenso1"
-    ],
-    "use_html_parser": true,
-    "title": {
-      "selector": ".comic-chapter-title"
-    },
-    "chapter": {
-      "selector": ".chapter-title"
-    },
-    "content": {
-      "selector": ".chapter-content"
-    },
-    "next_button": {
-      "selector": ".next",
-      "value": "href"
-    },
-    "chapter_ignore_domain": true,
-    "pre_button": {
-      "selector": ".prev",
-      "value": "href"
-    },
-    "detail_first_chapter": {
-      "selector": ".chapters-list a.chapter-item",
-      "value": "href",
-      "element_indexed": 5
-    }
-  },
-  {
-    "domain": "truyenmoikk.com",
-    "keys": [
-      "truyenmoikk",
-      "truyenmoiqq",
-      "truyenmoiss"
-    ],
-    "title": {
-      "selector": ".truyen-title"
-    },
-    "chapter": {
-      "selector": ".chapter-title"
-    },
-    "content": {
-      "selector": ".chapter-content"
-    },
-    "next_button": {
-      "selector": "#next_chap",
-      "value": "href"
-    },
-    "pre_button": {
-      "selector": "#prev_chap",
-      "value": "href"
-    },
-    "use_html_parser": true,
-    "chapter_ignore_domain": true,
-    "detail_first_chapter": {
-      "selector": "#firstChapter",
-      "value": "href"
-    },
-    "logo": "https://truyenmoikk.com/favicon.ico"
-  },
-  {
     "logo": "https://metruyenhot.me/frontend/images/logo.png",
     "domain": "metruyenhot.me",
     "keys": [
@@ -521,43 +609,6 @@
     "chapter_ignore_domain": false,
     "detail_first_chapter": {
       "selector": ".list-chap ul li:first-child a",
-      "value": "href"
-    }
-  },
-  {
-    "logo": "https://xtruyen.vn/wp-content/uploads/2025/12/cropped-xlogox-Copy-180x180.png",
-    "domain": "xtruyen.vn",
-    "keys": [
-      "xtruyen.vn",
-      "www.xtruyen.vn"
-    ],
-    "use_html_parser": true,
-    "use_webview": true,
-    "title": {
-      "selector": "h1"
-    },
-    "chapter": {
-      "selector": "h2",
-      "element_indexed": 0
-    },
-    "content": {
-      "selector": "#chapter-reading-content"
-    },
-    "next_button": {
-      "selector": "a.next_page",
-      "value": "href"
-    },
-    "pre_button": {
-      "selector": "a.prev_page",
-      "value": "href"
-    },
-    "data_loading_checker": [],
-    "data_ready_checker": [
-      "loading-box"
-    ],
-    "chapter_ignore_domain": true,
-    "detail_first_chapter": {
-      "selector": "#btn-read-first",
       "value": "href"
     }
   },
@@ -1055,17 +1106,6 @@
     },
     "detail_first_chapter_js": "(function(){var p=window.location.pathname;if(p.endsWith('/'))p=p.slice(0,-1);return window.location.origin+p+'/chuong-1';})()"
   },
-  {
-  "domain": "metruyenchuvn.com",
-  "keys": ["metruyenchuvn.com", "www.metruyenchuvn.com"],
-  "use_html_parser": true,
-  "title": { "selector": ".current-book" },
-  "chapter": { "selector": ".current-chapter" },
-  "content": { "selector": ".truyen" },
-  "next_button": { "selector": "#gotochap a.next", "value": "href" },
-  "pre_button": { "selector": "#gotochap a.back", "value": "href" },
-  "detail_first_chapter": { "selector": "#chapter-list li:first-child a", "value": "href" }
-},
   {
     "domain": "tacgiaviet.com",
     "keys": [
