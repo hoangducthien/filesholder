@@ -693,11 +693,10 @@
     "logo": "https://metruyensangtac.com/favicon.ico"
   },
   {
-    "logo": "https://navyteamn.com/storage/site/UTXsBXH3MCbGasHyEXINMrWKSqzTCkRL865M2PMl.png",
-    "domain": "navyteamn.com",
+    "logo": "https://navyteamm.com/storage/site/UTXsBXH3MCbGasHyEXINMrWKSqzTCkRL865M2PMl.png",
+    "domain": "navyteamm.com",
     "keys": [
-      "navyteamn.com",
-      "www.navyteamn.com"
+      "navyteamn"      
     ],
     "use_html_parser": true,
     "title": {
