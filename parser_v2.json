@@ -298,6 +298,7 @@
     "domain": "wattpad.com.vn",
     "may_need_vpn": true,
     "keys": [
+      "wattpadvn",
       "wattpad.com.vn"
     ],
     "use_html_parser": true,
@@ -696,29 +697,26 @@
     "logo": "https://navyteamm.com/storage/site/UTXsBXH3MCbGasHyEXINMrWKSqzTCkRL865M2PMl.png",
     "domain": "navyteamm.com",
     "keys": [
-      "navyteam"      
+      "navyteamm",
+      "navyteamz"
     ],
     "use_html_parser": true,
     "title": {
-      "selector": ".chapter-title",
-      "element_indexed": 0
+      "selector": "#breadcrumb-manga"
     },
     "chapter": {
-      "selector": ".chapter-title",
-      "element_indexed": 0
+      "selector": "h1"
     },
     "content": {
-      "selector": ".chapter-content"
+      "selector": "#chapter-content"
     },
     "next_button": {
-      "selector": "a.nav-btn.next-btn[href*=\"chuong\"]",
-      "value": "href",
-      "element_indexed": 0
+      "selector": "#next-link",
+      "value": "href"      
     },
     "pre_button": {
-      "selector": "a.nav-btn.prev-btn[href*=\"chuong\"]",
-      "value": "href",
-      "element_indexed": 0
+      "selector": "#pre-link",
+      "value": "href"
     },
     "detail_first_chapter_js": "(function(){var p=window.location.pathname;return p.endsWith('/')?window.location.origin+p+'chuong-1':window.location.origin+p+'/chuong-1';})()",
     "chapter_ignore_domain": true
