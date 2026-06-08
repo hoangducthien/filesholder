@@ -247,15 +247,17 @@
     "chapter_ignore_domain": true
   },
   {
-    "logo": "https://sangtacviet.app/favicon.png",
-    "domain": "sangtacviet.app",
+    "logo": "https://sangtacviet.xyz/favicon.png",
+    "domain": "sangtacviet.xyz",
     "keys": [
       "sangtacviet.app",
       "sangtacviet.com",
       "sangtacviet.vip",
+      "sangtacviet.xyz",
       "www.sangtacviet.app",
       "www.sangtacviet.com",
-      "www.sangtacviet.vip"
+      "www.sangtacviet.vip",
+      "www.sangtacviet.xyz"
     ],
     "use_html_parser": true,
     "use_webview": true,
