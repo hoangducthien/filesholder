@@ -315,11 +315,13 @@
     },
     "next_button": {
       "selector": ".next",
-      "value": "href"
+      "value": "href",
+      "action": 1
     },
     "pre_button": {
       "selector": ".back",
-      "value": "href"
+      "value": "href",
+      "action": 1
     },
     "detail_first_chapter": {
       "selector": ".lstbtn a",
