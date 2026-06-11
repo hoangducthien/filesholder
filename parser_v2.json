@@ -297,39 +297,6 @@
   },
   {
     "logo": "https://static.wattpad.com/img/logos/wp-logo-orange.png",
-    "domain": "wattpad.com.vn",
-    "may_need_vpn": true,
-    "keys": [
-      "wattpadvn",
-      "wattpad.com.vn"
-    ],
-    "use_html_parser": true,
-    "title": {
-      "selector": ".current-book"
-    },
-    "chapter": {
-      "selector": ".current-chapter"
-    },
-    "content": {
-      "selector": ".truyen"
-    },
-    "next_button": {
-      "selector": ".next",
-      "value": "href",
-      "action": 1
-    },
-    "pre_button": {
-      "selector": ".back",
-      "value": "href",
-      "action": 1
-    },
-    "detail_first_chapter": {
-      "selector": ".lstbtn a",
-      "value": "href"
-    }
-  },
-  {
-    "logo": "https://static.wattpad.com/img/logos/wp-logo-orange.png",
     "domain": "wattpad.com",
     "may_need_vpn": true,
     "keys": [
