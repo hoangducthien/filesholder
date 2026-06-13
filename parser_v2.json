@@ -471,12 +471,12 @@
       "selector": ".wrapper.prose"
     },
     "next_button": {
-      "selector": ".flex.items-center.justify-center.gap-2.mt-4 a:last-child",
-      "element_indexed": 0,
+      "selector": "a[rel='nofollow']",
+      "element_indexed": 1,
       "value": "href"
     },
     "pre_button": {
-      "selector": ".flex.items-center.justify-center.gap-2.mt-4 a:first-child",
+      "selector": "a[rel='nofollow']",
       "element_indexed": 0,
       "value": "href"
     },
