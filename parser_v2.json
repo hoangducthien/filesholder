@@ -111,9 +111,10 @@
     ],
     "chapter_ignore_domain": true,
     "detail_first_chapter": {
-      "selector": "#btn-read-first",
-      "value": "href"
-    }
+  "selector": "#init-links a.c-btn",
+  "value": "href",
+  "element_indexed": 0
+}
   },
   {
     "logo": "https://www.tvtruyen.com/public/assets/images/logo-truyentv.webp",
