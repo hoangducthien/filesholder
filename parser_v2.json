@@ -296,6 +296,40 @@
     "apply_word_segmentation": true
   },
   {
+    "domain": "wikidichvn.com",
+    "keys": [
+      "wikidichvn.com",
+      "www.wikidichvn.com"
+    ],
+    "logo": "https://www.google.com/s2/favicons?sz=128&domain=wikidichvn.com",
+    "use_html_parser": true,
+    "use_webview": false,
+    "title": {
+      "selector": "h1.current-book"
+    },
+    "chapter": {
+      "selector": "h2.current-chapter"
+    },
+    "content": {
+      "selector": ".truyen"
+    },
+    "next_button": {
+      "selector": "a.next",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "pre_button": {
+      "selector": "a.back",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "detail_first_chapter": {
+      "selector": "#chapter-list ul li:first-child a",
+      "value": "href",
+      "element_indexed": 0
+    }
+  },
+  {
     "logo": "https://static.wattpad.com/img/logos/wp-logo-orange.png",
     "domain": "wattpad.com",
     "may_need_vpn": true,
@@ -324,36 +358,6 @@
       "value": "href"
     },
     "chapter_ignore_domain": true
-  },
-  {
-    "logo": "https://static.wattpad.com/img/logos/wp-logo-orange.png",
-    "domain": "wattpad.com.vn",
-    "may_need_vpn": true,
-    "keys": [
-      "wattpad.com.vn"
-    ],
-    "use_html_parser": true,
-    "title": {
-      "selector": ".current-book"
-    },
-    "chapter": {
-      "selector": ".current-chapter"
-    },
-    "content": {
-      "selector": ".truyen"
-    },
-    "next_button": {
-      "selector": ".next",
-      "value": "href"
-    },
-    "pre_button": {
-      "selector": ".back",
-      "value": "href"
-    },
-    "detail_first_chapter": {
-      "selector": ".lstbtn a",
-      "value": "href"
-    }
   },
   {
     "logo": "https://www.google.com/s2/favicons?domain=truyenyy.co&sz=128",
