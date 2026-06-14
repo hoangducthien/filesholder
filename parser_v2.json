@@ -1111,5 +1111,35 @@
       "selector": "a.story-detail-read-start",
       "value": "href"
     }
+  },
+  {
+    "domain": "dichngay.com",
+    "use_webview": true,
+    "key": "dichngay",
+    "title": {
+      "start": "div class=&quot;breadcrumbs&quot;&gt;&lt;a href=",
+      "middle": "html&amp;amp;bid=&amp;amp;un=&quot; target=&quot;_parent&quot;&gt;",
+      "end": "&lt;/a&gt;&lt;/div&gt;\n&lt;header"
+    },
+    "chapter": {
+      "start": "id=&quot;nr_title&quot;&gt;",
+      "end": "&lt;/h1&gt;"
+    },
+    "content": {
+      "start": "&lt;article class=&quot;article-content&quot; id=&quot;nr1&quot;&gt;",
+      "end": "&lt;/p&gt;&lt;div class=&quot;pagination2&quot;&gt;"
+    },
+    "next_button": {
+      "start": "class=&quot;pagination2&quot;&gt;",
+      "middle": "Trang trước&lt;/a&gt;&lt;a href=&quot;",
+      "end": "&quot; target=&quot;_parent"
+    },
+    "pre_button": {
+      "start": "class=&quot;pagination2&quot;&gt;",
+      "middle": "Mục lục&lt;/a&gt;&lt;a href=&quot;",
+      "end": "&quot; target=&quot;_parent"
+    },
+    "content_replaces":["<p>", "</p>"],
+    "chapter_ignore_domain": true
   }
 ]
