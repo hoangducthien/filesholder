@@ -1140,6 +1140,16 @@
       "end": "&quot; target=&quot;_parent"
     },
     "content_replaces":["<p>", "</p>"],
+    "content_removes": [
+      {
+        "start": "<a href",
+        "end": "target=\"_parent\">"
+      },
+      {
+        "start": "a href",
+        "end": "targetparent"
+      }
+    ],
     "chapter_ignore_domain": true
   }
 ]
