@@ -83,7 +83,8 @@
     "domain": "xtruyen.vn",
     "keys": [
       "xtruyen.vn",
-      "www.xtruyen.vn"
+      "www.xtruyen.vn",
+      "xtruyen.net"
     ],
     "use_html_parser": true,
     "use_webview": true,
