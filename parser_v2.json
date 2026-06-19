@@ -1152,5 +1152,45 @@
       }
     ],
     "chapter_ignore_domain": true
+  },
+  {
+    "domain": "sitruyencv.com",
+    "keys": [
+      "sitruyencv.com",
+      "www.sitruyencv.com"
+    ],
+    "logo": "https://www.google.com/s2/favicons?sz=128&domain=sitruyencv.com",
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": ".sitr-title"
+    },
+    "chapter": {
+      "selector": "h3.ant-typography",
+      "element_indexed": 0
+    },
+    "content": {
+      "selector": ".reading-body"
+    },
+    "next_button": {
+      "selector": "a.sitr-next",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "pre_button": {
+      "selector": "a.sitr-prev",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "detail_first_chapter": {
+      "selector": "a.sitr-first",
+      "value": "href"
+    },
+    "content_load_js": "(function(){var path=location.pathname;var sm=path.match(/\\/story\\/(\\d+)/);if(sm){var sid=sm[1];fetch('https://api.sitruyencv.com/api/stories/'+sid+'/translate-versions').then(function(r){return r.json();}).then(function(d){var vid=d&&d.data&&d.data[0]&&d.data[0].id;if(!vid||document.querySelector('.sitr-first'))return;var a=document.createElement('a');a.className='sitr-first';a.href=location.origin+'/read/'+sid+'/1?v='+vid;a.style.display='none';document.body.appendChild(a);}).catch(function(){});return;}var m=path.match(/\\/read\\/(\\d+)\\/(\\d+)/);if(!m)return;var s=m[1],c=parseInt(m[2],10),v=new URLSearchParams(location.search).get('v')||'';function mk(n,k){if(document.querySelector('.'+k))return;var a=document.createElement('a');a.className=k;a.href=location.origin+'/read/'+s+'/'+n+'?v='+v;a.style.display='none';document.body.appendChild(a);}mk(c+1,'sitr-next');if(c>1)mk(c-1,'sitr-prev');function put(t){if(!t||document.querySelector('.sitr-title'))return;var e=document.createElement('span');e.className='sitr-title';e.style.display='none';e.textContent=t;document.body.appendChild(e);}fetch('https://api.sitruyencv.com/api/stories/'+s).then(function(r){return r.json();}).then(function(d){put((d&&d.data&&d.data.title)||'');}).catch(function(){});setTimeout(function(){if(document.querySelector('.sitr-title'))return;var h=document.querySelector('h3.ant-typography');put(h?h.textContent.trim():'Truyện');},2500);})();",
+    "data_loading_checker": [
+      "reading-body",
+      "sitr-title"
+    ],
+    "chapter_ignore_domain": true
   }
 ]
