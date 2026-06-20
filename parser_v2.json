@@ -159,6 +159,7 @@
       "truyenso1"
     ],
     "use_html_parser": true,
+    "use_webview": true,
     "title": {
       "selector": ".comic-chapter-title"
     },
@@ -265,6 +266,7 @@
     "use_webview": true,
     "min_android_version": 129,
     "need_gecko": true,
+    "download_warning": true,
     "title": {
       "selector": "#booknameholder"
     },
