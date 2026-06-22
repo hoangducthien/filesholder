@@ -1262,5 +1262,39 @@
       "element_indexed": 0
     },
     "chapter_ignore_domain": true
+  },
+  {
+    "logo": "https://www.google.com/s2/favicons?sz=128&domain=truyencn.com",
+    "domain": "truyencn.com",
+    "keys": [
+      "truyencn.com",
+      "www.truyencn.com"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": ".bread a[href*=\"/b/\"]"
+    },
+    "chapter": {
+      "selector": ".txtnav h1.mytitle"
+    },
+    "content": {
+      "selector": "#tcn-content"
+    },
+    "next_button": {
+      "selector": "a.back",
+      "value": "href",
+      "element_indexed": 1
+    },
+    "pre_button": {
+      "selector": "a.back",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "content_load_js": "(function(){if(document.getElementById('tcn-content'))return;var tx=document.querySelector('.txtnav');if(!tx)return;var ps=tx.querySelectorAll(':scope > p');var html='';ps.forEach(function(p,i){var t=(p.textContent||'').trim();if(t&&!(i===0&&t.indexOf('Chương')===0))html+='<p>'+t+'</p>';});var d=document.createElement('div');d.id='tcn-content';d.style.display='none';d.innerHTML=html;document.body.appendChild(d);})();",
+    "data_loading_checker": [
+      "tcn-content"
+    ],
+    "chapter_ignore_domain": true
   }
 ]
