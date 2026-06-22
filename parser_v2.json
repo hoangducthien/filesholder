@@ -1194,5 +1194,73 @@
       "sitr-title"
     ],
     "chapter_ignore_domain": true
+  },
+  {
+    "logo": "https://www.google.com/s2/favicons?sz=128&domain=plnovel.com",
+    "domain": "plnovel.com",
+    "keys": [
+      "plnovel.com",
+      "www.plnovel.com"
+    ],
+    "use_html_parser": false,
+    "title": {
+      "start": "class=\"truyen-title\"",
+      "middle": ">",
+      "end": "</a>"
+    },
+    "chapter": {
+      "start": "class=\"chapter-title\"",
+      "middle": ">",
+      "end": "</a>"
+    },
+    "content": {
+      "start": "textContent\">",
+      "middle": "\n",
+      "end": "</script>"
+    },
+    "next_button": {
+      "start": "id=\"next_chap\" href=\"",
+      "end": "\""
+    },
+    "pre_button": {
+      "start": "id=\"prev_chap\" href=\"",
+      "end": "\""
+    },
+    "chapter_ignore_domain": true,
+    "detail_first_chapter_js": "(function(){var b=document.querySelector('#danh-sach-chuong');if(b&&b.nextElementSibling&&b.nextElementSibling.tagName==='A'&&b.nextElementSibling.href)return b.nextElementSibling.href;var l=document.querySelector('a[href*=\"/chuong-1/\"]');return l&&l.href?l.href:'';})()"
+  },
+  {
+    "logo": "https://www.google.com/s2/favicons?sz=128&domain=aatruyen.net",
+    "domain": "aatruyen.net",
+    "keys": [
+      "aatruyen.net",
+      "www.aatruyen.net"
+    ],
+    "use_html_parser": true,
+    "title": {
+      "selector": "h2.comics-title"
+    },
+    "chapter": {
+      "selector": "h1.chapter-title"
+    },
+    "content": {
+      "selector": ".story-content"
+    },
+    "next_button": {
+      "selector": "a.next_page",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "pre_button": {
+      "selector": "a.prev_page",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "detail_first_chapter": {
+      "selector": "a[href*=\"/chuong-1-\"]",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "chapter_ignore_domain": true
   }
 ]
