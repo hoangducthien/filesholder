@@ -1290,5 +1290,23 @@
       "tcn-content"
     ],
     "chapter_ignore_domain": true
+  },
+  {
+    "domain": "vnthuquan.org",
+    "keys": [
+      "vietnamthuquan",
+      "vnthuquan"
+    ],
+    "use_html_parser": true,
+    "title": {
+      "selector": "h1"
+    },
+    "chapter": {
+      "selector": ".chuongso_a",
+      "element_indexed": 1
+    },
+    "content": {
+      "selector": "#vntqTextContent"
+    }
   }
 ]
