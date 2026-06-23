@@ -677,29 +677,22 @@
     "logo": "https://navyteamz.com/storage/site/UTXsBXH3MCbGasHyEXINMrWKSqzTCkRL865M2PMl.png",
     "domain": "navyteamz.com",
     "keys": [
-      "navyteamm",
+      "navyteam",
       "navyteamz"
     ],
-    "use_html_parser": true,
     "title": {
-      "selector": "#breadcrumb-manga"
+      "start": "<title>",
+      "end": "- Chương"
     },
     "chapter": {
-      "selector": "h1"
+      "start": "id=\"chapterTitle\">",
+      "end": "</div>"
     },
     "content": {
-      "selector": "#chapter-content"
-    },
-    "next_button": {
-      "selector": "#next-link",
-      "value": "href"      
-    },
-    "pre_button": {
-      "selector": "#pre-link",
-      "value": "href"
-    },
-    "detail_first_chapter_js": "(function(){var p=window.location.pathname;return p.endsWith('/')?window.location.origin+p+'chuong-1':window.location.origin+p+'/chuong-1';})()",
-    "chapter_ignore_domain": true
+      "start": "id=\"novelContent\">",
+      "middle": "</strong></p>",
+      "end": "</p>                            </div>"
+    }
   },
   {
     "domain": "msvtruyen.com",
