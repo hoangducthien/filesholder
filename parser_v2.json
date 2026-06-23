@@ -1124,7 +1124,7 @@
     },
     "content": {
       "start": "&lt;article class=&quot;article-content&quot; id=&quot;nr1&quot;&gt;",
-      "end": "&lt;/p&gt;&lt;div class=&quot;pagination2&quot;&gt;"
+      "end": "div class=&quot;pagination2&quot;&gt;"
     },
     "next_button": {
       "start": "class=&quot;pagination2&quot;&gt;",
