@@ -1308,5 +1308,31 @@
     "content": {
       "selector": "#vntqTextContent"
     }
+  },
+  {
+    "domain": "tieuthuyetmang.com",
+    "keys": [
+      "tieuthuyetmang"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": "a:has(svg.lucide-chevron-left)"
+    },
+    "chapter": {
+      "selector": "h1"
+    },
+    "content": {
+      "selector": ".whitespace-pre-wrap"
+    },
+    "next_button": {
+      "selector": "a:has(svg.lucide-chevron-right)",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "a:has(svg.lucide-chevron-left)",
+      "element_indexed": 1,
+      "value": "href"
+    }
   }
 ]
