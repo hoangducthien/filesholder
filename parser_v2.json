@@ -1334,5 +1334,36 @@
       "element_indexed": 1,
       "value": "href"
     }
+  },
+  {
+    "logo": "https://www.google.com/s2/favicons?sz=128&domain=docln.sbs",
+    "domain": "docln.sbs",
+    "keys": [
+      "docln.sbs",
+      "www.docln.sbs",
+      "docln.net"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": ".rd_sidebar-name h5 a"
+    },
+    "chapter": {
+      "selector": ".title-top h4"
+    },
+    "content": {
+      "selector": "#chapter-content"
+    },
+    "next_button": {
+      "selector": "a.rd_sd-button_item.rd_top-right",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "a.rd_sd-button_item.rd_top-left",
+      "value": "href"
+    },
+    "data_ready_checker": [
+      "chapter-c-protected"
+    ]
   }
 ]
