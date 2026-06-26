@@ -1365,5 +1365,38 @@
     "data_ready_checker": [
       "chapter-c-protected"
     ]
+  },
+  {
+    "logo": "https://www.google.com/s2/favicons?sz=128&domain=truyenhdc.com",
+    "domain": "truyenhdc.com",
+    "keys": [
+      "truyenhdc"
+    ],
+    "use_html_parser": true,
+    "title": {
+      "selector": "#views",
+      "value": "data-title"
+    },
+    "chapter": {
+      "selector": ".container-breadcrumb .breadcrumb-item:last-child a"
+    },
+    "content": {
+      "selector": ".reading"
+    },
+    "next_button": {
+      "selector": ".next-chap-2 a",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "pre_button": {
+      "selector": ".next-chap-1 a",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "detail_first_chapter": {
+      "selector": "#button_reading a",
+      "value": "href"
+    },
+    "chapter_ignore_domain": true
   }
 ]
