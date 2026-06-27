@@ -6,162 +6,162 @@
       "languageCode": "vi",
       "displayName": "Ngọc Huyền",
       "fileName": "ngochuyennew.onnx",
-      "onnxUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/ngochuyennew.onnx",
-      "jsonUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/ngochuyennew.onnx.json",
-      "demoUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/demo_voice/demo_ngochuyennew.wav"
+      "onnxUrl": "https://ainovelreader.com/tts_model/ngochuyennew.onnx",
+      "jsonUrl": "https://ainovelreader.com/tts_model/ngochuyennew.onnx.json",
+      "demoUrl": "https://ainovelreader.com/demo_voice/demo_ngochuyennew.wav"
     },
     {
       "id": "banmai",
       "languageCode": "vi",
       "displayName": "Ban Mai",
       "fileName": "banmai.onnx",
-      "onnxUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/banmai.onnx",
-      "jsonUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/banmai.onnx.json",
-      "demoUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/demo_voice/demo_banmai.wav"
+      "onnxUrl": "https://ainovelreader.com/tts_model/banmai.onnx",
+      "jsonUrl": "https://ainovelreader.com/tts_model/banmai.onnx.json",
+      "demoUrl": "https://ainovelreader.com/demo_voice/demo_banmai.wav"
     },
     {
       "id": "calmwoman3688",
       "languageCode": "vi",
       "displayName": "Nữ nhẹ nhàng",
       "fileName": "calmwoman3688.onnx",
-      "onnxUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/calmwoman3688.onnx",
-      "jsonUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/calmwoman3688.onnx.json",
-      "demoUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/demo_voice/demo_calmwoman3688.wav"
+      "onnxUrl": "https://ainovelreader.com/tts_model/calmwoman3688.onnx",
+      "jsonUrl": "https://ainovelreader.com/tts_model/calmwoman3688.onnx.json",
+      "demoUrl": "https://ainovelreader.com/demo_voice/demo_calmwoman3688.wav"
     },
     {
       "id": "chieuthanh",
       "languageCode": "vi",
       "displayName": "Chiếu Thành",
       "fileName": "chieuthanh.onnx",
-      "onnxUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/chieuthanh.onnx",
-      "jsonUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/chieuthanh.onnx.json",
-      "demoUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/demo_voice/demo_chieuthanh.wav"
+      "onnxUrl": "https://ainovelreader.com/tts_model/chieuthanh.onnx",
+      "jsonUrl": "https://ainovelreader.com/tts_model/chieuthanh.onnx.json",
+      "demoUrl": "https://ainovelreader.com/demo_voice/demo_chieuthanh.wav"
     },
     {
       "id": "deepman3909",
       "languageCode": "vi",
       "displayName": "Nam Trầm",
       "fileName": "deepman3909.onnx",
-      "onnxUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/deepman3909.onnx",
-      "jsonUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/deepman3909.onnx.json",
-      "demoUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/demo_voice/demo_deepman3909.wav"
+      "onnxUrl": "https://ainovelreader.com/tts_model/deepman3909.onnx",
+      "jsonUrl": "https://ainovelreader.com/tts_model/deepman3909.onnx.json",
+      "demoUrl": "https://ainovelreader.com/demo_voice/demo_deepman3909.wav"
     },
     {
       "id": "duyoryx3175",
       "languageCode": "vi",
       "displayName": "Duy",
       "fileName": "duyoryx3175.onnx",
-      "onnxUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/duyoryx3175.onnx",
-      "jsonUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/duyoryx3175.onnx.json",
-      "demoUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/demo_voice/demo_duyoryx3175.wav"
+      "onnxUrl": "https://ainovelreader.com/tts_model/duyoryx3175.onnx",
+      "jsonUrl": "https://ainovelreader.com/tts_model/duyoryx3175.onnx.json",
+      "demoUrl": "https://ainovelreader.com/demo_voice/demo_duyoryx3175.wav"
     },
     {
       "id": "lacphi",
       "languageCode": "vi",
       "displayName": "Lạc Phi",
       "fileName": "lacphi.onnx",
-      "onnxUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/lacphi.onnx",
-      "jsonUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/lacphi.onnx.json",
-      "demoUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/demo_voice/demo_lacphi.wav"
+      "onnxUrl": "https://ainovelreader.com/tts_model/lacphi.onnx",
+      "jsonUrl": "https://ainovelreader.com/tts_model/lacphi.onnx.json",
+      "demoUrl": "https://ainovelreader.com/demo_voice/demo_lacphi.wav"
     },
     {
       "id": "maiphuong",
       "languageCode": "vi",
       "displayName": "Mai Phương",
       "fileName": "maiphuong.onnx",
-      "onnxUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/maiphuong.onnx",
-      "jsonUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/maiphuong.onnx.json",
-      "demoUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/demo_voice/demo_maiphuong.wav"
+      "onnxUrl": "https://ainovelreader.com/tts_model/maiphuong.onnx",
+      "jsonUrl": "https://ainovelreader.com/tts_model/maiphuong.onnx.json",
+      "demoUrl": "https://ainovelreader.com/demo_voice/demo_maiphuong.wav"
     },
     {
       "id": "manhdung",
       "languageCode": "vi",
       "displayName": "Mạnh Dũng",
       "fileName": "manhdung.onnx",
-      "onnxUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/manhdung.onnx",
-      "jsonUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/manhdung.onnx.json",
-      "demoUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/demo_voice/demo_manhdung.wav"
+      "onnxUrl": "https://ainovelreader.com/tts_model/manhdung.onnx",
+      "jsonUrl": "https://ainovelreader.com/tts_model/manhdung.onnx.json",
+      "demoUrl": "https://ainovelreader.com/demo_voice/demo_manhdung.wav"
     },
     {
       "id": "minhkhang",
       "languageCode": "vi",
       "displayName": "Minh Khang",
       "fileName": "minhkhang.onnx",
-      "onnxUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/minhkhang.onnx",
-      "jsonUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/minhkhang.onnx.json",
-      "demoUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/demo_voice/demo_minhkhang.wav"
+      "onnxUrl": "https://ainovelreader.com/tts_model/minhkhang.onnx",
+      "jsonUrl": "https://ainovelreader.com/tts_model/minhkhang.onnx.json",
+      "demoUrl": "https://ainovelreader.com/demo_voice/demo_minhkhang.wav"
     },
     {
       "id": "minhquang",
       "languageCode": "vi",
       "displayName": "Minh Quang",
       "fileName": "minhquang.onnx",
-      "onnxUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/minhquang.onnx",
-      "jsonUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/minhquang.onnx.json",
-      "demoUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/demo_voice/demo_minhquang.wav"
+      "onnxUrl": "https://ainovelreader.com/tts_model/minhquang.onnx",
+      "jsonUrl": "https://ainovelreader.com/tts_model/minhquang.onnx.json",
+      "demoUrl": "https://ainovelreader.com/demo_voice/demo_minhquang.wav"
     },
     {
       "id": "ngochuyen",
       "languageCode": "vi",
       "displayName": "Ngọc Chuyên",
       "fileName": "ngochuyen.onnx",
-      "onnxUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/ngochuyen.onnx",
-      "jsonUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/ngochuyen.onnx.json",
-      "demoUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/demo_voice/demo_ngochuyen.wav"
+      "onnxUrl": "https://ainovelreader.com/tts_model/ngochuyen.onnx",
+      "jsonUrl": "https://ainovelreader.com/tts_model/ngochuyen.onnx.json",
+      "demoUrl": "https://ainovelreader.com/demo_voice/demo_ngochuyen.wav"
     },
     {
       "id": "ngocngan3701",
       "languageCode": "vi",
       "displayName": "Ngọc Ngan",
       "fileName": "ngocngan3701.onnx",
-      "onnxUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/ngocngan3701.onnx",
-      "jsonUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/ngocngan3701.onnx.json",
-      "demoUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/demo_voice/demo_ngocngan3701.wav"
+      "onnxUrl": "https://ainovelreader.com/tts_model/ngocngan3701.onnx",
+      "jsonUrl": "https://ainovelreader.com/tts_model/ngocngan3701.onnx.json",
+      "demoUrl": "https://ainovelreader.com/demo_voice/demo_ngocngan3701.wav"
     },
     {
       "id": "phuongtrang",
       "languageCode": "vi",
       "displayName": "Phương Trang",
       "fileName": "phuongtrang.onnx",
-      "onnxUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/phuongtrang.onnx",
-      "jsonUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/phuongtrang.onnx.json",
-      "demoUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/demo_voice/demo_phuongtrang.wav"
+      "onnxUrl": "https://ainovelreader.com/tts_model/phuongtrang.onnx",
+      "jsonUrl": "https://ainovelreader.com/tts_model/phuongtrang.onnx.json",
+      "demoUrl": "https://ainovelreader.com/demo_voice/demo_phuongtrang.wav"
     },
     {
       "id": "taian4",
       "languageCode": "vi",
       "displayName": "Tài An",
       "fileName": "taian4.onnx",
-      "onnxUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/taian4.onnx",
-      "jsonUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/taian4.onnx.json",
-      "demoUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/demo_voice/demo_taian4.wav"
+      "onnxUrl": "https://ainovelreader.com/tts_model/taian4.onnx",
+      "jsonUrl": "https://ainovelreader.com/tts_model/taian4.onnx.json",
+      "demoUrl": "https://ainovelreader.com/demo_voice/demo_taian4.wav"
     },
     {
       "id": "thanhphuong2",
       "languageCode": "vi",
       "displayName": "Thanh Phương",
       "fileName": "thanhphuong2.onnx",
-      "onnxUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/thanhphuong2.onnx",
-      "jsonUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/thanhphuong2.onnx.json",
-      "demoUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/demo_voice/demo_thanhphuong2.wav"
+      "onnxUrl": "https://ainovelreader.com/tts_model/thanhphuong2.onnx",
+      "jsonUrl": "https://ainovelreader.com/tts_model/thanhphuong2.onnx.json",
+      "demoUrl": "https://ainovelreader.com/demo_voice/demo_thanhphuong2.wav"
     },
     {
       "id": "thientam",
       "languageCode": "vi",
       "displayName": "Thiện Tâm",
       "fileName": "thientam.onnx",
-      "onnxUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/thientam.onnx",
-      "jsonUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/thientam.onnx.json",
-      "demoUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/demo_voice/demo_thientam.wav"
+      "onnxUrl": "https://ainovelreader.com/tts_model/thientam.onnx",
+      "jsonUrl": "https://ainovelreader.com/tts_model/thientam.onnx.json",
+      "demoUrl": "https://ainovelreader.com/demo_voice/demo_thientam.wav"
     },
     {
       "id": "vietthao3886",
       "languageCode": "vi",
       "displayName": "Việt Thao",
       "fileName": "vietthao3886.onnx",
-      "onnxUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/vietthao3886.onnx",
-      "jsonUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/tts_model/vietthao3886.onnx.json",
-      "demoUrl": "https://pub-9486d7c43c204491a872ac173ebdba94.r2.dev/demo_voice/demo_vietthao3886.wav"
+      "onnxUrl": "https://ainovelreader.com/tts_model/vietthao3886.onnx",
+      "jsonUrl": "https://ainovelreader.com/tts_model/vietthao3886.onnx.json",
+      "demoUrl": "https://ainovelreader.com/demo_voice/demo_vietthao3886.wav"
     }
   ]
 }
