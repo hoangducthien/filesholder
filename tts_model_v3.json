@@ -1,5 +1,5 @@
 {
-  "version": 19,
+  "version": 2,
   "models": [
     {
       "id": "ngochuyennew",
@@ -307,8 +307,9 @@
       "engine": "kr",
       "onnxUrl": "https://cdn.ainovelreader.com/kr_model/model_kr_int8.onnx",
       "quality": "premium",
-      "sizeMB": 310,
-      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-diem_trinh.png"
+      "sizeMB": 157,
+      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-diem_trinh.png",
+      "demoUrl": "https://cdn.ainovelreader.com/kr_model/kr_demo/demo_kr-diem_trinh.m4a"
     },
     {
       "id": "kr-hung_thinh",
@@ -318,8 +319,9 @@
       "engine": "kr",
       "onnxUrl": "https://cdn.ainovelreader.com/kr_model/model_kr_int8.onnx",
       "quality": "premium",
-      "sizeMB": 310,
-      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-hung_thinh.png"
+      "sizeMB": 157,
+      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-hung_thinh.png",
+      "demoUrl": "https://cdn.ainovelreader.com/kr_model/kr_demo/demo_kr-hung_thinh.m4a"
     },
     {
       "id": "kr-mai_linh",
@@ -329,8 +331,9 @@
       "engine": "kr",
       "onnxUrl": "https://cdn.ainovelreader.com/kr_model/model_kr_int8.onnx",
       "quality": "premium",
-      "sizeMB": 310,
-      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-mai_linh.png"
+      "sizeMB": 157,
+      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-mai_linh.png",
+      "demoUrl": "https://cdn.ainovelreader.com/kr_model/kr_demo/demo_kr-mai_linh.m4a"
     },
     {
       "id": "kr-mai_loan",
@@ -340,8 +343,9 @@
       "engine": "kr",
       "onnxUrl": "https://cdn.ainovelreader.com/kr_model/model_kr_int8.onnx",
       "quality": "premium",
-      "sizeMB": 310,
-      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-mai_loan.png"
+      "sizeMB": 157,
+      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-mai_loan.png",
+      "demoUrl": "https://cdn.ainovelreader.com/kr_model/kr_demo/demo_kr-mai_loan.m4a"
     },
     {
       "id": "kr-manh_dung",
@@ -351,8 +355,9 @@
       "engine": "kr",
       "onnxUrl": "https://cdn.ainovelreader.com/kr_model/model_kr_int8.onnx",
       "quality": "premium",
-      "sizeMB": 310,
-      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-manh_dung.png"
+      "sizeMB": 157,
+      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-manh_dung.png",
+      "demoUrl": "https://cdn.ainovelreader.com/kr_model/kr_demo/demo_kr-manh_dung.m4a"
     },
     {
       "id": "kr-my_yen",
@@ -362,8 +367,9 @@
       "engine": "kr",
       "onnxUrl": "https://cdn.ainovelreader.com/kr_model/model_kr_int8.onnx",
       "quality": "premium",
-      "sizeMB": 310,
-      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-my_yen.png"
+      "sizeMB": 157,
+      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-my_yen.png",
+      "demoUrl": "https://cdn.ainovelreader.com/kr_model/kr_demo/demo_kr-my_yen.m4a"
     },
     {
       "id": "kr-ngoc_huyen",
@@ -373,8 +379,9 @@
       "engine": "kr",
       "onnxUrl": "https://cdn.ainovelreader.com/kr_model/model_kr_int8.onnx",
       "quality": "premium",
-      "sizeMB": 310,
-      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-ngoc_huyen.png"
+      "sizeMB": 157,
+      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-ngoc_huyen.png",
+      "demoUrl": "https://cdn.ainovelreader.com/kr_model/kr_demo/demo_kr-ngoc_huyen.m4a"
     },
     {
       "id": "kr-phat_tai",
@@ -384,8 +391,9 @@
       "engine": "kr",
       "onnxUrl": "https://cdn.ainovelreader.com/kr_model/model_kr_int8.onnx",
       "quality": "premium",
-      "sizeMB": 310,
-      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-phat_tai.png"
+      "sizeMB": 157,
+      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-phat_tai.png",
+      "demoUrl": "https://cdn.ainovelreader.com/kr_model/kr_demo/demo_kr-phat_tai.m4a"
     },
     {
       "id": "kr-thanh_dat",
@@ -395,8 +403,9 @@
       "engine": "kr",
       "onnxUrl": "https://cdn.ainovelreader.com/kr_model/model_kr_int8.onnx",
       "quality": "premium",
-      "sizeMB": 310,
-      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-thanh_dat.png"
+      "sizeMB": 157,
+      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-thanh_dat.png",
+      "demoUrl": "https://cdn.ainovelreader.com/kr_model/kr_demo/demo_kr-thanh_dat.m4a"
     },
     {
       "id": "kr-thuc_trinh",
@@ -406,8 +415,9 @@
       "engine": "kr",
       "onnxUrl": "https://cdn.ainovelreader.com/kr_model/model_kr_int8.onnx",
       "quality": "premium",
-      "sizeMB": 310,
-      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-thuc_trinh.png"
+      "sizeMB": 157,
+      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-thuc_trinh.png",
+      "demoUrl": "https://cdn.ainovelreader.com/kr_model/kr_demo/demo_kr-thuc_trinh.m4a"
     },
     {
       "id": "kr-tuan_ngoc",
@@ -417,8 +427,9 @@
       "engine": "kr",
       "onnxUrl": "https://cdn.ainovelreader.com/kr_model/model_kr_int8.onnx",
       "quality": "premium",
-      "sizeMB": 310,
-      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-tuan_ngoc.png"
+      "sizeMB": 157,
+      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-tuan_ngoc.png",
+      "demoUrl": "https://cdn.ainovelreader.com/kr_model/kr_demo/demo_kr-tuan_ngoc.m4a"
     },
     {
       "id": "kr-storyvert",
@@ -428,8 +439,9 @@
       "engine": "kr",
       "onnxUrl": "https://cdn.ainovelreader.com/kr_model/model_kr_int8.onnx",
       "quality": "premium",
-      "sizeMB": 310,
-      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-storyvert.png"
+      "sizeMB": 157,
+      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kr-storyvert.png",
+      "demoUrl": "https://cdn.ainovelreader.com/kr_model/kr_demo/demo_kr-storyvert.m4a"
     }
   ]
 }
