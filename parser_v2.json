@@ -1294,7 +1294,6 @@
   {
     "domain": "vnthuquan.org",
     "keys": [
-      "vietnamthuquan",
       "vnthuquan"
     ],
     "use_html_parser": true,
@@ -1308,6 +1307,67 @@
     "content": {
       "selector": "#vntqTextContent"
     }
+  },
+  {
+    "domain": "vietnamthuquan.eu",
+    "keys": [
+      "vietnamthuquan"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": "h2"
+    },
+    "chapter": {
+      "selector": ".chuongso"
+    },
+    "content": {
+      "selector": "#fontchu"
+    },
+    "next_button": {
+      "selector": "h1 span:last-child",
+      "value": "href",
+      "action": 1
+    },
+    "pre_button": {
+      "selector": "h1 span",
+      "value": "href",
+      "action": 1
+    }
+  },
+  {
+    "domain": "www.chivi.app",
+    "keys": [
+      "chivi"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": "a.svelte-u6zczp",
+      "element_index": 3
+    },
+    "chapter": {
+      "selector": "h1"
+    },
+    "content": {
+      "selector": ".reader"
+    },
+    "next_button": {
+      "selector": "a[data-kbd=\"⌃→\"]",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "a[data-kbd=\"⌃←\"]",
+      "value": "href"
+    },
+    "html_removes": [
+      {
+        "selector": ".reader ruby, .reader rt, .reader x-z"
+      }
+    ],
+    "data_ready_checker": [
+      "svelte-19z0z8p _dirty"
+    ]
   },
   {
     "domain": "tieuthuyetmang.com",
