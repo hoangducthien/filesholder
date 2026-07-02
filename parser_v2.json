@@ -1594,6 +1594,34 @@
     ]
   },
   {
+    "logo": "https://www.google.com/s2/favicons?sz=128&domain=loppytoon.com",
+    "domain": "loppytoon.com",
+    "keys": [
+      "loppytoon"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": ".loppy-book-title, .manga-title.desktop-hidden, .manga-title"
+    },
+    "chapter": {
+      "selector": ".reader-header .chapter-info .chapter-title"
+    },
+    "content": {
+      "selector": ".chapter-content"
+    },
+    "next_button": {
+      "selector": ".toolbar-center .next-btn[href]:not([href='#'])",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": ".toolbar-center .prev-btn[href]:not([href='#'])",
+      "value": "href"
+    },
+    "detail_first_chapter_js": "(function(){try{var html=document.documentElement.innerHTML;var m=html.match(/const\\s+chapters\\s*=\\s*(\\[[\\s\\S]*?\\]);/);if(m&&m[1]){var arr=JSON.parse(m[1]);if(arr&&arr.length){arr.sort(function(a,b){return (a.position||0)-(b.position||0);});var s=arr[0]&&arr[0].slug;if(s){var p=location.pathname.replace(/\\/+$/,'');return location.origin+p+'/'+s;}}}var a=document.querySelector('.chapter-item[href*=\"/chuong-1\"],.chapter-item[href*=\"/chap-1\"]');return a&&a.href?a.href:'';}catch(e){return'';}})()",
+    "content_load_js": "(function(){try{function put(cls,txt){if(!txt||document.querySelector('.'+cls))return;var e=document.createElement('span');e.className=cls;e.style.display='none';e.textContent=txt.trim();document.body.appendChild(e);}var title=(document.title||'').replace(/\\s+-\\s+(Chương|Chap)\\s+[^-]+\\s+-\\s+LoppyToon\\s*$/i,'').replace(/\\s+-\\s+LoppyToon\\s*$/i,'');put('loppy-book-title',title);}catch(e){}})()"
+  },
+  {
     "logo": "https://www.google.com/s2/favicons?sz=128&domain=truyenhdc.com",
     "domain": "truyenhdc.com",
     "keys": [
