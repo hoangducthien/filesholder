@@ -1427,6 +1427,169 @@
     ]
   },
   {
+    "logo": "https://docfull.vip/logo_docfull_vip.png",
+    "domain": "docfull.vip",
+    "keys": [
+      "docfull"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": "h1"
+    },
+    "chapter": {
+      "selector": "h2"
+    },
+    "content": {
+      "selector": "div[data-chapter-content]"
+    },
+    "detail_first_chapter_js": "(function(){var p=window.location.pathname;return p.endsWith('/')?window.location.origin+p+'chuong-1/':window.location.origin+p+'/chuong-1/';})()",
+    "data_ready_checker": [
+      "Đang tải nội dung chương"
+    ],
+    "next_button": {
+      "selector": ".reader-nav-btn-dark",
+      "action": 1,
+      "element_indexed": 3,
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": ".reader-nav-btn-dark",
+      "element_indexed": 0,
+      "action": 1,
+      "value": "href"
+    }
+  },
+  {
+    "logo": "https://lacatruyen.vip/images/logo/logo-laca-192.webp",
+    "domain": "lacatruyen.vip",
+    "keys": [
+      "lacatruyen"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": ".chapter_chapter-content__info__JNMCs a"
+    },
+    "chapter": {
+      "selector": "h1"
+    },
+    "content": {
+      "selector": ".chapter-content-element"
+    },
+    "next_button": {
+      "selector": ".chapter_mobile-bottom-bar__nav--next__r_5a0",
+      "action": 1,
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": ".chapter_mobile-bottom-bar__nav__9kvzr",
+      "action": 1,
+      "value": "href"
+    },
+    "detail_first_chapter_js": "(function(){try{var d=document.getElementById('__NEXT_DATA__');if(!d)return'';var p=JSON.parse(d.textContent||'{}').props.pageProps||{};var s=p.firstChapter&&p.firstChapter[0]&&p.firstChapter[0].slug;return s?location.origin+'/chapter/'+s:'';}catch(e){return'';}})()"
+  },
+  {
+    "logo": "https://www.linhdi.vn/favicon.png",
+    "domain": "linhdi.vn",
+    "keys": [
+      "linhdi"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": ".ldi-book-title"
+    },
+    "chapter": {
+      "selector": ".ldi-chapter-title"
+    },
+    "content": {
+      "selector": ".ldi-content"
+    },
+    "next_button": {
+      "selector": "a.ldi-next",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "a.ldi-prev",
+      "value": "href"
+    },
+    "detail_first_chapter_js": "(function(){var p=location.pathname.replace(/\\/+$/,'').split('/');if(p.length>=3&&p[1]==='truyen'&&p[2])return location.origin+'/truyen/'+p[2]+'/chuong-1';return'';})()",
+    "data_loading_checker": [
+      "ldi-parser-ready"
+    ]
+  },
+  {
+    "logo": "https://mongtruyen.com/img_data/images/mong-truyen/android-chrome-512x512.png",
+    "domain": "mongtruyen.com",
+    "keys": [
+      "mongtruyen"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": ".breadcrumb-item",
+      "element_indexed": 2
+    },
+    "chapter": {
+      "selector": ".mdv-san-pham-detail-chuong-title-text"
+    },
+    "content": {
+      "selector": "#noi_dung_truyen"
+    },
+    "next_button": {
+      "selector": ".mdv-chuong-button-sau",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": ".mdv-chuong-button-truoc",
+      "value": "href"
+    },
+    "detail_first_chapter": {
+      "selector": ".san-pham-show-read-next-btn a[href*='?chuong=1']",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "content_load_js": "(function(){try{if(typeof window.mtLoadChapterContent==='function'){window.mtLoadChapterContent({force:true,silent:true,retries:2,retryDelayMs:600});}}catch(e){}})()",
+    "data_ready_checker": [
+      "data-mt-loading=\"1\""
+    ]
+  },
+  {
+    "logo": "https://www.google.com/s2/favicons?sz=128&domain=hatduahau.com",
+    "domain": "hatduahau.com",
+    "keys": [
+      "hatduahau"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": "#breadcrumb-manga"
+    },
+    "chapter": {
+      "selector": "h1.uk-h2"
+    },
+    "content": {
+      "selector": "#chapter-content"
+    },
+    "next_button": {
+      "selector": "#next-link",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "#prev-link",
+      "value": "href"
+    },
+    "detail_first_chapter": {
+      "selector": "a.uk-button-primary[href*='/chuong-1/']",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "data_ready_checker": [
+      "Đang tải nội dung..."
+    ]
+  },
+  {
     "logo": "https://www.google.com/s2/favicons?sz=128&domain=truyenhdc.com",
     "domain": "truyenhdc.com",
     "keys": [
