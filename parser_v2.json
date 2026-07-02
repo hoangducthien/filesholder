@@ -113,10 +113,10 @@
     ],
     "chapter_ignore_domain": true,
     "detail_first_chapter": {
-  "selector": "#init-links a.c-btn",
-  "value": "href",
-  "element_indexed": 0
-}
+      "selector": "#init-links a.c-btn",
+      "value": "href",
+      "element_indexed": 0
+    }
   },
   {
     "logo": "https://www.tvtruyen.com/public/assets/images/logo-truyentv.webp",
@@ -1136,7 +1136,10 @@
       "middle": "Mục lục&lt;/a&gt;&lt;a href=&quot;",
       "end": "&quot; target=&quot;_parent"
     },
-    "content_replaces":["<p>", "</p>"],
+    "content_replaces": [
+      "<p>",
+      "</p>"
+    ],
     "content_removes": [
       {
         "start": "<a href",
@@ -1515,6 +1518,7 @@
       "value": "href"
     },
     "detail_first_chapter_js": "(function(){var p=location.pathname.replace(/\\/+$/,'').split('/');if(p.length>=3&&p[1]==='truyen'&&p[2])return location.origin+'/truyen/'+p[2]+'/chuong-1';return'';})()",
+    "content_load_js": "(function(){try{if(document.getElementById('ldi-parser-ready'))return;var ORIGIN='https://irpwtunykgndrnwlzbcr.supabase.co';var KEY='sb_publishable_telxqZeIf0tVLK7-Uf33Cw_iul7pdTn';var path=location.pathname.replace(/\\/+$/,'');var parts=path.split('/').filter(Boolean);if(parts[0]!=='truyen'||!parts[1])return;var slug=parts[1];var chapterNum=parts[2]&&/^chuong-\\d+$/i.test(parts[2])?parseInt(parts[2].replace(/[^0-9]/g,''),10):null;function put(tag,cls){var e=document.querySelector('.'+cls);if(!e){e=document.createElement(tag);e.className=cls;e.style.display='none';document.body.appendChild(e);}return e;}function ready(){if(document.getElementById('ldi-parser-ready'))return;var e=document.createElement('div');e.id='ldi-parser-ready';e.style.display='none';document.body.appendChild(e);}function req(url,opt){opt=opt||{};opt.headers=Object.assign({'apikey':KEY,'Authorization':'Bearer '+KEY,'Content-Type':'application/json'},opt.headers||{});return fetch(url,opt).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});}req(ORIGIN+'/rest/v1/stories?select=id,title,slug&moderation_status=eq.approved&slug=eq.'+encodeURIComponent(slug)+'&limit=1').then(function(rows){var s=rows&&rows[0];if(!s){ready();return;}put('span','ldi-book-title').textContent=s.title||'';if(chapterNum==null){put('a','ldi-first').href=location.origin+'/truyen/'+(s.slug||slug)+'/chuong-1';ready();return;}req(ORIGIN+'/rest/v1/rpc/get_story_reader_chapter',{method:'POST',body:JSON.stringify({p_story_id:s.id,p_chapter_number:chapterNum})}).then(function(rows2){var c=rows2&&rows2[0];if(c){put('span','ldi-chapter-title').textContent=c.title||('Chương '+chapterNum);put('div','ldi-content').innerHTML=c.content||c.preview_content||'';}return req(ORIGIN+'/rest/v1/rpc/get_story_visible_chapters',{method:'POST',body:JSON.stringify({p_story_id:s.id,p_limit:1000,p_offset:0,p_sort_ascending:true})});}).then(function(list){if(list&&list.length){for(var i=0;i<list.length;i++){if(list[i]&&list[i].chapter_number===chapterNum){if(i>0)put('a','ldi-prev').href=location.origin+'/truyen/'+(s.slug||slug)+'/chuong-'+list[i-1].chapter_number;if(i<list.length-1)put('a','ldi-next').href=location.origin+'/truyen/'+(s.slug||slug)+'/chuong-'+list[i+1].chapter_number;break;}}}ready();});});}catch(e){}})()",
     "data_loading_checker": [
       "ldi-parser-ready"
     ]
@@ -1552,7 +1556,7 @@
     },
     "content_load_js": "(function(){try{if(typeof window.mtLoadChapterContent==='function'){window.mtLoadChapterContent({force:true,silent:true,retries:2,retryDelayMs:600});}}catch(e){}})()",
     "data_ready_checker": [
-      "data-mt-loading=\"1\""
+      "Vui lòng bật JavaScript để xem nội dung chương"
     ]
   },
   {
