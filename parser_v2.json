@@ -1622,6 +1622,37 @@
     "content_load_js": "(function(){try{function put(cls,txt){if(!txt||document.querySelector('.'+cls))return;var e=document.createElement('span');e.className=cls;e.style.display='none';e.textContent=txt.trim();document.body.appendChild(e);}var title=(document.title||'').replace(/\\s+-\\s+(Chương|Chap)\\s+[^-]+\\s+-\\s+LoppyToon\\s*$/i,'').replace(/\\s+-\\s+LoppyToon\\s*$/i,'');put('loppy-book-title',title);}catch(e){}})()"
   },
   {
+    "logo": "https://www.google.com/s2/favicons?sz=128&domain=happypineappleee.wordpress.com",
+    "domain": "happypineappleee.wordpress.com",
+    "keys": [
+      "happypineappleee"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": ".hpe-book-title"
+    },
+    "chapter": {
+      "selector": ".wp-block-post-title"
+    },
+    "content": {
+      "selector": ".hpe-content"
+    },
+    "next_button": {
+      "selector": "a.hpe-next",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "a.hpe-prev",
+      "value": "href"
+    },
+    "detail_first_chapter_js": "(function(){try{var links=[].slice.call(document.querySelectorAll('a[href*=\"huyet-sac-linh-dong-chuong-\"]'));var best=null;links.forEach(function(a){var href=(a.href||'').split('#')[0].split('?')[0];if(/\\/feed\\/?$/i.test(href))return;var m=href.match(/huyet-sac-linh-dong-chuong-(\\d+)\\/?$/i);if(!m)return;var n=parseInt(m[1],10);if(!best||n<best.n)best={n:n,href:href};});return best?best.href:'';}catch(e){return'';}})()",
+    "content_load_js": "(function(){try{if(document.getElementById('hpe-ready'))return;var DETAIL='https://happypineappleee.wordpress.com/dam-my-huyet-sac-linh-dong/';function ready(){if(!document.getElementById('hpe-ready')){var r=document.createElement('div');r.id='hpe-ready';r.style.display='none';document.body.appendChild(r);}}function putText(cls,txt){if(!txt||document.querySelector('.'+cls))return;var e=document.createElement('span');e.className=cls;e.style.display='none';e.textContent=txt.trim();document.body.appendChild(e);}function putLink(cls,href){if(!href||document.querySelector('a.'+cls))return;var a=document.createElement('a');a.className=cls;a.href=href;a.style.display='none';document.body.appendChild(a);}function collect(doc){var map={};[].slice.call(doc.querySelectorAll('a[href*=\"huyet-sac-linh-dong-chuong-\"]')).forEach(function(a){var href=(a.href||a.getAttribute('href')||'').split('#')[0].split('?')[0];if(!href||/\\/feed\\/?$/i.test(href))return;if(href.charAt(0)==='/')href=location.origin+href;var m=href.match(/huyet-sac-linh-dong-chuong-(\\d+)\\/?$/i);if(m&&!map[m[1]])map[m[1]]=href;});return map;}var rawTitle=(document.querySelector('.wp-block-post-title')||{}).textContent||document.title||'';putText('hpe-book-title',rawTitle.replace(/\\s+[–-]\\s+Chương\\s*\\d+.*/i,'').replace(/\\s+[–-]\\s+Dứa Dui Dẻ\\s*$/i,'').trim());var content=document.querySelector('.entry-content');if(content&&!document.querySelector('.hpe-content')){var c=content.cloneNode(true);c.querySelectorAll('#jp-post-flair,.sharedaddy,.taxonomy-category,.post-navigation-link-previous,.post-navigation-link-next,script,style,iframe,form').forEach(function(e){e.remove();});c.querySelectorAll('a[href*=\"huyet-sac-linh-dong-chuong-\"]').forEach(function(a){var p=a.parentElement;if(p)p.remove();else a.remove();});var d=document.createElement('div');d.className='hpe-content';d.style.display='none';d.innerHTML=c.innerHTML;document.body.appendChild(d);}var cur=(location.pathname.match(/huyet-sac-linh-dong-chuong-(\\d+)\\/?$/i)||[])[1];function applyMap(map){var nums=Object.keys(map).map(function(n){return parseInt(n,10);}).sort(function(a,b){return a-b;});if(!cur&&nums.length)putLink('hpe-first',map[String(nums[0])]);if(cur){var n=parseInt(cur,10);putLink('hpe-prev',map[String(n-1)]);putLink('hpe-next',map[String(n+1)]);}}applyMap(collect(document));fetch(DETAIL).then(function(r){return r.text();}).then(function(html){var doc=new DOMParser().parseFromString(html,'text/html');applyMap(collect(doc));ready();}).catch(function(){ready();});setTimeout(ready,3000);}catch(e){try{var r=document.createElement('div');r.id='hpe-ready';r.style.display='none';document.body.appendChild(r);}catch(_){}}})()",
+    "data_loading_checker": [
+      "hpe-ready"
+    ]
+  },
+  {
     "logo": "https://www.google.com/s2/favicons?sz=128&domain=truyenhdc.com",
     "domain": "truyenhdc.com",
     "keys": [
