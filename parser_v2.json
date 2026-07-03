@@ -153,6 +153,37 @@
     }
   },
   {
+    "logo": "https://www.google.com/s2/favicons?sz=128&domain=truyendich.ai",
+    "domain": "truyendich.ai",
+    "keys": [
+      "truyendich"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": ".tdai-book-title"
+    },
+    "chapter": {
+      "selector": ".tdai-chapter-title"
+    },
+    "content": {
+      "selector": ".tdai-content"
+    },
+    "next_button": {
+      "selector": "a.tdai-next",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "a.tdai-prev",
+      "value": "href"
+    },
+    "detail_first_chapter_js": "(function(){try{var current=(location.pathname.match(/^\\/doc-truyen\\/(?:ai\\/|cv\\/)?([^\\/]+)/)||[])[1];var best=null;[].slice.call(document.querySelectorAll('a[href*=\"/doc-truyen/\"][href*=\"/chuong-\"]')).forEach(function(a){var u=new URL(a.getAttribute('href')||a.href,location.origin);var m=u.pathname.match(/^\\/doc-truyen(?:\\/(?:ai|cv))?\\/([^\\/]+)\\/chuong-(\\d+)\\/?$/);if(!m||m[1]!==current)return;var n=parseInt(m[2],10);if(!best||n<best.n)best={n:n,href:u.origin+'/doc-truyen/'+m[1]+'/chuong-'+n};});if(best)return best.href;var fm=document.documentElement.innerHTML.match(/firstChapterSlug\\\\?\":\\\\?\"(\\d+)/);return current&&fm?location.origin+'/doc-truyen/'+current+'/chuong-'+fm[1]:'';}catch(e){return'';}})()",
+    "content_load_js": "(function(){try{if(document.getElementById('tdai-ready'))return;function ready(){if(!document.getElementById('tdai-ready')){var r=document.createElement('div');r.id='tdai-ready';r.style.display='none';document.body.appendChild(r);}}function putText(cls,txt){if(!txt||document.querySelector('.'+cls))return;var e=document.createElement('span');e.className=cls;e.style.display='none';e.textContent=txt.trim();document.body.appendChild(e);}function putLink(cls,href){if(!href||document.querySelector('a.'+cls))return;var a=document.createElement('a');a.className=cls;a.href=href;a.style.display='none';document.body.appendChild(a);}function canonical(href){try{var u=new URL(href,location.origin);var m=u.pathname.match(/^\\/doc-truyen(?:\\/(?:ai|cv))?\\/([^\\/]+)\\/chuong-(\\d+)\\/?$/);return m?u.origin+'/doc-truyen/'+m[1]+'/chuong-'+m[2]:u.href;}catch(e){return href;}}var chapterHeading=(document.querySelector('h1[itemprop=\"name\"], h1')||{}).textContent||'';var bookTitle=((document.querySelector('a[href^=\"/doc-truyen/\"]:not([href*=\"/chuong-\"]) span[itemprop=\"name\"]')||{}).textContent||'').trim();if(!bookTitle){var dt=document.title||'';var mTitle=dt.match(/^(?:Chương\\s*\\d+\\s*-\\s*)?(.+?)\\s*\\|\\s*TruyenDich\\.AI\\s*$/i);bookTitle=mTitle?mTitle[1].trim():dt.trim();}putText('tdai-book-title',bookTitle);var cur=(location.pathname.match(/^\\/doc-truyen(?:\\/(?:ai|cv))?\\/([^\\/]+)\\/chuong-(\\d+)\\/?$/)||[]);var chapterNum=cur[2]||((document.body.textContent||'').match(/Chương\\s*(\\d+)/i)||[])[1]||'';var fullChapterTitle=((chapterNum?('Chương '+chapterNum):'')+(chapterHeading?(' - '+chapterHeading):'')).replace(/^\\s+-\\s+/,'').trim();putText('tdai-chapter-title',fullChapterTitle||chapterHeading);var content=document.querySelector('section[itemprop=\"text\"], .prose-novel');if(content&&!document.querySelector('.tdai-content')){var c=content.cloneNode(true);c.querySelectorAll('script,style,button,a,svg').forEach(function(e){e.remove();});var d=document.createElement('div');d.className='tdai-content';d.style.display='none';d.innerHTML=c.innerHTML;document.body.appendChild(d);}var prev=document.querySelector('a[aria-label=\"Chương trước\"][href*=\"/chuong-\"]');var next=document.querySelector('a[aria-label=\"Chương sau\"][href*=\"/chuong-\"]');if(prev)putLink('tdai-prev',canonical(prev.getAttribute('href')||prev.href));if(next)putLink('tdai-next',canonical(next.getAttribute('href')||next.href));if(cur.length){var base=location.origin+'/doc-truyen/'+cur[1];var html=document.documentElement.innerHTML;function num(re){var m=html.match(re);return m&&m[1]!=='null'?parseInt(m[1],10):null;}var pn=num(/\\\\?\"prev_chapter_number\\\\?\":(null|\\d+)/);var nn=num(/\\\\?\"next_chapter_number\\\\?\":(null|\\d+)/);if(pn!==null)putLink('tdai-prev',base+'/chuong-'+pn);if(nn!==null)putLink('tdai-next',base+'/chuong-'+nn);}ready();}catch(e){try{var r=document.createElement('div');r.id='tdai-ready';r.style.display='none';document.body.appendChild(r);}catch(_){}}})()",
+    "data_loading_checker": [
+      "tdai-ready"
+    ]
+  },
+  {
     "logo": "https://truyenchufull.info/doctruyenchufull-logo.png",
     "domain": "truyenso1.com",
     "keys": [
