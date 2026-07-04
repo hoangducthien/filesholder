@@ -1744,5 +1744,42 @@
     "data_loading_checker": [
       "inkitt-ready"
     ]
+  },
+    {
+    "logo": "https://truyen-h.com/favicon.ico",
+    "domain": "truyen-h.com",
+    "keys": [
+      "truyen-h.com",
+      "www.truyen-h.com"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "enable_download": false,
+    "title": {
+      "selector": "h1.story-title",
+      "value": "text"
+    },
+    "chapter": {
+      "selector": "#chapterTitle",
+      "value": "text"
+    },
+    "content": {
+      "selector": "#chapterContent"
+    },
+    "next_button": {
+      "selector": "#btnNextTop",
+      "action": 1,
+      "element_indexed": 0
+    },
+    "pre_button": {
+      "selector": "#btnPrevTop",
+      "action": 1,
+      "element_indexed": 0
+    },
+    "data_ready_checker": [
+      "SSR_CHAPTER_CONTENT",
+      "id=\"chapterLoading\""
+    ],
+    "detail_first_chapter_js": "(function(){var id=new URLSearchParams(window.location.search).get('id');return id?window.location.origin+'/reader?story='+id+'&chapter=1':'';})()"
   }
 ]
