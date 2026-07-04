@@ -1724,7 +1724,7 @@
     "use_html_parser": true,
     "use_webview": true,
     "title": {
-      "selector": ".inkitt-book-title"
+      "selector": "h2"
     },
     "chapter": {
       "selector": "h2"
