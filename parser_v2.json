@@ -1715,5 +1715,34 @@
       "value": "href"
     },
     "chapter_ignore_domain": true
+  },
+  {
+    "domain": "inkitt.com",
+    "keys": [
+      "inkitt"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": ".inkitt-book-title"
+    },
+    "chapter": {
+      "selector": "h2"
+    },
+    "content": {
+      "selector": ".inkitt-content"
+    },
+    "next_button": {
+      "selector": ".next-chapter-button",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": ".next-chapter-button",
+      "value": "href"
+    },
+    "content_load_js": "(function(){try{if(document.getElementById('inkitt-ready'))return;function ready(){if(!document.getElementById('inkitt-ready')){var r=document.createElement('div');r.id='inkitt-ready';r.style.display='none';document.body.appendChild(r);}}function putText(cls,txt){if(!txt||document.querySelector('.'+cls))return;var e=document.createElement('span');e.className=cls;e.style.display='none';e.textContent=txt.trim();document.body.appendChild(e);}function putLink(cls,href){if(!href||document.querySelector('a.'+cls))return;var a=document.createElement('a');a.className=cls;a.href=href;a.style.display='none';document.body.appendChild(a);}function normalize(href){try{var u=new URL(href,location.origin);return u.origin+u.pathname.replace(/\\/+$/,'');}catch(e){return href;}}function cleanText(text){return (text||'').replace(/\\u00a0/g,' ').replace(/\\s+/g,' ').trim();}var bookTitle=cleanText((document.querySelector('h1')||{}).textContent||'');var chapterTitle=cleanText((document.querySelector('h2')||{}).textContent||'');putText('inkitt-book-title',bookTitle);putText('inkitt-chapter-title',chapterTitle);var heading=document.querySelector('h2');if(heading&&!document.querySelector('.inkitt-content')){var out=document.createElement('div');out.className='inkitt-content';out.style.display='none';var node=heading.nextElementSibling;while(node){var text=cleanText(node.textContent||'');if(/^chapters$/i.test(text)||/^continue reading$/i.test(text)||/^let\\s+.+\\s+know what you thought about this chapter!?$/i.test(text))break;if(!text||text==='0'){node=node.nextElementSibling;continue;}var clone=node.cloneNode(true);clone.querySelectorAll('script,style,button,svg,form').forEach(function(e){e.remove();});var cloneText=cleanText(clone.textContent||'');if(cloneText&&cloneText!=='0'){out.appendChild(clone);}node=node.nextElementSibling;}if(!out.children.length){var frag=[];node=heading.nextElementSibling;while(node){var text=cleanText(node.textContent||'');if(/^chapters$/i.test(text)||/^continue reading$/i.test(text)||/^let\\s+.+\\s+know what you thought about this chapter!?$/i.test(text))break;if(text&&text!=='0')frag.push('<p>'+text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')+'</p>');node=node.nextElementSibling;}out.innerHTML=frag.join('');}document.body.appendChild(out);}var next='';[].slice.call(document.querySelectorAll('a[href]')).some(function(a){var text=cleanText(a.textContent||'');var href=normalize(a.getAttribute('href')||a.href||'');if(/next chapter/i.test(text)&&/\\/stories\\/\\d+\\/chapters\\/\\d+$/i.test(href)){next=href;return true;}return false;});if(!next){var current=normalize(location.href);var links=[].slice.call(document.querySelectorAll('a[href*=\"/stories/\"][href*=\"/chapters/\"]')).map(function(a){return {href:normalize(a.getAttribute('href')||a.href||''),text:cleanText(a.textContent||'')};}).filter(function(x){return /\\/stories\\/\\d+\\/chapters\\/\\d+$/i.test(x.href);});var idx=links.findIndex(function(x){return x.href===current;});if(idx>=0&&idx<links.length-1)next=links[idx+1].href;}putLink('inkitt-next',next);ready();}catch(e){try{var r=document.createElement('div');r.id='inkitt-ready';r.style.display='none';document.body.appendChild(r);}catch(_){}}})()",
+    "data_loading_checker": [
+      "inkitt-ready"
+    ]
   }
 ]
