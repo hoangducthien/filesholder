@@ -1816,5 +1816,46 @@
     ],
     "content_load_js": "void 0;",
     "detail_first_chapter_js": "(function(){var uls=document.querySelectorAll('ul.chapters');var best=null,mx=0;uls.forEach(function(u){var n=u.querySelectorAll('a[href]').length;if(n>mx){mx=n;best=u;}});if(best){var a=best.querySelector('a[href]');if(a)return a.href;}return '';})()"
+  },
+  {
+    "logo": "https://truyenh.top/favicon.ico",
+    "domain": "truyenh.top",
+    "keys": [
+      "truyenh.top",
+      "www.truyenh.top"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": ".truyen-title",
+      "value": "text"
+    },
+    "chapter": {
+      "selector": ".chapter-title",
+      "value": "text"
+    },
+    "content": {
+      "selector": ".chapter-content"
+    },
+    "next_button": {
+      "selector": "#next_chap",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "#prev_chap",
+      "value": "href"
+    },
+    "data_ready_checker": [
+      "workers.dev"
+    ],
+    "data_loading_checker": [
+      "__thchap"
+    ],
+    "content_load_js": "(function(){if(window.__thW)return;window.__thW=1;var f=function(){var c=document.querySelector('.chapter-content');if(!c)return false;var t=(c.textContent||'').trim();if(t.length>50&&t.indexOf('workers.dev')<0){if(!document.getElementById('__thchap')){var m=document.createElement('div');m.id='__thchap';m.style.display='none';document.body.appendChild(m);}return true;}return false;};if(!f()){var iv=setInterval(function(){if(f())clearInterval(iv);},250);}})();",
+    "detail_first_chapter": {
+      "selector": ".list-chapter a",
+      "value": "href",
+      "element_indexed": 0
+    }
   }
 ]
