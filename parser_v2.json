@@ -1751,5 +1751,70 @@
     ],
     "content_load_js": "(function(){try{document.querySelectorAll('[class*=comments-count]').forEach(function(e){e.remove();});var parts=location.pathname.split('/');var sid=parts[2],cn=parseInt(parts[4]||'0',10);if(!sid||!cn)return;var mk=function(id,val){var el=document.getElementById(id);if(!el){el=document.createElement('div');el.id=id;el.style.display='none';document.body.appendChild(el);}el.textContent=val||'';};mk('_ptitle','inkitt');mk('_pchap','Chuong '+cn);fetch('/api/stories/'+sid).then(function(r){return r.json();}).then(function(d){if(d&&d.title)mk('_ptitle',d.title);var ch=(d&&d.chapters||[]).find(function(c){return c.chapter_number===cn;});if(ch)mk('_pchap',ch.name);}).catch(function(e){});}catch(e){}})();void 0;",
     "detail_first_chapter_js": "(function(){var p=window.location.pathname;if(p.indexOf('/chapters/')>=0)return '';if(p.charAt(p.length-1)==='/')p=p.slice(0,-1);return window.location.origin+p+'/chapters/1';})()"
-  } 
+  },
+  {
+    "logo": "https://aztruyen.top/favicon.ico",
+    "domain": "aztruyen.top",
+    "keys": [
+      "aztruyen.top",
+      "www.aztruyen.top"
+    ],
+    "use_html_parser": true,
+    "title": {
+      "selector": ".breadcrumb a[itemprop=\"item\"]",
+      "value": "text",
+      "element_indexed": 2
+    },
+    "chapter": {
+      "selector": ".chapter-title",
+      "value": "text"
+    },
+    "content": {
+      "selector": ".chapter-content"
+    },
+    "next_button": {
+      "selector": "a.nextChapter",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "a.prevChapter",
+      "value": "href"
+    },
+    "detail_first_chapter_js": "(function(){var uls=document.querySelectorAll('ul.chapters');var best=null,mx=0;uls.forEach(function(u){var n=u.querySelectorAll('a[href]').length;if(n>mx){mx=n;best=u;}});if(best){var a=best.querySelector('a[href]');if(a)return a.href;}return '';})()"
+  },
+  {
+    "logo": "https://teenfic.net/favicon.ico",
+    "domain": "teenfic.net",
+    "keys": [
+      "teenfic.net",
+      "www.teenfic.net"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": ".breadcrumb a[itemprop=\"item\"]",
+      "value": "text",
+      "element_indexed": 1
+    },
+    "chapter": {
+      "selector": ".chapter-title",
+      "value": "text"
+    },
+    "content": {
+      "selector": ".chapter-content"
+    },
+    "next_button": {
+      "selector": "a.nextChapter",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "a.prevChapter",
+      "value": "href"
+    },
+    "data_loading_checker": [
+      "chapter-content"
+    ],
+    "content_load_js": "void 0;",
+    "detail_first_chapter_js": "(function(){var uls=document.querySelectorAll('ul.chapters');var best=null,mx=0;uls.forEach(function(u){var n=u.querySelectorAll('a[href]').length;if(n>mx){mx=n;best=u;}});if(best){var a=best.querySelector('a[href]');if(a)return a.href;}return '';})()"
+  }
 ]
