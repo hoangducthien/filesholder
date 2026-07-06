@@ -1749,6 +1749,7 @@
       "_ptitle",
       "chapterText"
     ],
+    "enable_download": false,
     "content_load_js": "(function(){try{document.querySelectorAll('[class*=comments-count]').forEach(function(e){e.remove();});var parts=location.pathname.split('/');var sid=parts[2],cn=parseInt(parts[4]||'0',10);if(!sid||!cn)return;var mk=function(id,val){var el=document.getElementById(id);if(!el){el=document.createElement('div');el.id=id;el.style.display='none';document.body.appendChild(el);}el.textContent=val||'';};mk('_ptitle','inkitt');mk('_pchap','Chuong '+cn);fetch('/api/stories/'+sid).then(function(r){return r.json();}).then(function(d){if(d&&d.title)mk('_ptitle',d.title);var ch=(d&&d.chapters||[]).find(function(c){return c.chapter_number===cn;});if(ch)mk('_pchap',ch.name);}).catch(function(e){});}catch(e){}})();void 0;",
     "detail_first_chapter_js": "(function(){var p=window.location.pathname;if(p.indexOf('/chapters/')>=0)return '';if(p.charAt(p.length-1)==='/')p=p.slice(0,-1);return window.location.origin+p+'/chapters/1';})()"
   },
