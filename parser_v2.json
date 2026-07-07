@@ -1819,6 +1819,35 @@
     "detail_first_chapter_js": "(function(){var uls=document.querySelectorAll('ul.chapters');var best=null,mx=0;uls.forEach(function(u){var n=u.querySelectorAll('a[href]').length;if(n>mx){mx=n;best=u;}});if(best){var a=best.querySelector('a[href]');if(a)return a.href;}return '';})()"
   },
   {
+    "domain": "webtruyendich.com",
+    "keys": [
+      "webtruyendich"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "start": "chapterNovelTitle = \"",
+      "end": "\";"
+    },
+    "chapter": {
+      "selector": "h1"
+    },
+    "content": {
+      "selector": "#article"
+    },
+    "next_button": {
+      "selector": ".next-link",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": ".pre-link",
+      "value": "href"
+    },
+    "data_loading_checker": [
+      "article"
+    ]
+  },
+  {
     "logo": "https://truyenh.top/favicon.ico",
     "domain": "truyenh.top",
     "keys": [
