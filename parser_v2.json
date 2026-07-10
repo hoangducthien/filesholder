@@ -156,7 +156,7 @@
     "logo": "https://www.google.com/s2/favicons?sz=128&domain=truyendich.ai",
     "domain": "truyendich.ai",
     "keys": [
-      "truyendich"
+      "truyendich.ai"
     ],
     "use_html_parser": true,
     "use_webview": true,
@@ -1819,8 +1819,9 @@
     "use_html_parser": true,
     "use_webview": true,
     "title": {
-      "start": "chapterNovelTitle = \"",
-      "end": "\";"
+      "selector": "a.text-center[href^=\"/truyen/\"]",
+      "value": "text",
+      "element_indexed": 0
     },
     "chapter": {
       "selector": "h1"
@@ -1837,8 +1838,9 @@
       "value": "href"
     },
     "data_loading_checker": [
-      "article"
-    ]
+      "class=\"fade-in-paragraph"
+    ],
+    "content_load_js": "void 0;"
   },
   {
     "logo": "https://truyenh.top/favicon.ico",
