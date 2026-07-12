@@ -1843,6 +1843,44 @@
     "content_load_js": "void 0;"
   },
   {
+    "logo": "https://www.google.com/s2/favicons?sz=128&domain=dammy.me",
+    "domain": "dammy.me",
+    "keys": [
+      "dammy.me",
+      "www.dammy.me"
+    ],
+    "use_html_parser": true,
+    "use_webview": true,
+    "title": {
+      "selector": "#story_title",
+      "value": "value"
+    },
+    "chapter": {
+      "selector": "#chapter_title",
+      "value": "value"
+    },
+    "content": {
+      "selector": "#chapter-content-render"
+    },
+    "next_button": {
+      "selector": "a.dammy-next",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "a.dammy-prev",
+      "value": "href"
+    },
+    "detail_first_chapter": {
+      "selector": "#control a.btn-warning",
+      "value": "href"
+    },
+    "content_load_js": "(function(){try{if(document.getElementById('dammy-ready'))return;function pseudoText(e){var c='';try{c=getComputedStyle(e,'::before').content||'';}catch(_){c='';}if(!c||c==='none'||c==='normal')return '';try{return JSON.parse(c);}catch(_){return c.replace(/^['\\\"]|['\\\"]$/g,'');}}document.querySelectorAll('#chapter-content-render span[class]').forEach(function(e){var t=pseudoText(e);if(t)e.textContent=t;});function putLink(cls,raw){if(!raw||document.querySelector('a.'+cls))return;var parts=raw.split(',');if(parts.length<2)return;var a=document.createElement('a');a.className=cls;a.href=location.origin+'/'+parts[0]+'/'+parts[1]+'.html';a.style.display='none';document.body.appendChild(a);}function nav(id,cls){var b=document.getElementById(id);if(!b)return;var oc=b.getAttribute('onclick')||'';var m=oc.match(/actionChangeChapter\\('([^']+)'\\)/);if(m)putLink(cls,m[1]);}nav('next_chapter_btn','dammy-next');nav('prev_chapter_btn','dammy-prev');var r=document.createElement('div');r.id='dammy-ready';r.style.display='none';document.body.appendChild(r);}catch(e){try{var r=document.createElement('div');r.id='dammy-ready';r.style.display='none';document.body.appendChild(r);}catch(_){}}})()",
+    "data_loading_checker": [
+      "dammy-ready"
+    ],
+    "chapter_ignore_domain": true
+  },
+  {
     "logo": "https://truyenh.top/favicon.ico",
     "domain": "truyenh.top",
     "keys": [
