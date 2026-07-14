@@ -1922,33 +1922,34 @@
     }
   },
   {
-    "logo": "https://khotruyenchu.fun/wp-content/uploads/2025/12/cropped-Logo-2-300x300.png",
-    "domain": "khotruyenchu.fun",
-    "keys": [
-      "khotruyenchu.fun"
-    ],
-    "use_html_parser": true,
-    "use_webview": false,
-    "title": {
-      "selector": "h1"
-    },
-    "chapter": {
-      "selector": "h1"
-    },
-    "content": {
-      "selector": ".entry-content > p"
-    },
-    "next_button": {
-      "selector": ".nav-next a",
-      "value": "href"
-    },
-    "pre_button": {
-      "selector": ".nav-prev a",
-      "value": "href"
-    },
-    "detail_first_chapter": {
-      "selector": ".btn-chuong-1",
-      "value": "href"
+      "logo": "https://khotruyenchu.fun/wp-content/uploads/2025/12/cropped-Logo-2-300x300.png",
+      "domain": "khotruyenchu.fun",
+      "keys": [
+        "khotruyenchu.fun"
+      ],
+      "use_html_parser": true,
+      "use_webview": false,
+      "title": {
+        "selector": "h1"
+      },
+      "chapter": {
+        "selector": "h1"
+      },
+      "content": {
+        "selector": ".entry-content > p",
+        "element_indexed": -1
+      },
+      "next_button": {
+        "selector": ".nav-next a",
+        "value": "href"
+      },
+      "pre_button": {
+        "selector": ".nav-prev a",
+        "value": "href"
+      },
+      "detail_first_chapter": {
+        "selector": ".btn-chuong-1",
+        "value": "href"
+      }
     }
-  }
 ]
