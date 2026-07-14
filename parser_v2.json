@@ -1,11 +1,11 @@
 [
   {
     "logo": "https://truyenwikidich.net/static/img/logo-wiki-b.gif",
-    "domain": "wikicv.org",
+    "domain": "wikicv.net",
     "keys": [
       "truyenwikidich",
-      "wikidich",
-      "wikicv"
+      "wikidich.info",
+      "wikicv.net"
     ],
     "use_html_parser": true,
     "title": {
@@ -301,10 +301,8 @@
     "content": {
       "selector": ".contentbox[cid]"
     },
-    "content_removes": [
-      {
-        "start": "Đọc trên web để có chất lượng dịch cao"
-      }
+    "content_replaces": [
+      "Đọc trên web để có chất lượng dịch cao"
     ],
     "next_button": {
       "selector": "#navnexttop",
@@ -635,10 +633,8 @@
     "content": {
       "selector": ".entry-content"
     },
-    "content_removes": [
-      {
-        "start": "[COTENT]"
-      }
+    "content_replaces": [
+      "[COTENT]"
     ],
     "next_button": {
       "selector": ".story-navigation-container a",
@@ -1945,16 +1941,10 @@
         "selector": ".code-block"
       }
     ],
-    "content_removes": [
-      {
-        "start": "≣ Mục lục"
-      },
-      {
-        "start": "Chương sau »"
-      },
-      {
-        "start": "« Chương trước"
-      }
+    "content_replaces": [
+      "≣ Mục lục",
+      "Chương sau »",
+      "« Chương trước"
     ],
     "next_button": {
       "selector": ".nav-next a",
@@ -2012,5 +2002,37 @@
       "value": "href",
       "element_indexed": 0
     }
+  },
+  {
+    "logo": "https://gaumeoteam.com/favicon.ico",
+    "domain": "gaumeoteam.com",
+    "keys": [
+      "gaumeoteam.com"
+    ],
+    "use_html_parser": true,
+    "use_webview": false,
+    "title": {
+      "selector": ".breadcrumb a",
+      "value": "text",
+      "element_indexed": 1
+    },
+    "chapter": {
+      "selector": "#chapter-heading",
+      "value": "text"
+    },
+    "content": {
+      "selector": ".reading-content"
+    },
+    "next_button": {
+      "selector": ".nav-next a",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "pre_button": {
+      "selector": ".nav-previous a",
+      "value": "href",
+      "element_indexed": 0
+    },
+    "detail_first_chapter_js": "(function(){var p=window.location.pathname;if(p.charAt(p.length-1)!=='/')p+='/';return window.location.origin+p+'chuong-1/';})()"
   }
 ]
