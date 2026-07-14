@@ -1,11 +1,11 @@
 [
   {
     "logo": "https://truyenwikidich.net/static/img/logo-wiki-b.gif",
-    "domain": "wikicv.net",
+    "domain": "wikicv.org",
     "keys": [
       "truyenwikidich",
       "wikidich.info",
-      "wikicv.net"
+      "wikicv"
     ],
     "use_html_parser": true,
     "title": {
