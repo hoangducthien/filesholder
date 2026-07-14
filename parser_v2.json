@@ -1709,7 +1709,7 @@
     },
     "chapter_ignore_domain": true
   },
- {
+  {
     "logo": "https://www.inkitt.com/favicon.ico",
     "domain": "inkitt.com",
     "keys": [
@@ -1742,7 +1742,6 @@
       "_ptitle",
       "chapterText"
     ],
-    "enable_download": false,
     "content_load_js": "(function(){try{document.querySelectorAll('[class*=comments-count]').forEach(function(e){e.remove();});var parts=location.pathname.split('/');var sid=parts[2],cn=parseInt(parts[4]||'0',10);if(!sid||!cn)return;var mk=function(id,val){var el=document.getElementById(id);if(!el){el=document.createElement('div');el.id=id;el.style.display='none';document.body.appendChild(el);}el.textContent=val||'';};mk('_ptitle','inkitt');mk('_pchap','Chuong '+cn);fetch('/api/stories/'+sid).then(function(r){return r.json();}).then(function(d){if(d&&d.title)mk('_ptitle',d.title);var ch=(d&&d.chapters||[]).find(function(c){return c.chapter_number===cn;});if(ch)mk('_pchap',ch.name);}).catch(function(e){});}catch(e){}})();void 0;",
     "detail_first_chapter_js": "(function(){var p=window.location.pathname;if(p.indexOf('/chapters/')>=0)return '';if(p.charAt(p.length-1)==='/')p=p.slice(0,-1);return window.location.origin+p+'/chapters/1';})()"
   },
@@ -1922,34 +1921,52 @@
     }
   },
   {
-      "logo": "https://khotruyenchu.fun/wp-content/uploads/2025/12/cropped-Logo-2-300x300.png",
-      "domain": "khotruyenchu.fun",
-      "keys": [
-        "khotruyenchu.fun"
-      ],
-      "use_html_parser": true,
-      "use_webview": false,
-      "title": {
-        "selector": "h1"
+    "logo": "https://khotruyenchu.fun/wp-content/uploads/2025/12/cropped-Logo-2-300x300.png",
+    "domain": "khotruyenchu.fun",
+    "keys": [
+      "khotruyenchu.fun"
+    ],
+    "use_html_parser": true,
+    "use_webview": false,
+    "title": {
+      "selector": "h1"
+    },
+    "chapter": {
+      "selector": "h1"
+    },
+    "content": {
+      "selector": ".entry-content"
+    },
+    "html_removes": [
+      {
+        "selector": ".reading-tools-bar"
       },
-      "chapter": {
-        "selector": "h1"
-      },
-      "content": {
-        "selector": ".entry-content > p",
-        "element_indexed": -1
-      },
-      "next_button": {
-        "selector": ".nav-next a",
-        "value": "href"
-      },
-      "pre_button": {
-        "selector": ".nav-prev a",
-        "value": "href"
-      },
-      "detail_first_chapter": {
-        "selector": ".btn-chuong-1",
-        "value": "href"
+      {
+        "selector": ".code-block"
       }
+    ],
+    "content_removes": [
+      {
+        "start": "≣ Mục lục"
+      },
+      {
+        "start": "Chương sau »"
+      },
+      {
+        "start": "« Chương trước"
+      }
+    ],
+    "next_button": {
+      "selector": ".nav-next a",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": ".nav-prev a",
+      "value": "href"
+    },
+    "detail_first_chapter": {
+      "selector": ".btn-chuong-1",
+      "value": "href"
     }
+  }
 ]
