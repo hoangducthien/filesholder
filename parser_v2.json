@@ -1968,5 +1968,49 @@
       "selector": ".btn-chuong-1",
       "value": "href"
     }
+  },
+  {
+    "logo": "https://hongngucoc.wordpress.com/favicon.ico",
+    "domain": "hongngucoc.wordpress.com",
+    "keys": [
+      "hongngucoc.wordpress.com"
+    ],
+    "use_html_parser": true,
+    "use_webview": false,
+    "title": {
+      "selector": ".entry-title",
+      "value": "text"
+    },
+    "chapter": {
+      "selector": ".entry-title",
+      "value": "text"
+    },
+    "content": {
+      "selector": ".entry-content"
+    },
+    "html_removes": [
+      {
+        "selector": "#jp-post-flair"
+      },
+      {
+        "selector": ".sharedaddy"
+      },
+      {
+        "selector": ".jp-relatedposts"
+      }
+    ],
+    "next_button": {
+      "selector": "a[rel=next]",
+      "value": "href"
+    },
+    "pre_button": {
+      "selector": "a[rel=prev]",
+      "value": "href"
+    },
+    "detail_first_chapter": {
+      "selector": ".entry-content a[href*=\"-chuong-\"]",
+      "value": "href",
+      "element_indexed": 0
+    }
   }
 ]
