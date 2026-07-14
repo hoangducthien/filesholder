@@ -1933,14 +1933,6 @@
     "content": {
       "selector": ".entry-content"
     },
-    "html_removes": [
-      {
-        "selector": ".reading-tools-bar"
-      },
-      {
-        "selector": ".code-block"
-      }
-    ],
     "content_replaces": [
       "≣ Mục lục",
       "Chương sau »",
