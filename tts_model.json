@@ -11,6 +11,19 @@
       "demoUrl": "https://cdn.ainovelreader.com/demo_voice/demo_ngochuyennew.wav"
     },
     {
+      "id": "adam1",
+      "languageCode": "vi",
+      "displayName": "Adam (Nam)",
+      "fileName": "adam1.onnx",
+      "engine": "standard",
+      "quality": "good",
+      "sizeMB": 65,
+      "onnxUrl": "https://cdn.ainovelreader.com/tts_model/adam1.onnx",
+      "jsonUrl": "https://cdn.ainovelreader.com/tts_model/adam1.onnx.json",
+      "avatarUrl": "https://cdn.ainovelreader.com/avatar/adam1.png",
+      "demoUrl": "https://cdn.ainovelreader.com/demo_voice/demo_adam1.wav"
+    },
+    {
       "id": "banmai",
       "languageCode": "vi",
       "displayName": "Ban Mai",
@@ -162,6 +175,32 @@
       "onnxUrl": "https://cdn.ainovelreader.com/tts_model/vietthao3886.onnx",
       "jsonUrl": "https://cdn.ainovelreader.com/tts_model/vietthao3886.onnx.json",
       "demoUrl": "https://cdn.ainovelreader.com/demo_voice/demo_vietthao3886.wav"
+    },
+    {
+      "id": "vunga",
+      "languageCode": "vi",
+      "displayName": "Vũ Nga (Nữ)",
+      "fileName": "vunga.onnx",
+      "engine": "standard",
+      "quality": "good",
+      "sizeMB": 65,
+      "onnxUrl": "https://cdn.ainovelreader.com/tts_model/vunga.onnx",
+      "jsonUrl": "https://cdn.ainovelreader.com/tts_model/vunga.onnx.json",
+      "avatarUrl": "https://cdn.ainovelreader.com/avatar/vunga.png",
+      "demoUrl": "https://cdn.ainovelreader.com/demo_voice/demo_vunga.wav"
+    },
+    {
+      "id": "kinhphat",
+      "languageCode": "vi",
+      "displayName": "Kinh Phật (Nam)",
+      "fileName": "kinhphat.onnx",
+      "engine": "standard",
+      "quality": "good",
+      "sizeMB": 65,
+      "onnxUrl": "https://cdn.ainovelreader.com/tts_model/kinhphat.onnx",
+      "jsonUrl": "https://cdn.ainovelreader.com/tts_model/kinhphat.onnx.json",
+      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kinhphat.png",
+      "demoUrl": "https://cdn.ainovelreader.com/demo_voice/demo_kinhphat.wav"
     }
   ]
 }
