@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 23,
   "models": [
     {
       "id": "ngochuyennew",
@@ -25,6 +25,19 @@
       "onnxUrl": "https://cdn.ainovelreader.com/tts_model/vi_VN-vais1000-medium.onnx",
       "jsonUrl": "https://cdn.ainovelreader.com/tts_model/vi_VN-vais1000-medium.onnx.json",
       "avatarUrl": "https://cdn.ainovelreader.com/avatar/pos_2_7.png"
+    },
+    {
+      "id": "adam1",
+      "languageCode": "vi",
+      "displayName": "Adam (Nam)",
+      "fileName": "adam1.onnx",
+      "engine": "standard",
+      "quality": "good",
+      "sizeMB": 65,
+      "onnxUrl": "https://cdn.ainovelreader.com/tts_model/adam1.onnx",
+      "jsonUrl": "https://cdn.ainovelreader.com/tts_model/adam1.onnx.json",
+      "avatarUrl": "https://cdn.ainovelreader.com/avatar/adam1.png",
+      "demoUrl": "https://cdn.ainovelreader.com/demo_voice/demo_adam1.wav"
     },
     {
       "id": "turbo-bichngoc",
@@ -298,6 +311,32 @@
       "sizeMB": 65,
       "engine": "standard",
       "avatarUrl": "https://cdn.ainovelreader.com/avatar/pos_4_8.png"
+    },
+    {
+      "id": "vunga",
+      "languageCode": "vi",
+      "displayName": "Vũ Nga (Nữ)",
+      "fileName": "vunga.onnx",
+      "engine": "standard",
+      "quality": "good",
+      "sizeMB": 65,
+      "onnxUrl": "https://cdn.ainovelreader.com/tts_model/vunga.onnx",
+      "jsonUrl": "https://cdn.ainovelreader.com/tts_model/vunga.onnx.json",
+      "avatarUrl": "https://cdn.ainovelreader.com/avatar/vunga.png",
+      "demoUrl": "https://cdn.ainovelreader.com/demo_voice/demo_vunga.wav"
+    },
+    {
+      "id": "kinhphat",
+      "languageCode": "vi",
+      "displayName": "Kinh Phật (Nam)",
+      "fileName": "kinhphat.onnx",
+      "engine": "standard",
+      "quality": "good",
+      "sizeMB": 65,
+      "onnxUrl": "https://cdn.ainovelreader.com/tts_model/kinhphat.onnx",
+      "jsonUrl": "https://cdn.ainovelreader.com/tts_model/kinhphat.onnx.json",
+      "avatarUrl": "https://cdn.ainovelreader.com/avatar/kinhphat.png",
+      "demoUrl": "https://cdn.ainovelreader.com/demo_voice/demo_kinhphat.wav"
     },
     {
       "id": "kr-diem_trinh",
